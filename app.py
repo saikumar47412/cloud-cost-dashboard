@@ -22,7 +22,9 @@ def index():
 @app.route("/api/data")
 def get_data():
     try:
-        response = req.get(RAW_URL, timeout=10)
+        token = os.environ.get("GITHUB_TOKEN", "")
+        headers = {"Authorization": f"token {token}"} if token else {}
+        response = req.get(RAW_URL, timeout=10, headers=headers)
         if response.status_code == 200:
             return jsonify(response.json())
         else:
