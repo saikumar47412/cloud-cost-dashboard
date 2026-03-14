@@ -157,7 +157,7 @@ body::before{content:'';position:fixed;inset:0;background:
       <div class="total-card">
         <div class="total-label">🔵 Azure Total</div>
         <div class="total-amount" style="color:var(--azure)" id="azure-total">$0.00</div>
-        <div style="font-size:0.7rem;color:var(--muted);margin-top:0.3rem;">Gov + Admin</div>
+        <div style="font-size:0.7rem;color:var(--muted);margin-top:0.3rem;">QFlow Subscriptions</div>
       </div>
       <div class="total-card">
         <div class="total-label">🟢 GCP Total</div>
@@ -207,22 +207,31 @@ body::before{content:'';position:fixed;inset:0;background:
       </div>
     </div>
 
-    <!-- Azure (coming soon placeholder) -->
-    <div class="account-block fade-in" id="azure-block">
-      <div class="account-header">
-        <div>
-          <div class="account-id">Gov + Admin</div>
-          <div class="account-name">Microsoft Azure</div>
-        </div>
-        <div style="display:flex;align-items:center;gap:1rem;">
-          <span class="account-provider-badge" style="background:rgba(0,180,216,0.12);color:var(--azure)">🔵 Azure</span>
-          <div class="account-cost-block">
-            <div class="account-period">Coming soon</div>
-            <div class="account-cost" style="color:var(--azure)" id="azure-cost">$0.00</div>
-          </div>
-        </div>
+    <!-- Azure QFlow Subscriptions -->
+<div class="account-block fade-in" id="azure-block">
+  <div class="account-header">
+    <div>
+      <div class="account-id">Azure QFlow Subscriptions</div>
+      <div class="account-name">Microsoft Azure</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:1rem;">
+      <span class="account-provider-badge" style="background:rgba(0,180,216,0.12);color:var(--azure)">🔵 Azure</span>
+      <div class="account-cost-block">
+        <div class="account-period" id="azure-period">1 Mar → today</div>
+        <div class="account-cost" style="color:var(--azure)" id="azure-cost">$0.00</div>
       </div>
     </div>
+  </div>
+  <div class="account-body">
+    <div class="org-table-wrap">
+      <input class="search-box" type="text" placeholder="🔍 Search subscription name or ID..." oninput="filterAzure(this.value)" id="azure-search" style="border-color:var(--azure)"/>
+      <table class="org-table">
+        <thead><tr><th>#</th><th>Subscription Name</th><th>Subscription ID</th><th></th><th style="text-align:right">Cost</th></tr></thead>
+        <tbody id="azure-subs-body"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
 
     <!-- GCP -->
     <div class="account-block fade-in" id="gcp-block">
@@ -338,6 +347,9 @@ function render(period) {
 
   // Azure & GCP
   document.getElementById('azure-cost').textContent = fmt(azure);
+  document.getElementById('azure-period').textContent = periodLabel;
+  window._azureSubs = d.azure_subscriptions || [];
+  filterAzure('');
   document.getElementById('gcp-cost').textContent   = fmt(gcp);
 
   // AWS Org
@@ -392,6 +404,20 @@ function filterOrg(q) {
       <td class="cost-col">${fmt(a.cost)}</td>
     </tr>`).join('');
 }
+
+function filterAzure(q) {
+  const subs = window._azureSubs || [];
+  const filtered = q ? subs.filter(s => s.name.toLowerCase().includes(q.toLowerCase()) || s.id.includes(q)) : subs;
+  const max = filtered[0]?.cost || 1;
+  document.getElementById('azure-subs-body').innerHTML = filtered.slice(0,50).map((s,i) => `
+    <tr>
+      <td><span class="rank ${i<3?'top':''}">${i+1}</span></td>
+      <td style="font-weight:600">${s.name}</td>
+      <td style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--muted)">${s.id}</td>
+      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:${(s.cost/max*100).toFixed(0)}%;background:var(--azure)"></div></div></td>
+      <td class="cost-col">${fmt(s.cost)}</td>
+    </tr>`).join('');
+}  
 
 function renderDonut(awsN, awsO, azure, gcp) {
   if(donutChart) donutChart.destroy();
