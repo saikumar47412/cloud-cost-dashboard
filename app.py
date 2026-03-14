@@ -6,8 +6,8 @@ import requests as req
 app = Flask(__name__)
 
 # ── YOUR GITHUB DETAILS ────────────────────────
-GITHUB_USERNAME = "saikumar47412"       # your GitHub username
-GITHUB_REPO     = "cloud-cost-dashboard" # your repo name
+GITHUB_USERNAME = "saikumar47412"
+GITHUB_REPO     = "cloud-cost-dashboard"
 GITHUB_BRANCH   = "main"
 DATA_FILE_PATH  = "data.json"
 # ──────────────────────────────────────────────
@@ -28,11 +28,6 @@ def get_data():
         if response.status_code == 200:
             return jsonify(response.json())
         else:
-            return jsonify({"error": f"Could not fetch data.json from GitHub (status {response.status_code}). Please upload data.json to your GitHub repo."})
+            return jsonify({"error": f"Could not fetch data.json from GitHub (status {response.status_code})."})
     except Exception as e:
         return jsonify({"error": f"Error fetching data: {str(e)}"})
-
-if __name__ == "__main__":
-    import os 
-    port = int(os.environ.get("PORT", 5000)) 
-    app.run(host="0.0.0.0", port=port)
