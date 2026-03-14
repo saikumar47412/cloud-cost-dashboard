@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Cloud Cost Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #080c14;
+    --surface: #0d1420;
+    --surface2: #111827;
+    --border: #1e2d45;
+    --aws: #FF9900;
+    --azure: #0ea5e9;
+    --gcp: #34d399;
+    --text: #e2e8f0;
+    --muted: #64748b;
+    --accent: #f59e0b;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Syne', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Animated background grid */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(14,165,233,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(14,165,233,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .container { max-width: 1400px; margin: 0 auto; padding: 2rem; position: relative; z-index: 1; }
+
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .header-left h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    background: linear-gradient(135deg, #fff 0%, #94a3b8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .header-left p { color: var(--muted); font-size: 0.85rem; margin-top: 0.3rem; font-family: 'JetBrains Mono', monospace; }
+  .last-updated {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    font-size: 0.78rem;
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--muted);
+    text-align: right;
+  }
+  .last-updated span { color: var(--accent); display: block; font-size: 0.9rem; font-weight: 600; }
+
+  /* Toggle */
+  .toggle-wrap {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .toggle-btn {
+    padding: 0.5rem 1.2rem;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--muted);
+    font-family: 'Syne', sans-serif;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .toggle-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #000;
+    font-weight: 700;
+  }
+
+  /* Grand total banner */
+  .grand-banner {
+    background: linear-gradient(135deg, #0d1f35 0%, #0d1420 100%);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2rem 2.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+  }
+  .grand-banner::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -5%;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(245,158,11,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .grand-label { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.4rem; }
+  .grand-amount {
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    background: linear-gradient(135deg, #f59e0b, #fbbf24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .grand-meta { display: flex; gap: 2rem; }
+  .grand-meta-item { text-align: center; }
+  .grand-meta-item .val { font-size: 1.4rem; font-weight: 700; }
+  .grand-meta-item .lbl { font-size: 0.75rem; color: var(--muted); margin-top: 0.2rem; }
+
+  /* Provider cards */
+  .provider-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .provider-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  .provider-card:hover { transform: translateY(-2px); }
+  .provider-card.aws { border-top: 3px solid var(--aws); }
+  .provider-card.azure { border-top: 3px solid var(--azure); }
+  .provider-card.gcp { border-top: 3px solid var(--gcp); }
+  .provider-card::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 120px; height: 120px;
+    border-radius: 50%;
+    opacity: 0.05;
+    pointer-events: none;
+  }
+  .provider-card.aws::before { background: var(--aws); }
+  .provider-card.azure::before { background: var(--azure); }
+  .provider-card.gcp::before { background: var(--gcp); }
+  .provider-logo { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.8rem; }
+  .provider-card.aws .provider-logo { color: var(--aws); }
+  .provider-card.azure .provider-logo { color: var(--azure); }
+  .provider-card.gcp .provider-logo { color: var(--gcp); }
+  .provider-total { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.3rem; }
+  .provider-sub { font-size: 0.78rem; color: var(--muted); font-family: 'JetBrains Mono', monospace; }
+
+  /* Charts row */
+  .charts-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .chart-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+  }
+  .chart-card h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 1rem; }
+  .chart-wrap { height: 220px; position: relative; }
+
+  /* Tables */
+  .tables-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .table-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    overflow: hidden;
+  }
+  .table-card h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 1rem; }
+  .cost-table { width: 100%; border-collapse: collapse; font-size: 0.83rem; }
+  .cost-table th {
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+  }
+  .cost-table td { padding: 0.55rem 0.75rem; border-bottom: 1px solid rgba(30,45,69,0.5); }
+  .cost-table tr:last-child td { border-bottom: none; }
+  .cost-table tr:hover td { background: rgba(255,255,255,0.02); }
+  .cost-bar-cell { width: 80px; }
+  .cost-bar-bg { background: var(--border); border-radius: 3px; height: 4px; }
+  .cost-bar-fill { height: 4px; border-radius: 3px; transition: width 0.6s ease; }
+  .cost-val { font-family: 'JetBrains Mono', monospace; font-weight: 500; text-align: right; }
+  .aws-bar { background: var(--aws); }
+  .azure-bar { background: var(--azure); }
+  .gcp-bar { background: var(--gcp); }
+  .org-bar { background: #a78bfa; }
+
+  /* Org accounts full table */
+  .full-table-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .full-table-card h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 1rem; }
+  .search-input {
+    width: 100%;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.83rem;
+    margin-bottom: 1rem;
+    outline: none;
+  }
+  .search-input:focus { border-color: var(--accent); }
+  .rank-badge {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    background: var(--surface2);
+    text-align: center;
+    line-height: 22px;
+    font-size: 0.7rem;
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--muted);
+  }
+  .rank-badge.top3 { background: rgba(245,158,11,0.15); color: var(--accent); }
+
+  /* Loading / error */
+  .loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .spinner {
+    width: 40px; height: 40px;
+    border: 3px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .fade-in { animation: fadeIn 0.5s ease forwards; opacity: 0; }
+  @keyframes fadeIn { to { opacity: 1; } }
+
+  @media (max-width: 900px) {
+    .provider-grid { grid-template-columns: 1fr; }
+    .charts-row, .tables-row { grid-template-columns: 1fr; }
+    .grand-banner { flex-direction: column; gap: 1rem; }
+    .grand-amount { font-size: 2.5rem; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div id="loading" class="loading">
+    <div class="spinner"></div>
+    <p style="color:var(--muted);font-size:0.85rem;">Fetching cloud cost data...</p>
+  </div>
+
+  <div id="dashboard" style="display:none">
+    <!-- Header -->
+    <div class="header fade-in">
+      <div class="header-left">
+        <h1>☁️ Cloud Cost Dashboard</h1>
+        <p>AWS · Azure · GCP — Real-time cost intelligence</p>
+      </div>
+      <div class="last-updated">
+        Last updated
+        <span id="last-updated-time">—</span>
+      </div>
+    </div>
+
+    <!-- Toggle MTD / 7 days -->
+    <div class="toggle-wrap fade-in">
+      <button class="toggle-btn active" onclick="switchPeriod('mtd', this)">Month to Date</button>
+      <button class="toggle-btn" onclick="switchPeriod('last7', this)">Last 7 Days</button>
+    </div>
+
+    <!-- Grand Total Banner -->
+    <div class="grand-banner fade-in">
+      <div>
+        <div class="grand-label">Total Cloud Spend</div>
+        <div class="grand-amount" id="grand-total">$0.00</div>
+        <div style="color:var(--muted);font-size:0.8rem;margin-top:0.3rem;" id="period-label">Month to Date</div>
+      </div>
+      <div class="grand-meta">
+        <div class="grand-meta-item">
+          <div class="val" id="aws-summary" style="color:var(--aws)">$0</div>
+          <div class="lbl">🟠 AWS</div>
+        </div>
+        <div class="grand-meta-item">
+          <div class="val" id="azure-summary" style="color:var(--azure)">$0</div>
+          <div class="lbl">🔵 Azure</div>
+        </div>
+        <div class="grand-meta-item">
+          <div class="val" id="gcp-summary" style="color:var(--gcp)">$0</div>
+          <div class="lbl">🟢 GCP</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Provider Cards -->
+    <div class="provider-grid fade-in">
+      <div class="provider-card aws">
+        <div class="provider-logo">🟠 Amazon Web Services</div>
+        <div class="provider-total" id="aws-total" style="color:var(--aws)">$0.00</div>
+        <div class="provider-sub" id="aws-sub">Normal + Org accounts</div>
+      </div>
+      <div class="provider-card azure">
+        <div class="provider-logo">🔵 Microsoft Azure</div>
+        <div class="provider-total" id="azure-total" style="color:var(--azure)">$0.00</div>
+        <div class="provider-sub" id="azure-sub">Gov + Admin accounts</div>
+      </div>
+      <div class="provider-card gcp">
+        <div class="provider-logo">🟢 Google Cloud</div>
+        <div class="provider-total" id="gcp-total" style="color:var(--gcp)">$0.00</div>
+        <div class="provider-sub" id="gcp-sub">Main project</div>
+      </div>
+    </div>
+
+    <!-- Charts -->
+    <div class="charts-row fade-in">
+      <div class="chart-card">
+        <h3>Cost Distribution by Provider</h3>
+        <div class="chart-wrap"><canvas id="donutChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Top Services — AWS Normal Account</h3>
+        <div class="chart-wrap"><canvas id="barChart"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Top Services Tables -->
+    <div class="tables-row fade-in">
+      <div class="table-card">
+        <h3>🟠 AWS — Top Services</h3>
+        <table class="cost-table">
+          <thead><tr><th>Service</th><th></th><th style="text-align:right">Cost</th></tr></thead>
+          <tbody id="aws-services-table"></tbody>
+        </table>
+      </div>
+      <div class="table-card">
+        <h3>🔵 Azure — Top Subscriptions</h3>
+        <table class="cost-table">
+          <thead><tr><th>Subscription</th><th></th><th style="text-align:right">Cost</th></tr></thead>
+          <tbody id="azure-table"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- AWS Org Linked Accounts -->
+    <div class="full-table-card fade-in">
+      <h3>🏢 AWS Org — All Linked Accounts</h3>
+      <input class="search-input" type="text" placeholder="🔍 Search account name or ID..." oninput="filterAccounts(this.value)" id="acct-search"/>
+      <table class="cost-table" id="org-table">
+        <thead><tr><th>#</th><th>Account Name</th><th>Account ID</th><th></th><th style="text-align:right">Cost</th></tr></thead>
+        <tbody id="org-accounts-table"></tbody>
+      </table>
+    </div>
+
+  </div>
+</div>
+
+<script>
+let DATA = null;
+let currentPeriod = 'mtd';
+let donutChart = null;
+let barChart = null;
+
+async function loadData() {
+  try {
+    const res = await fetch('/api/data');
+    DATA = await res.json();
+    if (DATA.error) {
+      document.getElementById('loading').innerHTML = `<p style="color:#ef4444">${DATA.error}</p>`;
+      return;
+    }
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('dashboard').style.display = 'block';
+    renderDashboard('mtd');
+  } catch(e) {
+    document.getElementById('loading').innerHTML = `<p style="color:#ef4444">Failed to load data. Please try again.</p>`;
+  }
+}
+
+function fmt(n) { return '$' + Number(n).toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2}); }
+function fmtShort(n) { return n >= 1000 ? '$' + (n/1000).toFixed(1) + 'k' : fmt(n); }
+
+function switchPeriod(p, btn) {
+  document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentPeriod = p;
+  renderDashboard(p);
+}
+
+function renderDashboard(period) {
+  const d = DATA[period];
+
+  // Last updated
+  document.getElementById('last-updated-time').textContent = DATA.last_updated || '—';
+  document.getElementById('period-label').textContent = period === 'mtd' ? 'Month to Date' : 'Last 7 Days';
+
+  // Totals
+  const awsTotal  = (d.aws_normal_total || 0) + (d.aws_org_total || 0);
+  const azureTotal = (d.azure_total || 0);
+  const gcpTotal   = (d.gcp_total || 0);
+  const grand      = awsTotal + azureTotal + gcpTotal;
+
+  document.getElementById('grand-total').textContent   = fmt(grand);
+  document.getElementById('aws-summary').textContent   = fmtShort(awsTotal);
+  document.getElementById('azure-summary').textContent = fmtShort(azureTotal);
+  document.getElementById('gcp-summary').textContent   = fmtShort(gcpTotal);
+
+  document.getElementById('aws-total').textContent   = fmt(awsTotal);
+  document.getElementById('azure-total').textContent = fmt(azureTotal);
+  document.getElementById('gcp-total').textContent   = fmt(gcpTotal);
+
+  // Charts
+  renderDonut(awsTotal, azureTotal, gcpTotal);
+  renderBar(d.aws_normal_services || {});
+
+  // AWS services table
+  renderServiceTable('aws-services-table', d.aws_normal_services || {}, 'aws-bar');
+
+  // Azure table
+  renderServiceTable('azure-table', d.azure_subscriptions || {}, 'azure-bar');
+
+  // Org accounts
+  renderOrgTable(d.aws_org_accounts || []);
+}
+
+function renderServiceTable(tbodyId, services, barClass) {
+  const sorted = Object.entries(services).sort((a,b) => b[1]-a[1]).slice(0,10);
+  const max = sorted[0]?.[1] || 1;
+  const tbody = document.getElementById(tbodyId);
+  tbody.innerHTML = sorted.map(([svc, cost]) => `
+    <tr>
+      <td style="max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${svc}</td>
+      <td class="cost-bar-cell">
+        <div class="cost-bar-bg"><div class="cost-bar-fill ${barClass}" style="width:${(cost/max*100).toFixed(0)}%"></div></div>
+      </td>
+      <td class="cost-val">${fmt(cost)}</td>
+    </tr>`).join('');
+}
+
+function renderOrgTable(accounts) {
+  window._orgAccounts = accounts;
+  filterAccounts(document.getElementById('acct-search')?.value || '');
+}
+
+function filterAccounts(query) {
+  const accounts = window._orgAccounts || [];
+  const filtered = query
+    ? accounts.filter(a => a.name.toLowerCase().includes(query.toLowerCase()) || a.id.includes(query))
+    : accounts;
+  const max = filtered[0]?.cost || 1;
+  document.getElementById('org-accounts-table').innerHTML = filtered.slice(0,50).map((a, i) => `
+    <tr>
+      <td><span class="rank-badge ${i<3?'top3':''}">${i+1}</span></td>
+      <td style="font-weight:600">${a.name}</td>
+      <td style="font-family:'JetBrains Mono',monospace;font-size:0.78rem;color:var(--muted)">${a.id}</td>
+      <td class="cost-bar-cell">
+        <div class="cost-bar-bg"><div class="cost-bar-fill org-bar" style="width:${(a.cost/max*100).toFixed(0)}%"></div></div>
+      </td>
+      <td class="cost-val">${fmt(a.cost)}</td>
+    </tr>`).join('');
+}
+
+function renderDonut(aws, azure, gcp) {
+  if (donutChart) donutChart.destroy();
+  const ctx = document.getElementById('donutChart').getContext('2d');
+  donutChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: ['AWS', 'Azure', 'GCP'],
+      datasets: [{
+        data: [aws, azure, gcp],
+        backgroundColor: ['#FF9900', '#0ea5e9', '#34d399'],
+        borderWidth: 0,
+        hoverOffset: 8,
+      }]
+    },
+    options: {
+      cutout: '72%',
+      plugins: {
+        legend: { position: 'bottom', labels: { color: '#94a3b8', font: { family: 'Syne' }, padding: 16 } },
+        tooltip: { callbacks: { label: ctx => ` ${ctx.label}: ${fmt(ctx.raw)}` } }
+      }
+    }
+  });
+}
+
+function renderBar(services) {
+  if (barChart) barChart.destroy();
+  const sorted = Object.entries(services).sort((a,b) => b[1]-a[1]).slice(0,7);
+  const ctx = document.getElementById('barChart').getContext('2d');
+  barChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: sorted.map(([s]) => s.length > 18 ? s.substring(0,18)+'…' : s),
+      datasets: [{
+        data: sorted.map(([,v]) => v),
+        backgroundColor: 'rgba(255,153,0,0.8)',
+        borderRadius: 4,
+        borderSkipped: false,
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ` ${fmt(ctx.raw)}` } } },
+      scales: {
+        x: { grid: { color: 'rgba(30,45,69,0.8)' }, ticks: { color: '#64748b', callback: v => fmtShort(v) } },
+        y: { grid: { display: false }, ticks: { color: '#94a3b8', font: { family: 'Syne', size: 11 } } }
+      }
+    }
+  });
+}
+
+loadData();
+</script>
+</body>
+</html>
