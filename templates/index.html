@@ -415,62 +415,6 @@ function render(period) {
   renderBar(d.aws_normal_services || {});
 }
 
-  document.getElementById('last-updated').textContent = DATA.last_updated || '—';
-  document.getElementById('period-label').textContent = period === 'mtd' ? 'Month to Date' : 'Last 7 Days';
-
-  const awsNormal = d.aws_normal_total || 0;
-  const awsOrg    = d.aws_org_total    || 0;
-  const azure     = d.azure_total      || 0;
-  const gcp       = d.gcp_total        || 0;
-  const awsTotal  = awsNormal + awsOrg;
-  const grand     = awsTotal + azure + gcp;
-
-  document.getElementById('grand-total').textContent = fmt(grand);
-  document.getElementById('aws-total').textContent   = fmt(awsTotal);
-  document.getElementById('azure-total').textContent = fmt(azure);
-  document.getElementById('gcp-total').textContent   = fmt(gcp);
-
-  // Period labels
-  document.getElementById('aws-normal-period').textContent = periodLabel;
-  document.getElementById('aws-org-period').textContent    = periodLabel;
-
-  // AWS Normal
-  document.getElementById('aws-normal-id').textContent  = `Account: ${DATA.aws_normal_account_id || '—'}`;
-  document.getElementById('aws-normal-cost').textContent = fmt(awsNormal);
-  renderSvcTable('aws-normal-services', d.aws_normal_services || {}, '#FF9900');
-
-  // Azure & GCP
-  document.getElementById('azure-cost').textContent = fmt(azure);
-  document.getElementById('gcp-cost').textContent   = fmt(gcp);
-
-  // AWS Org
-  document.getElementById('aws-org-cost').textContent = fmt(awsOrg);
-  window._orgAccounts = d.aws_org_accounts || [];
-  filterOrg('');
-
-  // Summary strip
-  const strip = document.getElementById('summary-strip');
-  strip.innerHTML = [
-    { dot:'#FF9900', name:'AWS Normal', acct: DATA.aws_normal_account_id || '—', cost: awsNormal },
-    { dot:'#b388ff', name:'AWS Org',    acct: 'Org Master',                       cost: awsOrg   },
-    { dot:'#00b4d8', name:'Azure',      acct: 'Gov + Admin',                       cost: azure    },
-    { dot:'#00e676', name:'GCP',        acct: DATA.gcp_project_id || '—',          cost: gcp      },
-  ].map(p => `
-    <div class="summary-pill">
-      <div class="pill-dot" style="background:${p.dot}"></div>
-      <div class="pill-info">
-        <div class="pill-name">${p.name}</div>
-        <div class="pill-acct">${p.acct}</div>
-        <div class="pill-period">${periodLabel}</div>
-      </div>
-      <div class="pill-cost" style="color:${p.dot}">${fmt(p.cost)}</div>
-    </div>`).join('');
-
-  // Charts
-  renderDonut(awsNormal, awsOrg, azure, gcp);
-  renderBar(d.aws_normal_services || {});
-}
-
 function renderSvcTable(id, services, color) {
   const sorted = Object.entries(services).sort((a,b)=>b[1]-a[1]).slice(0,8);
   const max = sorted[0]?.[1] || 1;
