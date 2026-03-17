@@ -137,6 +137,7 @@ body::before{content:'';position:fixed;inset:0;background:
     <div class="toggle-wrap fade-in">
       <button class="toggle-btn active" onclick="switchPeriod('mtd',this)">Month to Date</button>
       <button class="toggle-btn" onclick="switchPeriod('last7',this)">Last 7 Days</button>
+      <button class="toggle-btn" onclick="switchPeriod('billing_period',this)">Billing Period</button>
     </div>
 
     <!-- QUICK SUMMARY STRIP -->
@@ -157,7 +158,7 @@ body::before{content:'';position:fixed;inset:0;background:
       <div class="total-card">
         <div class="total-label">🔵 Azure Total</div>
         <div class="total-amount" style="color:var(--azure)" id="azure-total">$0.00</div>
-        <div style="font-size:0.7rem;color:var(--muted);margin-top:0.3rem;">QFlow Subscriptions</div>
+        <div style="font-size:0.7rem;color:var(--muted);margin-top:0.3rem;">Gov + Admin</div>
       </div>
       <div class="total-card">
         <div class="total-label">🟢 GCP Total</div>
@@ -207,34 +208,48 @@ body::before{content:'';position:fixed;inset:0;background:
       </div>
     </div>
 
-    <!-- Azure QFlow Subscriptions -->
-<div class="account-block fade-in" id="azure-block">
-  <div class="account-header">
-    <div>
-      <div class="account-id">Azure QFlow Subscriptions</div>
-      <div class="account-name">Microsoft Azure</div>
-    </div>
-    <div style="display:flex;align-items:center;gap:1rem;">
-      <span class="account-provider-badge" style="background:rgba(0,180,216,0.12);color:var(--azure)">🔵 Azure</span>
-      <div class="account-cost-block">
-        <div class="account-period" id="azure-period">1 Mar → today</div>
-        <div class="account-cost" style="color:var(--azure)" id="azure-cost">$0.00</div>
+    <!-- Azure (coming soon placeholder) -->
+    <div class="account-block fade-in" id="azure-block">
+      <div class="account-header">
+        <div>
+          <div class="account-id">Gov + Admin</div>
+          <div class="account-name">Microsoft Azure</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:1rem;">
+          <span class="account-provider-badge" style="background:rgba(0,180,216,0.12);color:var(--azure)">🔵 Azure</span>
+          <div class="account-cost-block">
+            <div class="account-period">Coming soon</div>
+            <div class="account-cost" style="color:var(--azure)" id="azure-cost">$0.00</div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="account-body">
-    <div class="org-table-wrap">
-      <input class="search-box" type="text" placeholder="🔍 Search subscription name or ID..." oninput="filterAzure(this.value)" id="azure-search" style="border-color:var(--azure)"/>
-      <table class="org-table">
-        <thead><tr><th>#</th><th>Subscription Name</th><th>Subscription ID</th><th></th><th style="text-align:right">Cost</th></tr></thead>
-        <tbody id="azure-subs-body"></tbody>
-      </table>
-    </div>
-  </div>
-</div>
 
-    <!-- GCP -->
-    <div class="account-block fade-in" id="gcp-block">
+    <!-- Azure Gov -->
+    <div class="account-block fade-in">
+      <div class="account-header">
+        <div>
+          <div class="account-id">Azure Government Cloud</div>
+          <div class="account-name">Microsoft Azure Gov</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:1rem;">
+          <span class="account-provider-badge" style="background:rgba(0,180,216,0.12);color:var(--azure)">🏛️ GOV</span>
+          <div class="account-cost-block">
+            <div class="account-period" id="azure-gov-period">1 Mar → today</div>
+            <div class="account-cost" style="color:var(--azure)" id="azure-gov-cost">$0.00</div>
+          </div>
+        </div>
+      </div>
+      <div class="account-body">
+        <div class="org-table-wrap">
+          <input class="search-box" type="text" placeholder="🔍 Search subscription name or ID..." oninput="filterAzureGov(this.value)" style="border-color:var(--azure)"/>
+          <table class="org-table">
+            <thead><tr><th>#</th><th>Subscription Name</th><th>Subscription ID</th><th></th><th style="text-align:right">Cost</th></tr></thead>
+            <tbody id="azure-gov-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
       <div class="account-header">
         <div>
           <div class="account-id" id="gcp-project-id">Project: —</div>
@@ -316,10 +331,89 @@ function switchPeriod(p, btn) {
 }
 
 function render(period) {
-  const d = DATA[period];
+  const d = DATA[period] || DATA['mtd'];
   const mtd_start = DATA.mtd_start || '1 Mar';
   const today = DATA.today || 'today';
-  const periodLabel = period === 'mtd' ? `${mtd_start} → ${today}` : 'Last 7 Days';
+  const bp_start = DATA.bp_start || '';
+  const bp_end   = DATA.bp_end   || '';
+
+  let periodLabel;
+  if (period === 'mtd') periodLabel = `${mtd_start} → ${today}`;
+  else if (period === 'last7') periodLabel = 'Last 7 Days';
+  else periodLabel = `${bp_start} → ${bp_end}`;
+
+  // For billing period, Azure Gov uses bp data but others use MTD
+  const govData = period === 'billing_period' ? DATA['billing_period'] : d;
+
+  document.getElementById('last-updated').textContent = DATA.last_updated || '—';
+  document.getElementById('period-label').textContent = period === 'mtd' ? 'Month to Date' : period === 'last7' ? 'Last 7 Days' : 'Billing Period';
+
+  const awsNormal  = d.aws_normal_total  || 0;
+  const awsOrg     = d.aws_org_total     || 0;
+  const azure      = d.azure_total       || 0;
+  const azureGov   = govData.azure_gov_total || 0;
+  const gcp        = d.gcp_total         || 0;
+  const awsTotal   = awsNormal + awsOrg;
+  const azureTotal = azure + azureGov;
+  const grand      = awsTotal + azureTotal + gcp;
+
+  document.getElementById('grand-total').textContent   = fmt(grand);
+  document.getElementById('aws-total').textContent     = fmt(awsTotal);
+  document.getElementById('azure-total').textContent   = fmt(azureTotal);
+  document.getElementById('gcp-total').textContent     = fmt(gcp);
+
+  // Period labels
+  document.getElementById('aws-normal-period').textContent = periodLabel;
+  document.getElementById('aws-org-period').textContent    = periodLabel;
+  document.getElementById('azure-period').textContent      = periodLabel;
+  document.getElementById('azure-gov-period').textContent  = period === 'billing_period' ? `${bp_start} → ${bp_end}` : periodLabel;
+
+  // AWS Normal
+  document.getElementById('aws-normal-id').textContent   = `Account: ${DATA.aws_normal_account_id || '—'}`;
+  document.getElementById('aws-normal-cost').textContent = fmt(awsNormal);
+  renderSvcTable('aws-normal-services', d.aws_normal_services || {}, '#FF9900');
+
+  // Azure QFlow
+  document.getElementById('azure-cost').textContent = fmt(azure);
+  window._azureSubs = d.azure_subscriptions || [];
+  filterAzure('');
+
+  // Azure Gov
+  document.getElementById('azure-gov-cost').textContent = fmt(azureGov);
+  window._azureGovSubs = govData.azure_gov_subs || [];
+  filterAzureGov('');
+
+  // GCP
+  document.getElementById('gcp-cost').textContent = fmt(gcp);
+
+  // AWS Org
+  document.getElementById('aws-org-cost').textContent = fmt(awsOrg);
+  window._orgAccounts = d.aws_org_accounts || [];
+  filterOrg('');
+
+  // Summary strip
+  const strip = document.getElementById('summary-strip');
+  strip.innerHTML = [
+    { dot:'#FF9900', name:'AWS Normal',   acct: DATA.aws_normal_account_id || '—', cost: awsNormal  },
+    { dot:'#b388ff', name:'AWS Org',      acct: 'Org Master',                       cost: awsOrg     },
+    { dot:'#00b4d8', name:'Azure QFlow',  acct: 'QFlow Subscriptions',              cost: azure      },
+    { dot:'#00b4d8', name:'Azure Gov',    acct: 'Government Cloud',                 cost: azureGov   },
+    { dot:'#00e676', name:'GCP',          acct: DATA.gcp_project_id || '—',         cost: gcp        },
+  ].map(p => `
+    <div class="summary-pill">
+      <div class="pill-dot" style="background:${p.dot}"></div>
+      <div class="pill-info">
+        <div class="pill-name">${p.name}</div>
+        <div class="pill-acct">${p.acct}</div>
+        <div class="pill-period">${p.name === 'Azure Gov' && period === 'billing_period' ? bp_start+' → '+bp_end : periodLabel}</div>
+      </div>
+      <div class="pill-cost" style="color:${p.dot}">${fmt(p.cost)}</div>
+    </div>`).join('');
+
+  // Charts
+  renderDonut(awsNormal, awsOrg, azureTotal, gcp);
+  renderBar(d.aws_normal_services || {});
+}
 
   document.getElementById('last-updated').textContent = DATA.last_updated || '—';
   document.getElementById('period-label').textContent = period === 'mtd' ? 'Month to Date' : 'Last 7 Days';
@@ -347,9 +441,6 @@ function render(period) {
 
   // Azure & GCP
   document.getElementById('azure-cost').textContent = fmt(azure);
-  document.getElementById('azure-period').textContent = periodLabel;
-  window._azureSubs = d.azure_subscriptions || [];
-  filterAzure('');
   document.getElementById('gcp-cost').textContent   = fmt(gcp);
 
   // AWS Org
@@ -391,17 +482,17 @@ function renderSvcTable(id, services, color) {
     </tr>`).join('');
 }
 
-function filterOrg(q) {
-  const accounts = window._orgAccounts || [];
-  const filtered = q ? accounts.filter(a => a.name.toLowerCase().includes(q.toLowerCase()) || a.id.includes(q)) : accounts;
+function filterAzureGov(q) {
+  const subs = window._azureGovSubs || [];
+  const filtered = q ? subs.filter(s => s.name.toLowerCase().includes(q.toLowerCase()) || s.id.includes(q)) : subs;
   const max = filtered[0]?.cost || 1;
-  document.getElementById('org-accounts-body').innerHTML = filtered.slice(0,50).map((a,i) => `
+  document.getElementById('azure-gov-body').innerHTML = filtered.slice(0,50).map((s,i) => `
     <tr>
       <td><span class="rank ${i<3?'top':''}">${i+1}</span></td>
-      <td style="font-weight:600">${a.name}</td>
-      <td style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--muted)">${a.id}</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:${(a.cost/max*100).toFixed(0)}%;background:#b388ff"></div></div></td>
-      <td class="cost-col">${fmt(a.cost)}</td>
+      <td style="font-weight:600">${s.name}</td>
+      <td style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--muted)">${s.id}</td>
+      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:${(s.cost/max*100).toFixed(0)}%;background:var(--azure)"></div></div></td>
+      <td class="cost-col">${fmt(s.cost)}</td>
     </tr>`).join('');
 }
 
@@ -417,7 +508,21 @@ function filterAzure(q) {
       <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:${(s.cost/max*100).toFixed(0)}%;background:var(--azure)"></div></div></td>
       <td class="cost-col">${fmt(s.cost)}</td>
     </tr>`).join('');
-}  
+}
+
+function filterOrg(q) {
+  const accounts = window._orgAccounts || [];
+  const filtered = q ? accounts.filter(a => a.name.toLowerCase().includes(q.toLowerCase()) || a.id.includes(q)) : accounts;
+  const max = filtered[0]?.cost || 1;
+  document.getElementById('org-accounts-body').innerHTML = filtered.slice(0,50).map((a,i) => `
+    <tr>
+      <td><span class="rank ${i<3?'top':''}">${i+1}</span></td>
+      <td style="font-weight:600">${a.name}</td>
+      <td style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--muted)">${a.id}</td>
+      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:${(a.cost/max*100).toFixed(0)}%;background:#b388ff"></div></div></td>
+      <td class="cost-col">${fmt(a.cost)}</td>
+    </tr>`).join('');
+}
 
 function renderDonut(awsN, awsO, azure, gcp) {
   if(donutChart) donutChart.destroy();
