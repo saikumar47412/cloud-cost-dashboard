@@ -1,5 +1,5 @@
 {
-  "last_updated": "18-Mar-2026 09:33 PM IST",
+  "last_updated": "18-Mar-2026 10:22 PM IST",
   "mtd_start": "01 Mar",
   "today": "18 Mar",
   "bp_start": "2026-03-14",
@@ -835,12 +835,12 @@
         "cost": 0.01
       }
     ],
-    "azure_total": 1524.03,
+    "azure_total": 1526.29,
     "azure_subscriptions": [
       {
         "id": "0cff124b-97e0-49ac-9fe4-98ddec8a060b",
         "name": "QFlow301-QA-Panther",
-        "cost": 170.74
+        "cost": 171.25
       },
       {
         "id": "894e3b4f-1b0f-4943-845d-fb3bb12a9ad2",
@@ -855,12 +855,12 @@
       {
         "id": "7dbd9dfb-4f5b-45d4-a301-a6049d03bcf7",
         "name": "QFLOW_PERF_CircuitCitrus",
-        "cost": 91.02
+        "cost": 91.26
       },
       {
         "id": "82a6c5f8-fecc-40c0-975e-1bba1fb705a8",
         "name": "QFLOW_PERF_Rome",
-        "cost": 76.6
+        "cost": 76.8
       },
       {
         "id": "7f53ca2c-ba06-4157-89db-53544ce71b4c",
@@ -870,12 +870,12 @@
       {
         "id": "c4e0f2f0-eb24-490e-b238-58e72e93f9ab",
         "name": "QFLOW_PERF_Everest",
-        "cost": 66.06
+        "cost": 66.24
       },
       {
         "id": "b8392058-8a1f-4250-98db-a9f4a075e625",
         "name": "QFLOW_Daily_Sanity_VirtualVanilla",
-        "cost": 61.12
+        "cost": 61.25
       },
       {
         "id": "474bccba-3d6f-4f64-8048-857cbc21bdc6",
@@ -895,7 +895,7 @@
       {
         "id": "d08f3411-dcbf-4cfb-98b3-e121c9e5415d",
         "name": "QFLOW_PERF_Charleston",
-        "cost": 47.99
+        "cost": 48.1
       },
       {
         "id": "fc0967aa-63bb-4d93-bfb6-45ce04906257",
@@ -905,22 +905,22 @@
       {
         "id": "7d46e492-6041-4f56-9135-b60765643293",
         "name": "QFLOW_Daily_Sanity_DigitalDate",
-        "cost": 46.54
+        "cost": 46.68
       },
       {
         "id": "56422cdf-f7a1-4509-83f4-b1527ffc92d8",
         "name": "QFLOW_PERF_Ladakh",
-        "cost": 43.02
+        "cost": 43.12
       },
       {
         "id": "706fdbb8-3ccb-4934-8df6-ccd18efeab16",
         "name": "QFLOW_Daily_Sanity_DigitalDill",
-        "cost": 42.58
+        "cost": 42.68
       },
       {
         "id": "8b03ffa7-5b48-4c7d-a9ef-8ebf35da507e",
         "name": "QFLOW_Daily_Sanity_Citronova",
-        "cost": 41.52
+        "cost": 41.62
       },
       {
         "id": "40b2585e-f3f0-42c7-a954-046d4719109c",
@@ -935,17 +935,17 @@
       {
         "id": "3e0a033c-349d-45e2-b398-4c488bd6b83f",
         "name": "QFLOW_Daily_Sanity_ByteBanana",
-        "cost": 39.69
+        "cost": 39.79
       },
       {
         "id": "453ef4bf-8119-4df7-bb8f-0b6536f4abc8",
         "name": "QFLOW_Daily_Sanity_ByteBerry",
-        "cost": 37.11
+        "cost": 37.19
       },
       {
         "id": "3698648d-ffdf-4cbe-a073-d4bc0391bcb5",
         "name": "QFLOW_PERF_IvoryIbis",
-        "cost": 34.02
+        "cost": 34.1
       },
       {
         "id": "52136516-cfac-489f-a057-9e98cd8e4437",
@@ -955,12 +955,12 @@
       {
         "id": "82dc3f9d-a248-4322-a55b-e753bff01960",
         "name": "QFLOW_Daily_Sanity_KernelKiwi",
-        "cost": 23.2
+        "cost": 23.27
       },
       {
         "id": "70a3e704-142b-4af3-9a92-b27fc4767609",
         "name": "QFLOW_PERF_Colosseum",
-        "cost": 11.58
+        "cost": 11.6
       },
       {
         "id": "0b04c716-64ad-43b5-93b1-96dbd9aaa412",
@@ -970,7 +970,7 @@
       {
         "id": "3b178654-a051-4622-9f84-271f421b9af4",
         "name": "QFLOW_PERF_Barcelona",
-        "cost": 8.36
+        "cost": 8.38
       },
       {
         "id": "1788b878-2596-4c6e-a6a2-6f3ab80b9d31",
@@ -985,37 +985,37 @@
       {
         "id": "e55a8bd6-70df-4bc0-84a8-83b3f7cafae4",
         "name": "QFlow2-Dev-Tiger",
-        "cost": 6.15
+        "cost": 6.16
       },
       {
         "id": "00862698-0bd6-47a8-bcfe-1df5aae72871",
         "name": "QFLOW_PERF_AmberAntelope",
-        "cost": 4.21
+        "cost": 4.22
       },
       {
         "id": "a3b7f81f-e486-44ac-8d9f-377a1df0efa9",
         "name": "QFLOW_PERF_Dubai",
-        "cost": 4.2
+        "cost": 4.21
       },
       {
         "id": "45a15263-fec4-4c96-8a38-2f76857fe47b",
         "name": "QFLOW_PERF_KelpKangaroo",
-        "cost": 4.2
+        "cost": 4.21
       },
       {
         "id": "e0d14dd6-20e6-4128-8077-3a01b2ca9d6e",
         "name": "QFLOW_PERF_BlackPanther",
-        "cost": 4.17
+        "cost": 4.18
       },
       {
         "id": "e0a5f47b-a347-4a96-a3c9-f84375125a9e",
         "name": "QFLOW_PERF_GreenFrog",
-        "cost": 4.17
+        "cost": 4.18
       },
       {
         "id": "f3c85595-4d59-4588-9452-e05eb6667504",
         "name": "QFLOW_PERF_CyanCoyote",
-        "cost": 4.17
+        "cost": 4.18
       },
       {
         "id": "2f00ec76-208a-4f49-a8f2-31c659506368",
@@ -1023,14 +1023,14 @@
         "cost": 2.1
       },
       {
-        "id": "0e40073c-0f1b-437f-9223-1c20026d73af",
-        "name": "QFLOW_PERF_BronzeBeaver",
+        "id": "f18a5424-eb95-4b09-92ac-46b4218cbf43",
+        "name": "QFlow301-QA-Snake",
         "cost": 2.1
       },
       {
-        "id": "f18a5424-eb95-4b09-92ac-46b4218cbf43",
-        "name": "QFlow301-QA-Snake",
-        "cost": 2.09
+        "id": "0e40073c-0f1b-437f-9223-1c20026d73af",
+        "name": "QFLOW_PERF_BronzeBeaver",
+        "cost": 2.1
       },
       {
         "id": "e89c83a1-4398-4623-8592-234872e6baa7",
@@ -1792,197 +1792,197 @@
         "cost": 0.01
       }
     ],
-    "azure_total": 605.73,
+    "azure_total": 609.28,
     "azure_subscriptions": [
       {
         "id": "0cff124b-97e0-49ac-9fe4-98ddec8a060b",
         "name": "QFlow301-QA-Panther",
-        "cost": 71.99
+        "cost": 72.5
       },
       {
         "id": "5e91f820-d05f-4ca3-8ecd-4ea2b64769ca",
         "name": "QFLOW_PERF_CobaltCondor",
-        "cost": 41.0
+        "cost": 41.23
       },
       {
         "id": "7dbd9dfb-4f5b-45d4-a301-a6049d03bcf7",
         "name": "QFLOW_PERF_CircuitCitrus",
-        "cost": 40.82
+        "cost": 41.05
       },
       {
         "id": "82a6c5f8-fecc-40c0-975e-1bba1fb705a8",
         "name": "QFLOW_PERF_Rome",
-        "cost": 33.27
+        "cost": 33.47
       },
       {
         "id": "7f53ca2c-ba06-4157-89db-53544ce71b4c",
         "name": "QFLOW_PERF_TangerineTiger",
-        "cost": 32.59
+        "cost": 32.76
       },
       {
         "id": "c4e0f2f0-eb24-490e-b238-58e72e93f9ab",
         "name": "QFLOW_PERF_Everest",
-        "cost": 29.93
+        "cost": 30.12
       },
       {
         "id": "b8392058-8a1f-4250-98db-a9f4a075e625",
         "name": "QFLOW_Daily_Sanity_VirtualVanilla",
-        "cost": 25.3
+        "cost": 25.44
       },
       {
         "id": "52136516-cfac-489f-a057-9e98cd8e4437",
         "name": "QFLOW_PERF_1_SERVICE",
-        "cost": 24.5
+        "cost": 24.63
       },
       {
         "id": "474bccba-3d6f-4f64-8048-857cbc21bdc6",
         "name": "QFLOW_Daily_Sanity_QuantumQuince",
-        "cost": 24.43
+        "cost": 24.56
       },
       {
         "id": "d08f3411-dcbf-4cfb-98b3-e121c9e5415d",
         "name": "QFLOW_PERF_Charleston",
-        "cost": 20.72
+        "cost": 20.83
       },
       {
         "id": "ee57636b-7b36-43d9-9f64-4c3441119adc",
         "name": "QFLOW_Daily_Sanity_Mysore",
-        "cost": 20.19
+        "cost": 20.3
       },
       {
         "id": "558e2120-060b-4d81-bffa-da2edd6a0b79",
         "name": "QFLOW_Daily_Sanity_CacheCurrant",
-        "cost": 19.18
+        "cost": 19.29
       },
       {
         "id": "7d46e492-6041-4f56-9135-b60765643293",
         "name": "QFLOW_Daily_Sanity_DigitalDate",
-        "cost": 19.04
+        "cost": 19.18
       },
       {
         "id": "56422cdf-f7a1-4509-83f4-b1527ffc92d8",
         "name": "QFLOW_PERF_Ladakh",
-        "cost": 18.89
+        "cost": 19.0
       },
       {
         "id": "fc0967aa-63bb-4d93-bfb6-45ce04906257",
         "name": "QFLOW_Daily_Sanity_MangoMetric",
-        "cost": 18.23
+        "cost": 18.35
       },
       {
         "id": "706fdbb8-3ccb-4934-8df6-ccd18efeab16",
         "name": "QFLOW_Daily_Sanity_DigitalDill",
-        "cost": 18.18
+        "cost": 18.28
       },
       {
         "id": "40b2585e-f3f0-42c7-a954-046d4719109c",
         "name": "QFLOW_Daily_Sanity_PixelPeach",
-        "cost": 17.7
+        "cost": 17.8
       },
       {
         "id": "8a65f4ae-3c62-426c-883a-27fe48fa657a",
         "name": "QFLOW_Daily_Sanity_NetworkNectarine",
-        "cost": 17.08
+        "cost": 17.17
       },
       {
         "id": "8b03ffa7-5b48-4c7d-a9ef-8ebf35da507e",
         "name": "QFLOW_Daily_Sanity_Citronova",
-        "cost": 17.0
+        "cost": 17.1
       },
       {
         "id": "453ef4bf-8119-4df7-bb8f-0b6536f4abc8",
         "name": "QFLOW_Daily_Sanity_ByteBerry",
-        "cost": 15.81
+        "cost": 15.89
       },
       {
         "id": "3e0a033c-349d-45e2-b398-4c488bd6b83f",
         "name": "QFLOW_Daily_Sanity_ByteBanana",
-        "cost": 15.39
+        "cost": 15.49
       },
       {
         "id": "3698648d-ffdf-4cbe-a073-d4bc0391bcb5",
         "name": "QFLOW_PERF_IvoryIbis",
-        "cost": 14.49
+        "cost": 14.57
       },
       {
         "id": "82dc3f9d-a248-4322-a55b-e753bff01960",
         "name": "QFLOW_Daily_Sanity_KernelKiwi",
-        "cost": 12.44
+        "cost": 12.51
       },
       {
         "id": "70a3e704-142b-4af3-9a92-b27fc4767609",
         "name": "QFLOW_PERF_Colosseum",
-        "cost": 4.08
+        "cost": 4.11
       },
       {
         "id": "0b04c716-64ad-43b5-93b1-96dbd9aaa412",
         "name": "QFlow1-Dev-Elephant-dsp-S",
-        "cost": 3.59
+        "cost": 3.6
       },
       {
         "id": "3b178654-a051-4622-9f84-271f421b9af4",
         "name": "QFLOW_PERF_Barcelona",
-        "cost": 3.58
+        "cost": 3.6
       },
       {
         "id": "894e3b4f-1b0f-4943-845d-fb3bb12a9ad2",
         "name": "QFLOW_PERF_JetJellyfish",
-        "cost": 3.47
+        "cost": 3.49
       },
       {
         "id": "1788b878-2596-4c6e-a6a2-6f3ab80b9d31",
         "name": "QFLOW_PERF_MintMantis",
-        "cost": 3.22
+        "cost": 3.24
       },
       {
         "id": "56de78cb-de75-49f4-a5bc-4c0346f76bb5",
         "name": "QFLOW_PERF_PumpkinPuffin",
-        "cost": 2.7
+        "cost": 2.71
       },
       {
         "id": "e55a8bd6-70df-4bc0-84a8-83b3f7cafae4",
         "name": "QFlow2-Dev-Tiger",
-        "cost": 2.63
+        "cost": 2.64
       },
       {
         "id": "a3b7f81f-e486-44ac-8d9f-377a1df0efa9",
         "name": "QFLOW_PERF_Dubai",
-        "cost": 1.8
+        "cost": 1.81
       },
       {
         "id": "00862698-0bd6-47a8-bcfe-1df5aae72871",
         "name": "QFLOW_PERF_AmberAntelope",
-        "cost": 1.8
+        "cost": 1.81
       },
       {
         "id": "45a15263-fec4-4c96-8a38-2f76857fe47b",
         "name": "QFLOW_PERF_KelpKangaroo",
-        "cost": 1.8
+        "cost": 1.81
       },
       {
         "id": "e0d14dd6-20e6-4128-8077-3a01b2ca9d6e",
         "name": "QFLOW_PERF_BlackPanther",
-        "cost": 1.77
+        "cost": 1.78
       },
       {
         "id": "e0a5f47b-a347-4a96-a3c9-f84375125a9e",
         "name": "QFLOW_PERF_GreenFrog",
-        "cost": 1.77
+        "cost": 1.78
       },
       {
         "id": "f3c85595-4d59-4588-9452-e05eb6667504",
         "name": "QFLOW_PERF_CyanCoyote",
-        "cost": 1.77
+        "cost": 1.78
       },
       {
         "id": "2f00ec76-208a-4f49-a8f2-31c659506368",
         "name": "QFLOW_PERF_Iceland",
-        "cost": 0.9
+        "cost": 0.91
       },
       {
         "id": "0e40073c-0f1b-437f-9223-1c20026d73af",
         "name": "QFLOW_PERF_BronzeBeaver",
-        "cost": 0.9
+        "cost": 0.91
       },
       {
         "id": "f18a5424-eb95-4b09-92ac-46b4218cbf43",
@@ -2851,12 +2851,12 @@
         "cost": 0.01
       }
     ],
-    "azure_total": 1524.03,
+    "azure_total": 1526.29,
     "azure_subscriptions": [
       {
         "id": "0cff124b-97e0-49ac-9fe4-98ddec8a060b",
         "name": "QFlow301-QA-Panther",
-        "cost": 170.74
+        "cost": 171.25
       },
       {
         "id": "894e3b4f-1b0f-4943-845d-fb3bb12a9ad2",
@@ -2871,12 +2871,12 @@
       {
         "id": "7dbd9dfb-4f5b-45d4-a301-a6049d03bcf7",
         "name": "QFLOW_PERF_CircuitCitrus",
-        "cost": 91.02
+        "cost": 91.26
       },
       {
         "id": "82a6c5f8-fecc-40c0-975e-1bba1fb705a8",
         "name": "QFLOW_PERF_Rome",
-        "cost": 76.6
+        "cost": 76.8
       },
       {
         "id": "7f53ca2c-ba06-4157-89db-53544ce71b4c",
@@ -2886,12 +2886,12 @@
       {
         "id": "c4e0f2f0-eb24-490e-b238-58e72e93f9ab",
         "name": "QFLOW_PERF_Everest",
-        "cost": 66.06
+        "cost": 66.24
       },
       {
         "id": "b8392058-8a1f-4250-98db-a9f4a075e625",
         "name": "QFLOW_Daily_Sanity_VirtualVanilla",
-        "cost": 61.12
+        "cost": 61.25
       },
       {
         "id": "474bccba-3d6f-4f64-8048-857cbc21bdc6",
@@ -2911,7 +2911,7 @@
       {
         "id": "d08f3411-dcbf-4cfb-98b3-e121c9e5415d",
         "name": "QFLOW_PERF_Charleston",
-        "cost": 47.99
+        "cost": 48.1
       },
       {
         "id": "fc0967aa-63bb-4d93-bfb6-45ce04906257",
@@ -2921,22 +2921,22 @@
       {
         "id": "7d46e492-6041-4f56-9135-b60765643293",
         "name": "QFLOW_Daily_Sanity_DigitalDate",
-        "cost": 46.54
+        "cost": 46.68
       },
       {
         "id": "56422cdf-f7a1-4509-83f4-b1527ffc92d8",
         "name": "QFLOW_PERF_Ladakh",
-        "cost": 43.02
+        "cost": 43.12
       },
       {
         "id": "706fdbb8-3ccb-4934-8df6-ccd18efeab16",
         "name": "QFLOW_Daily_Sanity_DigitalDill",
-        "cost": 42.58
+        "cost": 42.68
       },
       {
         "id": "8b03ffa7-5b48-4c7d-a9ef-8ebf35da507e",
         "name": "QFLOW_Daily_Sanity_Citronova",
-        "cost": 41.52
+        "cost": 41.62
       },
       {
         "id": "40b2585e-f3f0-42c7-a954-046d4719109c",
@@ -2951,17 +2951,17 @@
       {
         "id": "3e0a033c-349d-45e2-b398-4c488bd6b83f",
         "name": "QFLOW_Daily_Sanity_ByteBanana",
-        "cost": 39.69
+        "cost": 39.79
       },
       {
         "id": "453ef4bf-8119-4df7-bb8f-0b6536f4abc8",
         "name": "QFLOW_Daily_Sanity_ByteBerry",
-        "cost": 37.11
+        "cost": 37.19
       },
       {
         "id": "3698648d-ffdf-4cbe-a073-d4bc0391bcb5",
         "name": "QFLOW_PERF_IvoryIbis",
-        "cost": 34.02
+        "cost": 34.1
       },
       {
         "id": "52136516-cfac-489f-a057-9e98cd8e4437",
@@ -2971,12 +2971,12 @@
       {
         "id": "82dc3f9d-a248-4322-a55b-e753bff01960",
         "name": "QFLOW_Daily_Sanity_KernelKiwi",
-        "cost": 23.2
+        "cost": 23.27
       },
       {
         "id": "70a3e704-142b-4af3-9a92-b27fc4767609",
         "name": "QFLOW_PERF_Colosseum",
-        "cost": 11.58
+        "cost": 11.6
       },
       {
         "id": "0b04c716-64ad-43b5-93b1-96dbd9aaa412",
@@ -2986,7 +2986,7 @@
       {
         "id": "3b178654-a051-4622-9f84-271f421b9af4",
         "name": "QFLOW_PERF_Barcelona",
-        "cost": 8.36
+        "cost": 8.38
       },
       {
         "id": "1788b878-2596-4c6e-a6a2-6f3ab80b9d31",
@@ -3001,37 +3001,37 @@
       {
         "id": "e55a8bd6-70df-4bc0-84a8-83b3f7cafae4",
         "name": "QFlow2-Dev-Tiger",
-        "cost": 6.15
+        "cost": 6.16
       },
       {
         "id": "00862698-0bd6-47a8-bcfe-1df5aae72871",
         "name": "QFLOW_PERF_AmberAntelope",
-        "cost": 4.21
+        "cost": 4.22
       },
       {
         "id": "a3b7f81f-e486-44ac-8d9f-377a1df0efa9",
         "name": "QFLOW_PERF_Dubai",
-        "cost": 4.2
+        "cost": 4.21
       },
       {
         "id": "45a15263-fec4-4c96-8a38-2f76857fe47b",
         "name": "QFLOW_PERF_KelpKangaroo",
-        "cost": 4.2
+        "cost": 4.21
       },
       {
         "id": "e0d14dd6-20e6-4128-8077-3a01b2ca9d6e",
         "name": "QFLOW_PERF_BlackPanther",
-        "cost": 4.17
+        "cost": 4.18
       },
       {
         "id": "e0a5f47b-a347-4a96-a3c9-f84375125a9e",
         "name": "QFLOW_PERF_GreenFrog",
-        "cost": 4.17
+        "cost": 4.18
       },
       {
         "id": "f3c85595-4d59-4588-9452-e05eb6667504",
         "name": "QFLOW_PERF_CyanCoyote",
-        "cost": 4.17
+        "cost": 4.18
       },
       {
         "id": "2f00ec76-208a-4f49-a8f2-31c659506368",
@@ -3039,14 +3039,14 @@
         "cost": 2.1
       },
       {
-        "id": "0e40073c-0f1b-437f-9223-1c20026d73af",
-        "name": "QFLOW_PERF_BronzeBeaver",
+        "id": "f18a5424-eb95-4b09-92ac-46b4218cbf43",
+        "name": "QFlow301-QA-Snake",
         "cost": 2.1
       },
       {
-        "id": "f18a5424-eb95-4b09-92ac-46b4218cbf43",
-        "name": "QFlow301-QA-Snake",
-        "cost": 2.09
+        "id": "0e40073c-0f1b-437f-9223-1c20026d73af",
+        "name": "QFLOW_PERF_BronzeBeaver",
+        "cost": 2.1
       },
       {
         "id": "e89c83a1-4398-4623-8592-234872e6baa7",
