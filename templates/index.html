@@ -20,22 +20,16 @@ body::before{content:'';position:fixed;inset:0;background:
   radial-gradient(ellipse at 50% 50%,rgba(179,136,255,0.04) 0%,transparent 60%);
   pointer-events:none;z-index:0;}
 .container{max-width:1300px;margin:0 auto;padding:2rem;position:relative;z-index:1;}
-
-/* HEADER */
 .header{display:flex;justify-content:space-between;align-items:center;margin-bottom:2rem;padding-bottom:1.5rem;border-bottom:1px solid var(--border);}
 .header h1{font-size:1.8rem;font-weight:800;background:linear-gradient(135deg,#fff 0%,#90caf9 60%,#b388ff 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
 .header p{color:var(--muted);font-size:0.82rem;margin-top:0.25rem;font-family:'JetBrains Mono',monospace;}
 .updated-pill{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:0.5rem 1rem;font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--muted);text-align:right;}
 .updated-pill span{color:var(--accent);display:block;font-size:0.88rem;font-weight:600;}
-
-/* TOGGLE */
 .toggle-wrap{display:flex;gap:0.5rem;margin-bottom:2rem;}
 .toggle-btn{padding:0.45rem 1.1rem;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--muted);font-family:'Syne',sans-serif;font-size:0.83rem;cursor:pointer;transition:all 0.2s;}
 .toggle-btn.active{background:var(--accent);border-color:var(--accent);color:#000;font-weight:700;}
-
-/* QUICK SUMMARY STRIP */
 .summary-strip{display:flex;gap:0.75rem;flex-wrap:wrap;margin-bottom:1.5rem;}
-.summary-pill{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:0.75rem 1.25rem;display:flex;align-items:center;gap:0.75rem;flex:1;min-width:200px;transition:border-color 0.2s;}
+.summary-pill{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:0.75rem 1.25rem;display:flex;align-items:center;gap:0.75rem;flex:1;min-width:180px;transition:border-color 0.2s;}
 .summary-pill:hover{border-color:rgba(255,255,255,0.15);}
 .pill-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
 .pill-info{flex:1;}
@@ -43,21 +37,15 @@ body::before{content:'';position:fixed;inset:0;background:
 .pill-acct{font-size:0.7rem;color:var(--muted);font-family:'JetBrains Mono',monospace;}
 .pill-period{font-size:0.68rem;color:var(--muted);margin-top:0.1rem;}
 .pill-cost{font-size:1.2rem;font-weight:800;font-family:'JetBrains Mono',monospace;}
-
-/* GRAND TOTALS */
 .totals-row{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:1rem;margin-bottom:2rem;}
 .total-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.5rem;}
 .total-card.grand{background:linear-gradient(135deg,#0d1f35,#0a0f1e);border-color:rgba(245,158,11,0.3);}
 .total-label{font-size:0.72rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:0.4rem;}
 .total-amount{font-size:1.6rem;font-weight:800;letter-spacing:-0.02em;}
 .total-card.grand .total-amount{font-size:2.2rem;background:linear-gradient(135deg,#f59e0b,#fbbf24);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
-
-/* SECTION HEADERS */
 .section-header{display:flex;align-items:center;gap:0.75rem;margin:2rem 0 1rem;padding-bottom:0.75rem;border-bottom:1px solid var(--border);}
 .section-header h2{font-size:1rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;}
 .section-tag{font-size:0.68rem;font-family:'JetBrains Mono',monospace;padding:0.2rem 0.6rem;border-radius:4px;font-weight:600;}
-
-/* ACCOUNT BLOCK */
 .account-block{background:var(--surface);border:1px solid var(--border);border-radius:14px;margin-bottom:1rem;overflow:hidden;}
 .account-header{display:flex;justify-content:space-between;align-items:center;padding:1.25rem 1.5rem;border-bottom:1px solid var(--border);}
 .account-id{font-family:'JetBrains Mono',monospace;font-size:0.78rem;color:var(--muted);}
@@ -67,8 +55,6 @@ body::before{content:'';position:fixed;inset:0;background:
 .account-period{font-size:0.7rem;color:var(--muted);font-family:'JetBrains Mono',monospace;}
 .account-cost{font-size:1.8rem;font-weight:800;font-family:'JetBrains Mono',monospace;}
 .account-body{padding:1.25rem 1.5rem;}
-
-/* SERVICE TABLE */
 .svc-table{width:100%;border-collapse:collapse;font-size:0.82rem;}
 .svc-table th{text-align:left;padding:0.4rem 0.6rem;font-size:0.68rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);border-bottom:1px solid var(--border);}
 .svc-table td{padding:0.5rem 0.6rem;border-bottom:1px solid rgba(26,37,64,0.6);}
@@ -78,8 +64,6 @@ body::before{content:'';position:fixed;inset:0;background:
 .bar-bg{background:var(--border);border-radius:3px;height:4px;}
 .bar-fill{height:4px;border-radius:3px;}
 .cost-col{font-family:'JetBrains Mono',monospace;text-align:right;font-weight:500;}
-
-/* ORG LINKED ACCOUNTS TABLE */
 .org-table-wrap{margin-top:0.75rem;}
 .search-box{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:0.55rem 1rem;color:var(--text);font-family:'JetBrains Mono',monospace;font-size:0.82rem;outline:none;margin-bottom:0.75rem;}
 .search-box:focus{border-color:var(--org);}
@@ -90,60 +74,45 @@ body::before{content:'';position:fixed;inset:0;background:
 .org-table tr:hover td{background:rgba(179,136,255,0.03);}
 .rank{display:inline-flex;width:22px;height:22px;align-items:center;justify-content:center;border-radius:4px;background:var(--surface2);font-size:0.68rem;font-family:'JetBrains Mono',monospace;color:var(--muted);}
 .rank.top{background:rgba(245,158,11,0.15);color:var(--accent);}
-
-/* CHART */
 .chart-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem;}
 .chart-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.5rem;}
 .chart-card h3{font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:1rem;}
 .chart-wrap{height:200px;position:relative;}
-
-/* LOADING */
 .loading{display:flex;align-items:center;justify-content:center;height:60vh;flex-direction:column;gap:1rem;}
 .spinner{width:36px;height:36px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin 0.8s linear infinite;}
 @keyframes spin{to{transform:rotate(360deg);}}
 .fade-in{animation:fadeIn 0.4s ease forwards;opacity:0;}
 @keyframes fadeIn{to{opacity:1;}}
-
 @media(max-width:900px){
   .totals-row{grid-template-columns:1fr 1fr;}
   .chart-row{grid-template-columns:1fr;}
-  .grand-banner{flex-direction:column;gap:1rem;}
 }
 </style>
 </head>
 <body>
 <div class="container">
-
   <div id="loading" class="loading">
     <div class="spinner"></div>
     <p style="color:var(--muted);font-size:0.85rem;">Loading cloud cost data...</p>
   </div>
-
   <div id="dashboard" style="display:none">
-
     <!-- HEADER -->
     <div class="header fade-in">
       <div>
         <h1>☁️ Cloud Cost Dashboard</h1>
         <p>AWS · Azure · GCP — Cost Intelligence Report</p>
       </div>
-      <div class="updated-pill">
-        Last updated
-        <span id="last-updated">—</span>
-      </div>
+      <div class="updated-pill">Last updated<span id="last-updated">—</span></div>
     </div>
-
     <!-- TOGGLE -->
     <div class="toggle-wrap fade-in">
       <button class="toggle-btn active" onclick="switchPeriod('mtd',this)">Month to Date</button>
       <button class="toggle-btn" onclick="switchPeriod('last7',this)">Last 7 Days</button>
       <button class="toggle-btn" onclick="switchPeriod('billing_period',this)">Billing Period</button>
     </div>
-
-    <!-- QUICK SUMMARY STRIP -->
+    <!-- SUMMARY STRIP -->
     <div class="summary-strip fade-in" id="summary-strip"></div>
-
-    <!-- GRAND TOTALS ROW -->
+    <!-- GRAND TOTALS -->
     <div class="totals-row fade-in">
       <div class="total-card grand">
         <div class="total-label">💰 Grand Total</div>
@@ -158,7 +127,7 @@ body::before{content:'';position:fixed;inset:0;background:
       <div class="total-card">
         <div class="total-label">🔵 Azure Total</div>
         <div class="total-amount" style="color:var(--azure)" id="azure-total">$0.00</div>
-        <div style="font-size:0.7rem;color:var(--muted);margin-top:0.3rem;">Gov + Admin</div>
+        <div style="font-size:0.7rem;color:var(--muted);margin-top:0.3rem;">QFlow + Gov</div>
       </div>
       <div class="total-card">
         <div class="total-label">🟢 GCP Total</div>
@@ -166,8 +135,7 @@ body::before{content:'';position:fixed;inset:0;background:
         <div style="font-size:0.7rem;color:var(--muted);margin-top:0.3rem;">Main Project</div>
       </div>
     </div>
-
-    <!-- CHART ROW -->
+    <!-- CHARTS -->
     <div class="chart-row fade-in">
       <div class="chart-card">
         <h3>Cost Distribution by Provider</h3>
@@ -178,13 +146,11 @@ body::before{content:'';position:fixed;inset:0;background:
         <div class="chart-wrap"><canvas id="barChart"></canvas></div>
       </div>
     </div>
-
     <!-- SECTION 1: NORMAL ACCOUNTS -->
     <div class="section-header fade-in">
       <h2>Section 1 — Normal Accounts</h2>
       <span class="section-tag" style="background:rgba(255,153,0,0.12);color:var(--aws)">AWS · Azure · GCP</span>
     </div>
-
     <!-- AWS Normal -->
     <div class="account-block fade-in">
       <div class="account-header">
@@ -207,24 +173,31 @@ body::before{content:'';position:fixed;inset:0;background:
         </table>
       </div>
     </div>
-
-    <!-- Azure (coming soon placeholder) -->
-    <div class="account-block fade-in" id="azure-block">
+    <!-- Azure QFlow -->
+    <div class="account-block fade-in">
       <div class="account-header">
         <div>
-          <div class="account-id">Gov + Admin</div>
+          <div class="account-id">Azure QFlow Subscriptions</div>
           <div class="account-name">Microsoft Azure</div>
         </div>
         <div style="display:flex;align-items:center;gap:1rem;">
           <span class="account-provider-badge" style="background:rgba(0,180,216,0.12);color:var(--azure)">🔵 Azure</span>
           <div class="account-cost-block">
-            <div class="account-period">Coming soon</div>
+            <div class="account-period" id="azure-period">1 Mar → today</div>
             <div class="account-cost" style="color:var(--azure)" id="azure-cost">$0.00</div>
           </div>
         </div>
       </div>
+      <div class="account-body">
+        <div class="org-table-wrap">
+          <input class="search-box" type="text" placeholder="🔍 Search subscription name or ID..." oninput="filterAzure(this.value)" style="border-color:var(--azure)"/>
+          <table class="org-table">
+            <thead><tr><th>#</th><th>Subscription Name</th><th>Subscription ID</th><th></th><th style="text-align:right">Cost</th></tr></thead>
+            <tbody id="azure-subs-body"></tbody>
+          </table>
+        </div>
+      </div>
     </div>
-
     <!-- Azure Gov -->
     <div class="account-block fade-in">
       <div class="account-header">
@@ -250,6 +223,8 @@ body::before{content:'';position:fixed;inset:0;background:
         </div>
       </div>
     </div>
+    <!-- GCP -->
+    <div class="account-block fade-in">
       <div class="account-header">
         <div>
           <div class="account-id" id="gcp-project-id">Project: —</div>
@@ -258,19 +233,17 @@ body::before{content:'';position:fixed;inset:0;background:
         <div style="display:flex;align-items:center;gap:1rem;">
           <span class="account-provider-badge" style="background:rgba(0,230,118,0.12);color:var(--gcp)">🟢 GCP</span>
           <div class="account-cost-block">
-            <div class="account-period">Coming soon</div>
+            <div class="account-period">Manual Entry</div>
             <div class="account-cost" style="color:var(--gcp)" id="gcp-cost">$0.00</div>
           </div>
         </div>
       </div>
     </div>
-
     <!-- SECTION 2: ORG ACCOUNTS -->
     <div class="section-header fade-in">
       <h2>Section 2 — Org Accounts</h2>
       <span class="section-tag" style="background:rgba(179,136,255,0.12);color:var(--org)">AWS Org · 200+ Linked Accounts</span>
     </div>
-
     <!-- AWS Org -->
     <div class="account-block fade-in">
       <div class="account-header">
@@ -296,10 +269,8 @@ body::before{content:'';position:fixed;inset:0;background:
         </div>
       </div>
     </div>
-
   </div>
 </div>
-
 <script>
 let DATA = null, currentPeriod = 'mtd';
 let donutChart = null, barChart = null;
@@ -333,26 +304,23 @@ function switchPeriod(p, btn) {
 function render(period) {
   const d = DATA[period] || DATA['mtd'];
   const mtd_start = DATA.mtd_start || '1 Mar';
-  const today = DATA.today || 'today';
-  const bp_start = DATA.bp_start || '';
-  const bp_end   = DATA.bp_end   || '';
+  const today     = DATA.today     || 'today';
+  const bp_start  = DATA.bp_start  || '';
+  const bp_end    = DATA.bp_end    || '';
 
   let periodLabel;
-  if (period === 'mtd') periodLabel = `${mtd_start} → ${today}`;
-  else if (period === 'last7') periodLabel = 'Last 7 Days';
-  else periodLabel = `${bp_start} → ${bp_end}`;
+  if (period === 'mtd')            periodLabel = `${mtd_start} → ${today}`;
+  else if (period === 'last7')     periodLabel = 'Last 7 Days';
+  else                             periodLabel = `${bp_start} → ${bp_end}`;
 
-  // For billing period, Azure Gov uses bp data but others use MTD
-  const govData = period === 'billing_period' ? DATA['billing_period'] : d;
+  document.getElementById('last-updated').textContent  = DATA.last_updated || '—';
+  document.getElementById('period-label').textContent  = period === 'mtd' ? 'Month to Date' : period === 'last7' ? 'Last 7 Days' : 'Billing Period';
 
-  document.getElementById('last-updated').textContent = DATA.last_updated || '—';
-  document.getElementById('period-label').textContent = period === 'mtd' ? 'Month to Date' : period === 'last7' ? 'Last 7 Days' : 'Billing Period';
-
-  const awsNormal  = d.aws_normal_total  || 0;
-  const awsOrg     = d.aws_org_total     || 0;
-  const azure      = d.azure_total       || 0;
-  const azureGov   = govData.azure_gov_total || 0;
-  const gcp        = d.gcp_total         || 0;
+  const awsNormal  = d.aws_normal_total    || 0;
+  const awsOrg     = d.aws_org_total       || 0;
+  const azure      = d.azure_total         || 0;
+  const azureGov   = d.azure_gov_total     || 0;
+  const gcp        = d.gcp_total           || 0;
   const awsTotal   = awsNormal + awsOrg;
   const azureTotal = azure + azureGov;
   const grand      = awsTotal + azureTotal + gcp;
@@ -362,55 +330,52 @@ function render(period) {
   document.getElementById('azure-total').textContent   = fmt(azureTotal);
   document.getElementById('gcp-total').textContent     = fmt(gcp);
 
-  // Period labels
-  document.getElementById('aws-normal-period').textContent = periodLabel;
-  document.getElementById('aws-org-period').textContent    = periodLabel;
-  document.getElementById('azure-period').textContent      = periodLabel;
-  document.getElementById('azure-gov-period').textContent  = period === 'billing_period' ? `${bp_start} → ${bp_end}` : periodLabel;
-
   // AWS Normal
   document.getElementById('aws-normal-id').textContent   = `Account: ${DATA.aws_normal_account_id || '—'}`;
   document.getElementById('aws-normal-cost').textContent = fmt(awsNormal);
+  document.getElementById('aws-normal-period').textContent = periodLabel;
   renderSvcTable('aws-normal-services', d.aws_normal_services || {}, '#FF9900');
 
   // Azure QFlow
-  document.getElementById('azure-cost').textContent = fmt(azure);
+  document.getElementById('azure-cost').textContent   = fmt(azure);
+  document.getElementById('azure-period').textContent = periodLabel;
   window._azureSubs = d.azure_subscriptions || [];
   filterAzure('');
 
   // Azure Gov
-  document.getElementById('azure-gov-cost').textContent = fmt(azureGov);
-  window._azureGovSubs = govData.azure_gov_subs || [];
+  document.getElementById('azure-gov-cost').textContent   = fmt(azureGov);
+  document.getElementById('azure-gov-period').textContent = period === 'billing_period' ? `${bp_start} → ${bp_end}` : periodLabel;
+  window._azureGovSubs = d.azure_gov_subs || [];
   filterAzureGov('');
 
   // GCP
-  document.getElementById('gcp-cost').textContent = fmt(gcp);
+  document.getElementById('gcp-cost').textContent     = fmt(gcp);
+  document.getElementById('gcp-project-id').textContent = `Project: ${DATA.gcp_project_id || '—'}`;
 
   // AWS Org
-  document.getElementById('aws-org-cost').textContent = fmt(awsOrg);
+  document.getElementById('aws-org-cost').textContent   = fmt(awsOrg);
+  document.getElementById('aws-org-period').textContent = periodLabel;
   window._orgAccounts = d.aws_org_accounts || [];
   filterOrg('');
 
   // Summary strip
-  const strip = document.getElementById('summary-strip');
-  strip.innerHTML = [
-    { dot:'#FF9900', name:'AWS Normal',   acct: DATA.aws_normal_account_id || '—', cost: awsNormal  },
-    { dot:'#b388ff', name:'AWS Org',      acct: 'Org Master',                       cost: awsOrg     },
-    { dot:'#00b4d8', name:'Azure QFlow',  acct: 'QFlow Subscriptions',              cost: azure      },
-    { dot:'#00b4d8', name:'Azure Gov',    acct: 'Government Cloud',                 cost: azureGov   },
-    { dot:'#00e676', name:'GCP',          acct: DATA.gcp_project_id || '—',         cost: gcp        },
+  document.getElementById('summary-strip').innerHTML = [
+    { dot:'#FF9900', name:'AWS Normal',  acct: DATA.aws_normal_account_id || '—', cost: awsNormal  },
+    { dot:'#b388ff', name:'AWS Org',     acct: 'Org Master',                       cost: awsOrg     },
+    { dot:'#00b4d8', name:'Azure QFlow', acct: 'QFlow Subscriptions',              cost: azure      },
+    { dot:'#00b4d8', name:'Azure Gov',   acct: 'Government Cloud',                 cost: azureGov   },
+    { dot:'#00e676', name:'GCP',         acct: DATA.gcp_project_id || '—',         cost: gcp        },
   ].map(p => `
     <div class="summary-pill">
       <div class="pill-dot" style="background:${p.dot}"></div>
       <div class="pill-info">
         <div class="pill-name">${p.name}</div>
         <div class="pill-acct">${p.acct}</div>
-        <div class="pill-period">${p.name === 'Azure Gov' && period === 'billing_period' ? bp_start+' → '+bp_end : periodLabel}</div>
+        <div class="pill-period">${p.name==='Azure Gov'&&period==='billing_period'?bp_start+' → '+bp_end:periodLabel}</div>
       </div>
       <div class="pill-cost" style="color:${p.dot}">${fmt(p.cost)}</div>
     </div>`).join('');
 
-  // Charts
   renderDonut(awsNormal, awsOrg, azureTotal, gcp);
   renderBar(d.aws_normal_services || {});
 }
@@ -426,17 +391,17 @@ function renderSvcTable(id, services, color) {
     </tr>`).join('');
 }
 
-function filterAzureGov(q) {
-  const subs = window._azureGovSubs || [];
-  const filtered = q ? subs.filter(s => s.name.toLowerCase().includes(q.toLowerCase()) || s.id.includes(q)) : subs;
+function filterOrg(q) {
+  const accounts = window._orgAccounts || [];
+  const filtered = q ? accounts.filter(a => a.name.toLowerCase().includes(q.toLowerCase()) || a.id.includes(q)) : accounts;
   const max = filtered[0]?.cost || 1;
-  document.getElementById('azure-gov-body').innerHTML = filtered.slice(0,50).map((s,i) => `
+  document.getElementById('org-accounts-body').innerHTML = filtered.slice(0,50).map((a,i) => `
     <tr>
       <td><span class="rank ${i<3?'top':''}">${i+1}</span></td>
-      <td style="font-weight:600">${s.name}</td>
-      <td style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--muted)">${s.id}</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:${(s.cost/max*100).toFixed(0)}%;background:var(--azure)"></div></div></td>
-      <td class="cost-col">${fmt(s.cost)}</td>
+      <td style="font-weight:600">${a.name}</td>
+      <td style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--muted)">${a.id}</td>
+      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:${(a.cost/max*100).toFixed(0)}%;background:#b388ff"></div></div></td>
+      <td class="cost-col">${fmt(a.cost)}</td>
     </tr>`).join('');
 }
 
@@ -454,17 +419,17 @@ function filterAzure(q) {
     </tr>`).join('');
 }
 
-function filterOrg(q) {
-  const accounts = window._orgAccounts || [];
-  const filtered = q ? accounts.filter(a => a.name.toLowerCase().includes(q.toLowerCase()) || a.id.includes(q)) : accounts;
+function filterAzureGov(q) {
+  const subs = window._azureGovSubs || [];
+  const filtered = q ? subs.filter(s => s.name.toLowerCase().includes(q.toLowerCase()) || s.id.includes(q)) : subs;
   const max = filtered[0]?.cost || 1;
-  document.getElementById('org-accounts-body').innerHTML = filtered.slice(0,50).map((a,i) => `
+  document.getElementById('azure-gov-body').innerHTML = filtered.slice(0,50).map((s,i) => `
     <tr>
       <td><span class="rank ${i<3?'top':''}">${i+1}</span></td>
-      <td style="font-weight:600">${a.name}</td>
-      <td style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--muted)">${a.id}</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:${(a.cost/max*100).toFixed(0)}%;background:#b388ff"></div></div></td>
-      <td class="cost-col">${fmt(a.cost)}</td>
+      <td style="font-weight:600">${s.name}</td>
+      <td style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--muted)">${s.id}</td>
+      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:${(s.cost/max*100).toFixed(0)}%;background:var(--azure)"></div></div></td>
+      <td class="cost-col">${fmt(s.cost)}</td>
     </tr>`).join('');
 }
 
