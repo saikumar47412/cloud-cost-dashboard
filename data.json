@@ -1,697 +1,708 @@
 {
-  "last_updated": "18-Mar-2026 10:22 PM IST",
+  "last_updated": "20-Mar-2026 05:24 PM IST",
   "mtd_start": "01 Mar",
-  "today": "18 Mar",
+  "today": "20 Mar",
   "bp_start": "2026-03-14",
   "bp_end": "2026-04-14",
   "aws_normal_account_id": "993493008830",
   "aws_org_account_id": "149294230127",
   "gcp_project_id": "qlys-devqa-workflow",
   "mtd": {
-    "aws_normal_total": 341.58,
+    "aws_normal_total": 357.66,
     "aws_normal_services": {
-      "AWS CloudTrail": 192.72,
-      "AWS Cost Explorer": 16.8,
-      "AWS Glue": 0.04,
-      "AWS Key Management Service": 10.11,
-      "AWS Secrets Manager": 2.02,
-      "AWS Security Hub": 0.63,
-      "AWS Step Functions": 0.04,
-      "AWS Systems Manager": 5.71,
-      "Amazon DynamoDB": 0.07,
-      "Amazon EC2 Container Registry (ECR)": 0.63,
-      "EC2 - Other": 50.53,
-      "Amazon Elastic Compute Cloud - Compute": 3.93,
-      "Amazon Macie": 5.18,
-      "Amazon Relational Database Service": 1.43,
-      "Amazon Route 53": 5.25,
+      "AWS CloudTrail": 192.76,
+      "AWS Cost Explorer": 18.51,
+      "AWS Glue": 0.05,
+      "AWS Key Management Service": 11.1,
+      "AWS Secrets Manager": 2.22,
+      "AWS Security Hub": 0.68,
+      "AWS Step Functions": 0.05,
+      "AWS Systems Manager": 6.15,
+      "Amazon DynamoDB": 0.67,
+      "Amazon EC2 Container Registry (ECR)": 0.69,
+      "EC2 - Other": 56.15,
+      "Amazon Elastic Compute Cloud - Compute": 4.39,
+      "Amazon GuardDuty": 1.09,
+      "Amazon Macie": 5.48,
+      "Amazon Relational Database Service": 1.57,
+      "Amazon Route 53": 5.73,
       "Amazon Simple Notification Service": 0.02,
-      "Amazon Simple Queue Service": 0.19,
-      "Amazon Simple Storage Service": 7.96,
-      "Amazon Virtual Private Cloud": 24.85,
+      "Amazon Simple Queue Service": 0.21,
+      "Amazon Simple Storage Service": 9.04,
+      "Amazon Virtual Private Cloud": 27.22,
       "Amazon WorkSpaces": 9.75,
-      "AmazonCloudWatch": 3.72
+      "AmazonCloudWatch": 4.14
     },
-    "aws_org_total": 1174.59,
+    "aws_org_total": 1316.01,
     "aws_org_accounts": [
       {
         "id": "149294230127",
         "name": "TotalCloud QA Account",
-        "cost": 146.32
+        "cost": 161.11
       },
       {
         "id": "682437954104",
         "name": "balasaheb",
-        "cost": 124.67
+        "cost": 148.61
       },
       {
         "id": "928329497587",
         "name": "pjindal tgt2",
-        "cost": 85.46
+        "cost": 102.8
       },
       {
         "id": "198829653374",
         "name": "balasaheb-1",
-        "cost": 72.09
+        "cost": 72.19
       },
       {
         "id": "095611265520",
         "name": "arsh10@qualys.dev",
-        "cost": 50.76
+        "cost": 55.86
       },
       {
         "id": "494753002565",
         "name": "pjindal svc",
-        "cost": 46.23
+        "cost": 51.11
       },
       {
         "id": "273078346626",
         "name": "arsh211@qualys.dev",
-        "cost": 34.94
+        "cost": 38.51
       },
       {
         "id": "590183730935",
         "name": "TESTQA",
-        "cost": 31.7
-      },
-      {
-        "id": "034671213724",
-        "name": "arsh109@qualys.dev",
-        "cost": 20.83
-      },
-      {
-        "id": "148249192560",
-        "name": "arsh105@qualys.dev",
-        "cost": 19.45
-      },
-      {
-        "id": "331556273345",
-        "name": "arsh217@qualys.dev",
-        "cost": 19.41
-      },
-      {
-        "id": "167684443721",
-        "name": "arsh273@qualys.dev",
-        "cost": 18.59
+        "cost": 34.99
       },
       {
         "id": "909870549273",
         "name": "vaishali tgt",
-        "cost": 18.33
+        "cost": 26.4
       },
       {
-        "id": "677284942379",
-        "name": "arsh213@qualys.dev",
-        "cost": 17.48
-      },
-      {
-        "id": "905418261832",
-        "name": "TESTQA6",
-        "cost": 17.38
-      },
-      {
-        "id": "143934116471",
-        "name": "arsh279@qualys.dev",
-        "cost": 16.59
-      },
-      {
-        "id": "975050294188",
-        "name": "TESTQA3",
-        "cost": 16.4
-      },
-      {
-        "id": "583837446846",
-        "name": "arsh110@qualys.dev",
-        "cost": 15.89
+        "id": "034671213724",
+        "name": "arsh109@qualys.dev",
+        "cost": 23.05
       },
       {
         "id": "635571737179",
         "name": "svc uk01",
-        "cost": 15.58
+        "cost": 22.33
+      },
+      {
+        "id": "331556273345",
+        "name": "arsh217@qualys.dev",
+        "cost": 21.64
+      },
+      {
+        "id": "148249192560",
+        "name": "arsh105@qualys.dev",
+        "cost": 21.39
+      },
+      {
+        "id": "167684443721",
+        "name": "arsh273@qualys.dev",
+        "cost": 20.41
+      },
+      {
+        "id": "677284942379",
+        "name": "arsh213@qualys.dev",
+        "cost": 19.32
+      },
+      {
+        "id": "905418261832",
+        "name": "TESTQA6",
+        "cost": 19.2
+      },
+      {
+        "id": "143934116471",
+        "name": "arsh279@qualys.dev",
+        "cost": 18.32
+      },
+      {
+        "id": "975050294188",
+        "name": "TESTQA3",
+        "cost": 17.98
+      },
+      {
+        "id": "583837446846",
+        "name": "arsh110@qualys.dev",
+        "cost": 17.55
       },
       {
         "id": "730335457683",
         "name": "TESTQA5",
-        "cost": 15.57
+        "cost": 17.18
       },
       {
         "id": "240217704174",
         "name": "arsh107@qualys.dev",
-        "cost": 15.31
+        "cost": 16.39
       },
       {
         "id": "987418188891",
         "name": "arsh278@qualys.dev",
-        "cost": 14.32
+        "cost": 15.82
       },
       {
         "id": "199086174209",
         "name": "arsh108@qualys.dev",
-        "cost": 13.76
+        "cost": 15.22
       },
       {
         "id": "535299115383",
         "name": "arsh159@qualys.dev",
-        "cost": 13.33
+        "cost": 14.77
       },
       {
         "id": "187024455668",
         "name": "arsh218@qualys.dev",
-        "cost": 13.14
+        "cost": 14.5
       },
       {
         "id": "285062414223",
         "name": "arsh140@qualys.dev",
-        "cost": 12.89
+        "cost": 14.23
       },
       {
         "id": "202533496720",
         "name": "qualysuser",
-        "cost": 12.68
+        "cost": 14.03
       },
       {
         "id": "475071743267",
         "name": "arsh234@qualys.dev",
-        "cost": 10.54
+        "cost": 11.66
       },
       {
         "id": "044821245880",
         "name": "arsh15@qualys.dev",
-        "cost": 9.93
+        "cost": 10.91
       },
       {
         "id": "863320968128",
         "name": "Qflow-Maithili_4",
-        "cost": 9.87
+        "cost": 10.91
       },
       {
         "id": "855327232746",
         "name": "arsh2@qualys.dev",
-        "cost": 9.54
+        "cost": 10.5
       },
       {
         "id": "509284582761",
         "name": "arsh145@qualys.dev",
+        "cost": 9.31
+      },
+      {
+        "id": "044261911670",
+        "name": "arsh17@qualys.dev",
+        "cost": 9.3
+      },
+      {
+        "id": "327456541158",
+        "name": "sai tgt",
+        "cost": 9.13
+      },
+      {
+        "id": "025532381522",
+        "name": "arsh103@qualys.dev",
+        "cost": 8.82
+      },
+      {
+        "id": "273721849379",
+        "name": "dev-rgade-1",
+        "cost": 8.79
+      },
+      {
+        "id": "059163870577",
+        "name": "arsh48@qualys.dev",
+        "cost": 8.65
+      },
+      {
+        "id": "297853565549",
+        "name": "before optimization 4",
         "cost": 8.65
       },
       {
         "id": "716173093158",
         "name": "Qualys TotalCloud RDS RI",
-        "cost": 8.49
-      },
-      {
-        "id": "044261911670",
-        "name": "arsh17@qualys.dev",
-        "cost": 8.45
-      },
-      {
-        "id": "327456541158",
-        "name": "sai tgt",
-        "cost": 8.26
-      },
-      {
-        "id": "025532381522",
-        "name": "arsh103@qualys.dev",
-        "cost": 8.21
-      },
-      {
-        "id": "297853565549",
-        "name": "before optimization 4",
-        "cost": 7.96
-      },
-      {
-        "id": "273721849379",
-        "name": "dev-rgade-1",
-        "cost": 7.91
-      },
-      {
-        "id": "059163870577",
-        "name": "arsh48@qualys.dev",
-        "cost": 7.83
+        "cost": 8.51
       },
       {
         "id": "459353105060",
         "name": "arsh220@qualys.dev",
-        "cost": 7.61
+        "cost": 8.42
       },
       {
         "id": "429950822387",
         "name": "arsh133@qualys.dev",
-        "cost": 7.56
+        "cost": 8.33
       },
       {
         "id": "164577792704",
         "name": "arsh283@qualys.dev",
-        "cost": 6.86
+        "cost": 7.6
       },
       {
         "id": "980059074852",
         "name": "arsh135@qualys.dev",
-        "cost": 6.79
+        "cost": 7.5
       },
       {
         "id": "751375117945",
         "name": "arsh287@qualys.dev",
-        "cost": 5.07
+        "cost": 5.59
       },
       {
         "id": "260880585145",
         "name": "arsh76@qualys.dev",
-        "cost": 5.03
+        "cost": 5.45
       },
       {
         "id": "876464212992",
         "name": "svc us04",
-        "cost": 4.97
+        "cost": 5.35
       },
       {
         "id": "107311130128",
         "name": "arsh167@qualys.dev",
-        "cost": 4.84
+        "cost": 5.3
       },
       {
         "id": "304125837816",
         "name": "arsh62@qualys.dev",
-        "cost": 4.43
+        "cost": 4.84
       },
       {
         "id": "674393317291",
         "name": "arsh46@qualys.dev",
-        "cost": 4.37
+        "cost": 4.81
       },
       {
         "id": "050990333542",
         "name": "new target 2",
-        "cost": 4.33
-      },
-      {
-        "id": "910594417067",
-        "name": "svc au01",
-        "cost": 4.2
+        "cost": 4.75
       },
       {
         "id": "528646883845",
         "name": "QFlow-Maithili-2",
-        "cost": 4.07
+        "cost": 4.52
+      },
+      {
+        "id": "910594417067",
+        "name": "svc au01",
+        "cost": 4.51
       },
       {
         "id": "852124743903",
         "name": "arsh92@qualys.dev",
-        "cost": 3.91
+        "cost": 4.32
       },
       {
         "id": "390844784899",
         "name": "Whitebox",
-        "cost": 3.87
-      },
-      {
-        "id": "060373238042",
-        "name": "p13 svc",
-        "cost": 3.83
+        "cost": 4.27
       },
       {
         "id": "052877459505",
         "name": "Qflow-Vaishali-22",
-        "cost": 3.78
+        "cost": 4.17
+      },
+      {
+        "id": "060373238042",
+        "name": "p13 svc",
+        "cost": 4.02
       },
       {
         "id": "803993009476",
         "name": "arsh96@qualys.dev",
-        "cost": 3.48
+        "cost": 3.84
       },
       {
         "id": "888657991711",
         "name": "Qflow-Maithili-5",
-        "cost": 3.37
+        "cost": 3.72
       },
       {
         "id": "408429263225",
         "name": "arsh191@qualys.dev",
-        "cost": 3.35
+        "cost": 3.71
       },
       {
         "id": "807310992472",
         "name": "sai svc",
-        "cost": 3.16
+        "cost": 3.4
       },
       {
         "id": "986309855560",
         "name": "arsh186@qualys.dev",
-        "cost": 2.97
+        "cost": 3.28
       },
       {
         "id": "580666022423",
         "name": "arsh226@qualys.dev",
-        "cost": 2.84
+        "cost": 3.01
       },
       {
         "id": "500321821407",
         "name": "arsh125@qualys.dev",
-        "cost": 2.77
+        "cost": 2.94
       },
       {
         "id": "003004624713",
         "name": "arsh147@qualys.dev",
-        "cost": 2.57
+        "cost": 2.84
       },
       {
         "id": "909362960884",
         "name": "pjindal tgt1",
-        "cost": 2.51
-      },
-      {
-        "id": "207175984884",
-        "name": "arsh66@qualys.dev",
-        "cost": 2.47
+        "cost": 2.77
       },
       {
         "id": "229658172382",
         "name": "dev-rgade-service",
-        "cost": 2.37
+        "cost": 2.66
+      },
+      {
+        "id": "207175984884",
+        "name": "arsh66@qualys.dev",
+        "cost": 2.62
       },
       {
         "id": "205666877655",
         "name": "arsh1@qualys.dev",
-        "cost": 2.25
+        "cost": 2.49
       },
       {
         "id": "451600355128",
         "name": "arsh266@qualys.dev",
-        "cost": 2.25
+        "cost": 2.49
       },
       {
         "id": "619028518089",
         "name": "arsh170@qualys.dev",
-        "cost": 2.24
+        "cost": 2.48
       },
       {
         "id": "483773993138",
         "name": "before optimization 2",
-        "cost": 2.1
-      },
-      {
-        "id": "677276115790",
-        "name": "greybox",
-        "cost": 1.8
+        "cost": 2.26
       },
       {
         "id": "817505957732",
         "name": "arsh98@qualys.dev",
-        "cost": 1.73
+        "cost": 1.91
+      },
+      {
+        "id": "677276115790",
+        "name": "greybox",
+        "cost": 1.88
       },
       {
         "id": "475558561317",
         "name": "arsh275@qualys.dev",
-        "cost": 1.65
-      },
-      {
-        "id": "122610512270",
-        "name": "Blackbox",
-        "cost": 1.62
+        "cost": 1.8
       },
       {
         "id": "145838104650",
         "name": "arsh142@qualys.dev",
-        "cost": 1.62
+        "cost": 1.79
       },
       {
-        "id": "488805873141",
-        "name": "arsh143@qualys.dev",
-        "cost": 1.36
-      },
-      {
-        "id": "699475930074",
-        "name": "newtestaccountqa",
-        "cost": 1.33
+        "id": "122610512270",
+        "name": "Blackbox",
+        "cost": 1.69
       },
       {
         "id": "307970860936",
         "name": "svc us02",
-        "cost": 1.32
+        "cost": 1.45
       },
       {
-        "id": "003340426733",
-        "name": "arsh134@qualys.dev",
-        "cost": 1.24
+        "id": "488805873141",
+        "name": "arsh143@qualys.dev",
+        "cost": 1.42
       },
       {
-        "id": "426622616498",
-        "name": "arsh121@qualys.dev",
-        "cost": 1.23
-      },
-      {
-        "id": "503690661551",
-        "name": "arsh47@qualys.dev",
-        "cost": 1.23
+        "id": "699475930074",
+        "name": "newtestaccountqa",
+        "cost": 1.42
       },
       {
         "id": "930832105927",
         "name": "dev-rgade-2",
-        "cost": 1.23
+        "cost": 1.39
+      },
+      {
+        "id": "003340426733",
+        "name": "arsh134@qualys.dev",
+        "cost": 1.37
+      },
+      {
+        "id": "426622616498",
+        "name": "arsh121@qualys.dev",
+        "cost": 1.36
+      },
+      {
+        "id": "503690661551",
+        "name": "arsh47@qualys.dev",
+        "cost": 1.36
       },
       {
         "id": "912026262586",
         "name": "vaishali svc",
-        "cost": 1.15
+        "cost": 1.27
       },
       {
         "id": "779375447290",
         "name": "arsh137@qualys.dev",
-        "cost": 1.14
-      },
-      {
-        "id": "150101695321",
-        "name": "arsh258@qualys.dev",
-        "cost": 1.13
+        "cost": 1.26
       },
       {
         "id": "671281917320",
         "name": "arsh161@qualys.dev",
-        "cost": 1.11
+        "cost": 1.23
       },
       {
         "id": "840158198744",
         "name": "arsh251@qualys.dev",
-        "cost": 1.08
+        "cost": 1.21
+      },
+      {
+        "id": "150101695321",
+        "name": "arsh258@qualys.dev",
+        "cost": 1.19
       },
       {
         "id": "923888388157",
         "name": "QFlow-Maithili-1",
-        "cost": 1.08
+        "cost": 1.15
       },
       {
         "id": "313054287571",
         "name": "p13-2",
-        "cost": 1.03
+        "cost": 1.14
       },
       {
         "id": "456965400883",
         "name": "arsh104@qualys.dev",
-        "cost": 1.02
+        "cost": 1.13
       },
       {
         "id": "151115464552",
         "name": "arsh285@qualys.dev",
-        "cost": 1.0
+        "cost": 1.11
       },
       {
         "id": "742344027791",
         "name": "arsh157@qualys.dev",
-        "cost": 0.94
+        "cost": 1.0
       },
       {
         "id": "625911360890",
         "name": "arsh100@qualys.dev",
-        "cost": 0.86
+        "cost": 0.94
       },
       {
         "id": "574433037642",
         "name": "eu03",
+        "cost": 0.93
+      },
+      {
+        "id": "075674630895",
+        "name": "arsh87@qualys.dev",
+        "cost": 0.88
+      },
+      {
+        "id": "227250474767",
+        "name": "arsh126@qualys.dev",
+        "cost": 0.88
+      },
+      {
+        "id": "007730361209",
+        "name": "EU01",
+        "cost": 0.86
+      },
+      {
+        "id": "561303529171",
+        "name": "maithili svc",
+        "cost": 0.86
+      },
+      {
+        "id": "647836792828",
+        "name": "arsh99@qualys.dev",
         "cost": 0.85
       },
       {
         "id": "847814059329",
         "name": "arsh111@qualys.dev",
-        "cost": 0.8
-      },
-      {
-        "id": "227250474767",
-        "name": "arsh126@qualys.dev",
-        "cost": 0.79
-      },
-      {
-        "id": "007730361209",
-        "name": "EU01",
-        "cost": 0.78
-      },
-      {
-        "id": "561303529171",
-        "name": "maithili svc",
-        "cost": 0.78
-      },
-      {
-        "id": "647836792828",
-        "name": "arsh99@qualys.dev",
-        "cost": 0.78
-      },
-      {
-        "id": "075674630895",
-        "name": "arsh87@qualys.dev",
-        "cost": 0.75
+        "cost": 0.85
       },
       {
         "id": "548855206515",
         "name": "arsh227@qualys.dev",
-        "cost": 0.74
+        "cost": 0.81
       },
       {
         "id": "029361457612",
         "name": "Qflow-Maithili-7",
-        "cost": 0.68
+        "cost": 0.75
       },
       {
         "id": "026090517945",
         "name": "newqaaccounttesting",
-        "cost": 0.66
-      },
-      {
-        "id": "332177277666",
-        "name": "arsh85@qualys.dev",
-        "cost": 0.66
+        "cost": 0.73
       },
       {
         "id": "724203528054",
         "name": "svc us01",
-        "cost": 0.66
+        "cost": 0.73
+      },
+      {
+        "id": "332177277666",
+        "name": "arsh85@qualys.dev",
+        "cost": 0.7
       },
       {
         "id": "156300301894",
         "name": "arsh208@qualys.dev",
-        "cost": 0.51
+        "cost": 0.55
       },
       {
         "id": "273193025391",
         "name": "arsh153@qualys.dev",
-        "cost": 0.43
+        "cost": 0.47
       },
       {
         "id": "780109526425",
         "name": "arsh129@qualys.dev",
-        "cost": 0.37
+        "cost": 0.41
       },
       {
         "id": "688458530518",
         "name": "p19-dev",
-        "cost": 0.33
-      },
-      {
-        "id": "827201566344",
-        "name": "arsh106@qualys.dev",
-        "cost": 0.26
-      },
-      {
-        "id": "086544974598",
-        "name": "arsh214@qualys.dev",
-        "cost": 0.25
+        "cost": 0.36
       },
       {
         "id": "209745620352",
         "name": "arsh205@qualys.dev",
-        "cost": 0.25
+        "cost": 0.28
+      },
+      {
+        "id": "086544974598",
+        "name": "arsh214@qualys.dev",
+        "cost": 0.27
+      },
+      {
+        "id": "827201566344",
+        "name": "arsh106@qualys.dev",
+        "cost": 0.27
       },
       {
         "id": "820077247727",
         "name": "arsh178@qualys.dev",
-        "cost": 0.23
+        "cost": 0.24
       },
       {
         "id": "992382622144",
         "name": "TESTQA8",
-        "cost": 0.23
+        "cost": 0.24
       },
       {
         "id": "019466240241",
         "name": "arsh82@qualys.dev",
-        "cost": 0.21
+        "cost": 0.23
       },
       {
         "id": "048076892301",
         "name": "arsh215@qualys.dev",
-        "cost": 0.21
+        "cost": 0.23
       },
       {
         "id": "270013331545",
         "name": "arsh265@qualys.dev",
-        "cost": 0.21
+        "cost": 0.23
       },
       {
         "id": "268675503799",
         "name": "Qualys TotalCloud Redshift RI",
-        "cost": 0.19
+        "cost": 0.21
       },
       {
         "id": "803664810273",
         "name": "Qualys TotalCloud EC2 RI",
-        "cost": 0.19
+        "cost": 0.21
       },
       {
         "id": "833390816798",
         "name": "Qualys TotalCloud Opensearch RI",
-        "cost": 0.19
+        "cost": 0.21
       },
       {
         "id": "141412784181",
         "name": "arsh195@qualys.dev",
-        "cost": 0.16
+        "cost": 0.18
       },
       {
         "id": "951931581453",
         "name": "danny",
-        "cost": 0.15
+        "cost": 0.16
       },
       {
         "id": "621367206022",
         "name": "arsh225@qualys.dev",
-        "cost": 0.1
+        "cost": 0.11
       },
       {
         "id": "556151867167",
         "name": "arsh63@qualys.dev",
-        "cost": 0.09
+        "cost": 0.1
       },
       {
         "id": "142539195748",
         "name": "arsh197@qualys.dev",
-        "cost": 0.08
+        "cost": 0.09
       },
       {
         "id": "263345096540",
         "name": "arsh222@qualys.dev",
-        "cost": 0.08
+        "cost": 0.09
       },
       {
         "id": "358978438510",
         "name": "ashish-4",
-        "cost": 0.08
+        "cost": 0.09
       },
       {
         "id": "310704580916",
         "name": "arsh9@qualys.dev",
-        "cost": 0.07
+        "cost": 0.08
       },
       {
         "id": "459693206480",
         "name": "arsh261@qualys.dev",
-        "cost": 0.07
+        "cost": 0.08
       },
       {
         "id": "707308403191",
         "name": "arsh166@qualys.dev",
-        "cost": 0.07
+        "cost": 0.08
       },
       {
         "id": "828323832156",
         "name": "Qflow-Ashish-15",
+        "cost": 0.08
+      },
+      {
+        "id": "393669890587",
+        "name": "svc us03",
+        "cost": 0.07
+      },
+      {
+        "id": "577400626275",
+        "name": "arsh216@qualys.dev",
         "cost": 0.07
       },
       {
@@ -700,13 +711,13 @@
         "cost": 0.06
       },
       {
-        "id": "393669890587",
-        "name": "svc us03",
-        "cost": 0.06
-      },
-      {
         "id": "219750295209",
         "name": "arsh233@qualys.dev",
+        "cost": 0.05
+      },
+      {
+        "id": "289361332187",
+        "name": "before optimization 1",
         "cost": 0.05
       },
       {
@@ -715,18 +726,13 @@
         "cost": 0.05
       },
       {
-        "id": "577400626275",
-        "name": "arsh216@qualys.dev",
-        "cost": 0.05
-      },
-      {
         "id": "222962371540",
         "name": "arsh32@qualys.dev",
         "cost": 0.04
       },
       {
-        "id": "289361332187",
-        "name": "before optimization 1",
+        "id": "641135200776",
+        "name": "arsh219@qualys.dev",
         "cost": 0.04
       },
       {
@@ -735,13 +741,13 @@
         "cost": 0.03
       },
       {
-        "id": "623366770845",
-        "name": "arsh270@qualys.dev",
+        "id": "249182660281",
+        "name": "arsh231@qualys.dev",
         "cost": 0.03
       },
       {
-        "id": "641135200776",
-        "name": "arsh219@qualys.dev",
+        "id": "623366770845",
+        "name": "arsh270@qualys.dev",
         "cost": 0.03
       },
       {
@@ -750,8 +756,18 @@
         "cost": 0.02
       },
       {
+        "id": "057836876658",
+        "name": "Qflow-Ashish-12",
+        "cost": 0.02
+      },
+      {
         "id": "139758242976",
         "name": "p13-1",
+        "cost": 0.02
+      },
+      {
+        "id": "154477844448",
+        "name": "arsh235@qualys.dev",
         "cost": 0.02
       },
       {
@@ -767,11 +783,6 @@
       {
         "id": "242102729613",
         "name": "arsh212@qualys.dev",
-        "cost": 0.02
-      },
-      {
-        "id": "249182660281",
-        "name": "arsh231@qualys.dev",
         "cost": 0.02
       },
       {
@@ -805,6 +816,11 @@
         "cost": 0.02
       },
       {
+        "id": "779448144139",
+        "name": "Qflow-Ashish-11",
+        "cost": 0.02
+      },
+      {
         "id": "844246668213",
         "name": "arsh52@qualys.dev",
         "cost": 0.02
@@ -820,745 +836,726 @@
         "cost": 0.02
       },
       {
-        "id": "057836876658",
-        "name": "Qflow-Ashish-12",
+        "id": "228733323931",
+        "name": "arsh151@qualys.dev",
         "cost": 0.01
       },
       {
-        "id": "154477844448",
-        "name": "arsh235@qualys.dev",
-        "cost": 0.01
-      },
-      {
-        "id": "779448144139",
-        "name": "Qflow-Ashish-11",
+        "id": "278819683592",
+        "name": "arsh45@qualys.dev",
         "cost": 0.01
       }
     ],
-    "azure_total": 1526.29,
+    "azure_total": 1668.34,
     "azure_subscriptions": [
       {
         "id": "0cff124b-97e0-49ac-9fe4-98ddec8a060b",
         "name": "QFlow301-QA-Panther",
-        "cost": 171.25
+        "cost": 187.99
       },
       {
         "id": "894e3b4f-1b0f-4943-845d-fb3bb12a9ad2",
         "name": "QFLOW_PERF_JetJellyfish",
-        "cost": 141.67
+        "cost": 142.53
       },
       {
         "id": "5e91f820-d05f-4ca3-8ecd-4ea2b64769ca",
         "name": "QFLOW_PERF_CobaltCondor",
-        "cost": 95.67
+        "cost": 105.63
       },
       {
         "id": "7dbd9dfb-4f5b-45d4-a301-a6049d03bcf7",
         "name": "QFLOW_PERF_CircuitCitrus",
-        "cost": 91.26
+        "cost": 101.05
       },
       {
         "id": "82a6c5f8-fecc-40c0-975e-1bba1fb705a8",
         "name": "QFLOW_PERF_Rome",
-        "cost": 76.8
+        "cost": 84.95
       },
       {
         "id": "7f53ca2c-ba06-4157-89db-53544ce71b4c",
         "name": "QFLOW_PERF_TangerineTiger",
-        "cost": 71.61
+        "cost": 79.26
       },
       {
         "id": "c4e0f2f0-eb24-490e-b238-58e72e93f9ab",
         "name": "QFLOW_PERF_Everest",
-        "cost": 66.24
+        "cost": 73.52
       },
       {
         "id": "b8392058-8a1f-4250-98db-a9f4a075e625",
         "name": "QFLOW_Daily_Sanity_VirtualVanilla",
-        "cost": 61.25
+        "cost": 67.24
       },
       {
         "id": "474bccba-3d6f-4f64-8048-857cbc21bdc6",
         "name": "QFLOW_Daily_Sanity_QuantumQuince",
-        "cost": 59.6
+        "cost": 65.42
       },
       {
         "id": "558e2120-060b-4d81-bffa-da2edd6a0b79",
         "name": "QFLOW_Daily_Sanity_CacheCurrant",
-        "cost": 49.21
+        "cost": 53.39
       },
       {
         "id": "ee57636b-7b36-43d9-9f64-4c3441119adc",
         "name": "QFLOW_Daily_Sanity_Mysore",
-        "cost": 48.28
+        "cost": 53.08
       },
       {
         "id": "d08f3411-dcbf-4cfb-98b3-e121c9e5415d",
         "name": "QFLOW_PERF_Charleston",
-        "cost": 48.1
+        "cost": 52.95
       },
       {
         "id": "fc0967aa-63bb-4d93-bfb6-45ce04906257",
         "name": "QFLOW_Daily_Sanity_MangoMetric",
-        "cost": 47.27
+        "cost": 51.31
       },
       {
         "id": "7d46e492-6041-4f56-9135-b60765643293",
         "name": "QFLOW_Daily_Sanity_DigitalDate",
-        "cost": 46.68
+        "cost": 51.08
       },
       {
         "id": "56422cdf-f7a1-4509-83f4-b1527ffc92d8",
         "name": "QFLOW_PERF_Ladakh",
-        "cost": 43.12
+        "cost": 47.41
       },
       {
         "id": "706fdbb8-3ccb-4934-8df6-ccd18efeab16",
         "name": "QFLOW_Daily_Sanity_DigitalDill",
-        "cost": 42.68
-      },
-      {
-        "id": "8b03ffa7-5b48-4c7d-a9ef-8ebf35da507e",
-        "name": "QFLOW_Daily_Sanity_Citronova",
-        "cost": 41.62
+        "cost": 46.95
       },
       {
         "id": "40b2585e-f3f0-42c7-a954-046d4719109c",
         "name": "QFLOW_Daily_Sanity_PixelPeach",
-        "cost": 41.5
+        "cost": 45.65
+      },
+      {
+        "id": "8b03ffa7-5b48-4c7d-a9ef-8ebf35da507e",
+        "name": "QFLOW_Daily_Sanity_Citronova",
+        "cost": 45.51
       },
       {
         "id": "8a65f4ae-3c62-426c-883a-27fe48fa657a",
         "name": "QFLOW_Daily_Sanity_NetworkNectarine",
-        "cost": 40.91
+        "cost": 44.97
       },
       {
         "id": "3e0a033c-349d-45e2-b398-4c488bd6b83f",
         "name": "QFLOW_Daily_Sanity_ByteBanana",
-        "cost": 39.79
+        "cost": 42.94
       },
       {
         "id": "453ef4bf-8119-4df7-bb8f-0b6536f4abc8",
         "name": "QFLOW_Daily_Sanity_ByteBerry",
-        "cost": 37.19
+        "cost": 40.89
       },
       {
         "id": "3698648d-ffdf-4cbe-a073-d4bc0391bcb5",
         "name": "QFLOW_PERF_IvoryIbis",
-        "cost": 34.1
+        "cost": 37.52
       },
       {
         "id": "52136516-cfac-489f-a057-9e98cd8e4437",
         "name": "QFLOW_PERF_1_SERVICE",
-        "cost": 24.5
+        "cost": 30.37
       },
       {
         "id": "82dc3f9d-a248-4322-a55b-e753bff01960",
         "name": "QFLOW_Daily_Sanity_KernelKiwi",
-        "cost": 23.27
+        "cost": 26.14
       },
       {
         "id": "70a3e704-142b-4af3-9a92-b27fc4767609",
         "name": "QFLOW_PERF_Colosseum",
-        "cost": 11.6
+        "cost": 12.56
       },
       {
         "id": "0b04c716-64ad-43b5-93b1-96dbd9aaa412",
         "name": "QFlow1-Dev-Elephant-dsp-S",
-        "cost": 9.19
+        "cost": 9.73
       },
       {
         "id": "3b178654-a051-4622-9f84-271f421b9af4",
         "name": "QFLOW_PERF_Barcelona",
-        "cost": 8.38
+        "cost": 9.22
       },
       {
         "id": "1788b878-2596-4c6e-a6a2-6f3ab80b9d31",
         "name": "QFLOW_PERF_MintMantis",
-        "cost": 7.52
+        "cost": 8.29
       },
       {
         "id": "56de78cb-de75-49f4-a5bc-4c0346f76bb5",
         "name": "QFLOW_PERF_PumpkinPuffin",
-        "cost": 6.3
+        "cost": 6.95
       },
       {
         "id": "e55a8bd6-70df-4bc0-84a8-83b3f7cafae4",
         "name": "QFlow2-Dev-Tiger",
-        "cost": 6.16
+        "cost": 6.78
       },
       {
         "id": "00862698-0bd6-47a8-bcfe-1df5aae72871",
         "name": "QFLOW_PERF_AmberAntelope",
-        "cost": 4.22
+        "cost": 4.64
       },
       {
         "id": "a3b7f81f-e486-44ac-8d9f-377a1df0efa9",
         "name": "QFLOW_PERF_Dubai",
-        "cost": 4.21
-      },
-      {
-        "id": "45a15263-fec4-4c96-8a38-2f76857fe47b",
-        "name": "QFLOW_PERF_KelpKangaroo",
-        "cost": 4.21
+        "cost": 4.63
       },
       {
         "id": "e0d14dd6-20e6-4128-8077-3a01b2ca9d6e",
         "name": "QFLOW_PERF_BlackPanther",
-        "cost": 4.18
+        "cost": 4.63
+      },
+      {
+        "id": "45a15263-fec4-4c96-8a38-2f76857fe47b",
+        "name": "QFLOW_PERF_KelpKangaroo",
+        "cost": 4.63
       },
       {
         "id": "e0a5f47b-a347-4a96-a3c9-f84375125a9e",
         "name": "QFLOW_PERF_GreenFrog",
-        "cost": 4.18
+        "cost": 4.63
       },
       {
         "id": "f3c85595-4d59-4588-9452-e05eb6667504",
         "name": "QFLOW_PERF_CyanCoyote",
-        "cost": 4.18
-      },
-      {
-        "id": "2f00ec76-208a-4f49-a8f2-31c659506368",
-        "name": "QFLOW_PERF_Iceland",
-        "cost": 2.1
+        "cost": 4.63
       },
       {
         "id": "f18a5424-eb95-4b09-92ac-46b4218cbf43",
         "name": "QFlow301-QA-Snake",
-        "cost": 2.1
-      },
-      {
-        "id": "0e40073c-0f1b-437f-9223-1c20026d73af",
-        "name": "QFLOW_PERF_BronzeBeaver",
-        "cost": 2.1
+        "cost": 2.32
       },
       {
         "id": "e89c83a1-4398-4623-8592-234872e6baa7",
         "name": "QFlow302-QA-Koala",
-        "cost": 2.09
+        "cost": 2.32
+      },
+      {
+        "id": "0e40073c-0f1b-437f-9223-1c20026d73af",
+        "name": "QFLOW_PERF_BronzeBeaver",
+        "cost": 2.32
+      },
+      {
+        "id": "2f00ec76-208a-4f49-a8f2-31c659506368",
+        "name": "QFLOW_PERF_Iceland",
+        "cost": 2.31
       }
     ],
-    "azure_gov_total": 174.77,
+    "azure_gov_total": 196.94,
     "azure_gov_subs": [
       {
         "id": "c96b3dcb-2d51-4d75-a5d8-71a0a78bc62a",
         "name": "qlysgov-totalcloud-qflow1",
-        "cost": 71.37
+        "cost": 82.32
       },
       {
         "id": "c0835736-8d8a-4141-a0a6-edefda75dc86",
         "name": "qlysgov-totalcloud-tc-sme",
-        "cost": 64.55
+        "cost": 71.56
       },
       {
         "id": "83bf99b5-9d81-4344-a12b-0b0afa91e4f5",
         "name": "qlysgov-totalcloud-qflow4",
-        "cost": 21.64
+        "cost": 23.99
       },
       {
         "id": "e69c1afb-ed01-4176-a757-ca7a909d48c6",
         "name": "qlysgov-totalcloud-qflow2-Dev-RGade",
-        "cost": 17.21
+        "cost": 19.07
       }
     ],
-    "gcp_total": 117.0,
+    "gcp_total": 170.48,
     "gcp_services": {
-      "GCP Total": 117.0
+      "GCP Total": 170.48
     }
   },
   "last7": {
-    "aws_normal_total": 67.09,
+    "aws_normal_total": 58.39,
     "aws_normal_services": {
-      "AWS CloudTrail": 8.31,
-      "AWS Cost Explorer": 7.44,
+      "AWS CloudTrail": 0.18,
+      "AWS Cost Explorer": 7.28,
       "AWS Glue": 0.02,
-      "AWS Key Management Service": 4.17,
-      "AWS Secrets Manager": 0.82,
-      "AWS Security Hub": 0.27,
-      "AWS Step Functions": 0.02,
-      "AWS Systems Manager": 2.65,
-      "Amazon DynamoDB": 0.03,
-      "Amazon EC2 Container Registry (ECR)": 0.26,
-      "EC2 - Other": 21.56,
+      "AWS Key Management Service": 3.93,
+      "AWS Secrets Manager": 0.77,
+      "AWS Security Hub": 0.25,
+      "AWS Step Functions": 0.01,
+      "AWS Systems Manager": 2.21,
+      "Amazon DynamoDB": 0.24,
+      "Amazon EC2 Container Registry (ECR)": 0.25,
+      "EC2 - Other": 21.53,
       "Amazon Elastic Compute Cloud - Compute": 1.7,
-      "Amazon Macie": 2.14,
-      "Amazon Relational Database Service": 0.59,
-      "Amazon Route 53": 1.9,
-      "Amazon Simple Queue Service": 0.08,
-      "Amazon Simple Storage Service": 3.25,
-      "Amazon Virtual Private Cloud": 10.32,
-      "AmazonCloudWatch": 1.56
+      "Amazon GuardDuty": 1.09,
+      "Amazon Macie": 1.83,
+      "Amazon Relational Database Service": 0.57,
+      "Amazon Route 53": 1.84,
+      "Amazon Simple Queue Service": 0.07,
+      "Amazon Simple Storage Service": 3.3,
+      "Amazon Virtual Private Cloud": 9.78,
+      "AmazonCloudWatch": 1.53
     },
-    "aws_org_total": 483.16,
+    "aws_org_total": 494.93,
     "aws_org_accounts": [
-      {
-        "id": "149294230127",
-        "name": "TotalCloud QA Account",
-        "cost": 58.45
-      },
       {
         "id": "928329497587",
         "name": "pjindal tgt2",
-        "cost": 56.62
+        "cost": 61.81
+      },
+      {
+        "id": "149294230127",
+        "name": "TotalCloud QA Account",
+        "cost": 55.26
       },
       {
         "id": "682437954104",
         "name": "balasaheb",
-        "cost": 29.81
-      },
-      {
-        "id": "198829653374",
-        "name": "balasaheb-1",
-        "cost": 27.86
-      },
-      {
-        "id": "095611265520",
-        "name": "arsh10@qualys.dev",
-        "cost": 21.15
-      },
-      {
-        "id": "494753002565",
-        "name": "pjindal svc",
-        "cost": 19.18
+        "cost": 46.47
       },
       {
         "id": "635571737179",
         "name": "svc uk01",
-        "cost": 15.26
+        "cost": 21.94
+      },
+      {
+        "id": "095611265520",
+        "name": "arsh10@qualys.dev",
+        "cost": 20.32
+      },
+      {
+        "id": "198829653374",
+        "name": "balasaheb-1",
+        "cost": 18.68
+      },
+      {
+        "id": "494753002565",
+        "name": "pjindal svc",
+        "cost": 18.66
       },
       {
         "id": "273078346626",
         "name": "arsh211@qualys.dev",
-        "cost": 14.65
-      },
-      {
-        "id": "590183730935",
-        "name": "TESTQA",
-        "cost": 13.23
-      },
-      {
-        "id": "034671213724",
-        "name": "arsh109@qualys.dev",
-        "cost": 8.61
-      },
-      {
-        "id": "331556273345",
-        "name": "arsh217@qualys.dev",
-        "cost": 8.02
-      },
-      {
-        "id": "148249192560",
-        "name": "arsh105@qualys.dev",
-        "cost": 8.0
-      },
-      {
-        "id": "167684443721",
-        "name": "arsh273@qualys.dev",
-        "cost": 7.81
-      },
-      {
-        "id": "905418261832",
-        "name": "TESTQA6",
-        "cost": 7.35
-      },
-      {
-        "id": "677284942379",
-        "name": "arsh213@qualys.dev",
-        "cost": 7.28
+        "cost": 14.15
       },
       {
         "id": "909870549273",
         "name": "vaishali tgt",
-        "cost": 7.16
+        "cost": 13.37
+      },
+      {
+        "id": "590183730935",
+        "name": "TESTQA",
+        "cost": 12.83
+      },
+      {
+        "id": "034671213724",
+        "name": "arsh109@qualys.dev",
+        "cost": 8.41
+      },
+      {
+        "id": "331556273345",
+        "name": "arsh217@qualys.dev",
+        "cost": 7.84
+      },
+      {
+        "id": "148249192560",
+        "name": "arsh105@qualys.dev",
+        "cost": 7.68
+      },
+      {
+        "id": "167684443721",
+        "name": "arsh273@qualys.dev",
+        "cost": 7.46
+      },
+      {
+        "id": "905418261832",
+        "name": "TESTQA6",
+        "cost": 7.15
+      },
+      {
+        "id": "677284942379",
+        "name": "arsh213@qualys.dev",
+        "cost": 7.07
       },
       {
         "id": "143934116471",
         "name": "arsh279@qualys.dev",
-        "cost": 6.88
+        "cost": 6.69
       },
       {
         "id": "583837446846",
         "name": "arsh110@qualys.dev",
-        "cost": 6.66
+        "cost": 6.46
       },
       {
         "id": "730335457683",
         "name": "TESTQA5",
-        "cost": 6.42
+        "cost": 6.27
       },
       {
         "id": "975050294188",
         "name": "TESTQA3",
-        "cost": 6.32
-      },
-      {
-        "id": "240217704174",
-        "name": "arsh107@qualys.dev",
-        "cost": 6.31
+        "cost": 6.13
       },
       {
         "id": "987418188891",
         "name": "arsh278@qualys.dev",
-        "cost": 5.97
+        "cost": 5.8
       },
       {
-        "id": "535299115383",
-        "name": "arsh159@qualys.dev",
-        "cost": 5.67
+        "id": "240217704174",
+        "name": "arsh107@qualys.dev",
+        "cost": 5.59
       },
       {
         "id": "199086174209",
         "name": "arsh108@qualys.dev",
-        "cost": 5.66
+        "cost": 5.53
       },
       {
-        "id": "202533496720",
-        "name": "qualysuser",
-        "cost": 5.37
+        "id": "535299115383",
+        "name": "arsh159@qualys.dev",
+        "cost": 5.53
       },
       {
         "id": "187024455668",
         "name": "arsh218@qualys.dev",
-        "cost": 5.36
+        "cost": 5.25
+      },
+      {
+        "id": "202533496720",
+        "name": "qualysuser",
+        "cost": 5.25
       },
       {
         "id": "285062414223",
         "name": "arsh140@qualys.dev",
-        "cost": 5.33
+        "cost": 5.16
       },
       {
         "id": "475071743267",
         "name": "arsh234@qualys.dev",
-        "cost": 4.43
-      },
-      {
-        "id": "044821245880",
-        "name": "arsh15@qualys.dev",
-        "cost": 4.14
+        "cost": 4.31
       },
       {
         "id": "863320968128",
         "name": "Qflow-Maithili_4",
-        "cost": 4.11
+        "cost": 4.0
+      },
+      {
+        "id": "044821245880",
+        "name": "arsh15@qualys.dev",
+        "cost": 3.96
       },
       {
         "id": "855327232746",
         "name": "arsh2@qualys.dev",
-        "cost": 3.85
+        "cost": 3.75
       },
       {
         "id": "044261911670",
         "name": "arsh17@qualys.dev",
-        "cost": 3.59
+        "cost": 3.47
       },
       {
         "id": "327456541158",
         "name": "sai tgt",
-        "cost": 3.47
-      },
-      {
-        "id": "297853565549",
-        "name": "before optimization 4",
-        "cost": 3.31
-      },
-      {
-        "id": "059163870577",
-        "name": "arsh48@qualys.dev",
-        "cost": 3.3
+        "cost": 3.37
       },
       {
         "id": "273721849379",
         "name": "dev-rgade-1",
-        "cost": 3.28
+        "cost": 3.24
       },
       {
-        "id": "509284582761",
-        "name": "arsh145@qualys.dev",
-        "cost": 3.26
+        "id": "059163870577",
+        "name": "arsh48@qualys.dev",
+        "cost": 3.21
       },
       {
         "id": "459353105060",
         "name": "arsh220@qualys.dev",
-        "cost": 3.21
+        "cost": 3.13
+      },
+      {
+        "id": "297853565549",
+        "name": "before optimization 4",
+        "cost": 3.08
       },
       {
         "id": "429950822387",
         "name": "arsh133@qualys.dev",
-        "cost": 3.18
+        "cost": 3.04
+      },
+      {
+        "id": "509284582761",
+        "name": "arsh145@qualys.dev",
+        "cost": 3.01
       },
       {
         "id": "164577792704",
         "name": "arsh283@qualys.dev",
-        "cost": 2.92
-      },
-      {
-        "id": "025532381522",
-        "name": "arsh103@qualys.dev",
-        "cost": 2.85
+        "cost": 2.83
       },
       {
         "id": "980059074852",
         "name": "arsh135@qualys.dev",
-        "cost": 2.85
+        "cost": 2.76
       },
       {
-        "id": "876464212992",
-        "name": "svc us04",
-        "cost": 2.25
+        "id": "025532381522",
+        "name": "arsh103@qualys.dev",
+        "cost": 2.46
       },
       {
         "id": "751375117945",
         "name": "arsh287@qualys.dev",
-        "cost": 2.12
+        "cost": 2.05
+      },
+      {
+        "id": "876464212992",
+        "name": "svc us04",
+        "cost": 1.99
       },
       {
         "id": "107311130128",
         "name": "arsh167@qualys.dev",
-        "cost": 1.84
+        "cost": 1.78
       },
       {
         "id": "674393317291",
         "name": "arsh46@qualys.dev",
-        "cost": 1.84
-      },
-      {
-        "id": "304125837816",
-        "name": "arsh62@qualys.dev",
-        "cost": 1.82
+        "cost": 1.78
       },
       {
         "id": "528646883845",
         "name": "QFlow-Maithili-2",
-        "cost": 1.77
+        "cost": 1.73
+      },
+      {
+        "id": "304125837816",
+        "name": "arsh62@qualys.dev",
+        "cost": 1.72
       },
       {
         "id": "050990333542",
         "name": "new target 2",
-        "cost": 1.76
+        "cost": 1.69
       },
       {
         "id": "260880585145",
         "name": "arsh76@qualys.dev",
-        "cost": 1.72
+        "cost": 1.66
       },
       {
         "id": "852124743903",
         "name": "arsh92@qualys.dev",
-        "cost": 1.65
+        "cost": 1.6
       },
       {
         "id": "390844784899",
         "name": "Whitebox",
-        "cost": 1.59
+        "cost": 1.54
       },
       {
         "id": "052877459505",
         "name": "Qflow-Vaishali-22",
-        "cost": 1.57
-      },
-      {
-        "id": "910594417067",
-        "name": "svc au01",
-        "cost": 1.52
+        "cost": 1.53
       },
       {
         "id": "803993009476",
         "name": "arsh96@qualys.dev",
-        "cost": 1.46
+        "cost": 1.42
+      },
+      {
+        "id": "910594417067",
+        "name": "svc au01",
+        "cost": 1.41
       },
       {
         "id": "408429263225",
         "name": "arsh191@qualys.dev",
-        "cost": 1.42
+        "cost": 1.38
       },
       {
         "id": "888657991711",
         "name": "Qflow-Maithili-5",
-        "cost": 1.42
-      },
-      {
-        "id": "807310992472",
-        "name": "sai svc",
-        "cost": 1.31
+        "cost": 1.37
       },
       {
         "id": "986309855560",
         "name": "arsh186@qualys.dev",
-        "cost": 1.25
+        "cost": 1.21
       },
       {
-        "id": "580666022423",
-        "name": "arsh226@qualys.dev",
-        "cost": 1.17
-      },
-      {
-        "id": "500321821407",
-        "name": "arsh125@qualys.dev",
-        "cost": 1.14
+        "id": "807310992472",
+        "name": "sai svc",
+        "cost": 1.18
       },
       {
         "id": "003004624713",
         "name": "arsh147@qualys.dev",
-        "cost": 1.07
+        "cost": 1.04
+      },
+      {
+        "id": "580666022423",
+        "name": "arsh226@qualys.dev",
+        "cost": 1.01
       },
       {
         "id": "909362960884",
         "name": "pjindal tgt1",
-        "cost": 1.04
-      },
-      {
-        "id": "207175984884",
-        "name": "arsh66@qualys.dev",
-        "cost": 0.98
+        "cost": 1.01
       },
       {
         "id": "229658172382",
         "name": "dev-rgade-service",
-        "cost": 0.98
+        "cost": 0.99
+      },
+      {
+        "id": "500321821407",
+        "name": "arsh125@qualys.dev",
+        "cost": 0.99
       },
       {
         "id": "205666877655",
         "name": "arsh1@qualys.dev",
-        "cost": 0.94
+        "cost": 0.91
       },
       {
         "id": "451600355128",
         "name": "arsh266@qualys.dev",
-        "cost": 0.94
+        "cost": 0.91
       },
       {
         "id": "619028518089",
         "name": "arsh170@qualys.dev",
-        "cost": 0.94
+        "cost": 0.91
+      },
+      {
+        "id": "207175984884",
+        "name": "arsh66@qualys.dev",
+        "cost": 0.84
       },
       {
         "id": "483773993138",
         "name": "before optimization 2",
-        "cost": 0.85
+        "cost": 0.76
       },
       {
         "id": "817505957732",
         "name": "arsh98@qualys.dev",
-        "cost": 0.72
+        "cost": 0.7
       },
       {
         "id": "145838104650",
         "name": "arsh142@qualys.dev",
-        "cost": 0.68
+        "cost": 0.66
       },
       {
         "id": "475558561317",
         "name": "arsh275@qualys.dev",
-        "cost": 0.67
+        "cost": 0.63
       },
       {
         "id": "307970860936",
         "name": "svc us02",
-        "cost": 0.55
-      },
-      {
-        "id": "003340426733",
-        "name": "arsh134@qualys.dev",
-        "cost": 0.52
-      },
-      {
-        "id": "426622616498",
-        "name": "arsh121@qualys.dev",
-        "cost": 0.51
-      },
-      {
-        "id": "503690661551",
-        "name": "arsh47@qualys.dev",
-        "cost": 0.51
-      },
-      {
-        "id": "840158198744",
-        "name": "arsh251@qualys.dev",
-        "cost": 0.51
+        "cost": 0.53
       },
       {
         "id": "930832105927",
         "name": "dev-rgade-2",
-        "cost": 0.51
+        "cost": 0.53
       },
       {
-        "id": "122610512270",
-        "name": "Blackbox",
-        "cost": 0.48
+        "id": "003340426733",
+        "name": "arsh134@qualys.dev",
+        "cost": 0.5
       },
       {
-        "id": "912026262586",
-        "name": "vaishali svc",
-        "cost": 0.47
+        "id": "426622616498",
+        "name": "arsh121@qualys.dev",
+        "cost": 0.5
+      },
+      {
+        "id": "503690661551",
+        "name": "arsh47@qualys.dev",
+        "cost": 0.5
+      },
+      {
+        "id": "840158198744",
+        "name": "arsh251@qualys.dev",
+        "cost": 0.49
       },
       {
         "id": "779375447290",
         "name": "arsh137@qualys.dev",
-        "cost": 0.46
+        "cost": 0.45
+      },
+      {
+        "id": "912026262586",
+        "name": "vaishali svc",
+        "cost": 0.45
       },
       {
         "id": "671281917320",
         "name": "arsh161@qualys.dev",
-        "cost": 0.45
+        "cost": 0.44
+      },
+      {
+        "id": "122610512270",
+        "name": "Blackbox",
+        "cost": 0.42
       },
       {
         "id": "313054287571",
         "name": "p13-2",
-        "cost": 0.43
+        "cost": 0.42
       },
       {
         "id": "456965400883",
         "name": "arsh104@qualys.dev",
-        "cost": 0.43
+        "cost": 0.42
       },
       {
         "id": "151115464552",
         "name": "arsh285@qualys.dev",
-        "cost": 0.42
+        "cost": 0.41
       },
       {
-        "id": "742344027791",
-        "name": "arsh157@qualys.dev",
-        "cost": 0.39
+        "id": "075674630895",
+        "name": "arsh87@qualys.dev",
+        "cost": 0.37
       },
       {
         "id": "625911360890",
         "name": "arsh100@qualys.dev",
-        "cost": 0.38
-      },
-      {
-        "id": "677276115790",
-        "name": "greybox",
         "cost": 0.36
       },
       {
         "id": "699475930074",
         "name": "newtestaccountqa",
-        "cost": 0.36
+        "cost": 0.35
+      },
+      {
+        "id": "677276115790",
+        "name": "greybox",
+        "cost": 0.34
       },
       {
         "id": "574433037642",
         "name": "eu03",
-        "cost": 0.35
-      },
-      {
-        "id": "488805873141",
-        "name": "arsh143@qualys.dev",
-        "cost": 0.34
-      },
-      {
-        "id": "227250474767",
-        "name": "arsh126@qualys.dev",
         "cost": 0.33
       },
       {
-        "id": "561303529171",
-        "name": "maithili svc",
-        "cost": 0.33
-      },
-      {
-        "id": "847814059329",
-        "name": "arsh111@qualys.dev",
+        "id": "742344027791",
+        "name": "arsh157@qualys.dev",
         "cost": 0.33
       },
       {
@@ -1567,44 +1564,59 @@
         "cost": 0.32
       },
       {
-        "id": "075674630895",
-        "name": "arsh87@qualys.dev",
+        "id": "227250474767",
+        "name": "arsh126@qualys.dev",
         "cost": 0.32
+      },
+      {
+        "id": "561303529171",
+        "name": "maithili svc",
+        "cost": 0.32
+      },
+      {
+        "id": "488805873141",
+        "name": "arsh143@qualys.dev",
+        "cost": 0.31
       },
       {
         "id": "647836792828",
         "name": "arsh99@qualys.dev",
-        "cost": 0.32
+        "cost": 0.31
       },
       {
         "id": "548855206515",
         "name": "arsh227@qualys.dev",
-        "cost": 0.31
+        "cost": 0.3
       },
       {
         "id": "029361457612",
         "name": "Qflow-Maithili-7",
-        "cost": 0.29
+        "cost": 0.28
+      },
+      {
+        "id": "847814059329",
+        "name": "arsh111@qualys.dev",
+        "cost": 0.28
       },
       {
         "id": "026090517945",
         "name": "newqaaccounttesting",
-        "cost": 0.28
+        "cost": 0.27
       },
       {
         "id": "150101695321",
         "name": "arsh258@qualys.dev",
-        "cost": 0.28
+        "cost": 0.27
       },
       {
         "id": "724203528054",
         "name": "svc us01",
-        "cost": 0.28
+        "cost": 0.27
       },
       {
-        "id": "332177277666",
-        "name": "arsh85@qualys.dev",
-        "cost": 0.27
+        "id": "060373238042",
+        "name": "p13 svc",
+        "cost": 0.26
       },
       {
         "id": "923888388157",
@@ -1612,14 +1624,19 @@
         "cost": 0.24
       },
       {
+        "id": "332177277666",
+        "name": "arsh85@qualys.dev",
+        "cost": 0.23
+      },
+      {
         "id": "156300301894",
         "name": "arsh208@qualys.dev",
-        "cost": 0.17
+        "cost": 0.16
       },
       {
         "id": "273193025391",
         "name": "arsh153@qualys.dev",
-        "cost": 0.16
+        "cost": 0.15
       },
       {
         "id": "780109526425",
@@ -1627,19 +1644,9 @@
         "cost": 0.15
       },
       {
-        "id": "060373238042",
-        "name": "p13 svc",
-        "cost": 0.13
-      },
-      {
         "id": "688458530518",
         "name": "p19-dev",
         "cost": 0.13
-      },
-      {
-        "id": "827201566344",
-        "name": "arsh106@qualys.dev",
-        "cost": 0.11
       },
       {
         "id": "086544974598",
@@ -1649,32 +1656,22 @@
       {
         "id": "209745620352",
         "name": "arsh205@qualys.dev",
-        "cost": 0.1
+        "cost": 0.09
+      },
+      {
+        "id": "827201566344",
+        "name": "arsh106@qualys.dev",
+        "cost": 0.09
       },
       {
         "id": "019466240241",
         "name": "arsh82@qualys.dev",
-        "cost": 0.09
+        "cost": 0.08
       },
       {
         "id": "048076892301",
         "name": "arsh215@qualys.dev",
-        "cost": 0.09
-      },
-      {
-        "id": "270013331545",
-        "name": "arsh265@qualys.dev",
-        "cost": 0.09
-      },
-      {
-        "id": "820077247727",
-        "name": "arsh178@qualys.dev",
-        "cost": 0.09
-      },
-      {
-        "id": "992382622144",
-        "name": "TESTQA8",
-        "cost": 0.09
+        "cost": 0.08
       },
       {
         "id": "268675503799",
@@ -1682,8 +1679,8 @@
         "cost": 0.08
       },
       {
-        "id": "716173093158",
-        "name": "Qualys TotalCloud RDS RI",
+        "id": "270013331545",
+        "name": "arsh265@qualys.dev",
         "cost": 0.08
       },
       {
@@ -1692,13 +1689,33 @@
         "cost": 0.08
       },
       {
+        "id": "820077247727",
+        "name": "arsh178@qualys.dev",
+        "cost": 0.08
+      },
+      {
         "id": "833390816798",
         "name": "Qualys TotalCloud Opensearch RI",
         "cost": 0.08
       },
       {
+        "id": "992382622144",
+        "name": "TESTQA8",
+        "cost": 0.08
+      },
+      {
+        "id": "716173093158",
+        "name": "Qualys TotalCloud RDS RI",
+        "cost": 0.07
+      },
+      {
         "id": "141412784181",
         "name": "arsh195@qualys.dev",
+        "cost": 0.06
+      },
+      {
+        "id": "577400626275",
+        "name": "arsh216@qualys.dev",
         "cost": 0.05
       },
       {
@@ -1709,11 +1726,6 @@
       {
         "id": "556151867167",
         "name": "arsh63@qualys.dev",
-        "cost": 0.03
-      },
-      {
-        "id": "577400626275",
-        "name": "arsh216@qualys.dev",
         "cost": 0.03
       },
       {
@@ -1785,929 +1797,935 @@
         "id": "289361332187",
         "name": "before optimization 1",
         "cost": 0.01
-      },
-      {
-        "id": "641135200776",
-        "name": "arsh219@qualys.dev",
-        "cost": 0.01
       }
     ],
-    "azure_total": 609.28,
+    "azure_total": 589.77,
     "azure_subscriptions": [
       {
         "id": "0cff124b-97e0-49ac-9fe4-98ddec8a060b",
         "name": "QFlow301-QA-Panther",
-        "cost": 72.5
-      },
-      {
-        "id": "5e91f820-d05f-4ca3-8ecd-4ea2b64769ca",
-        "name": "QFLOW_PERF_CobaltCondor",
-        "cost": 41.23
+        "cost": 70.39
       },
       {
         "id": "7dbd9dfb-4f5b-45d4-a301-a6049d03bcf7",
         "name": "QFLOW_PERF_CircuitCitrus",
-        "cost": 41.05
+        "cost": 40.13
+      },
+      {
+        "id": "5e91f820-d05f-4ca3-8ecd-4ea2b64769ca",
+        "name": "QFLOW_PERF_CobaltCondor",
+        "cost": 40.02
       },
       {
         "id": "82a6c5f8-fecc-40c0-975e-1bba1fb705a8",
         "name": "QFLOW_PERF_Rome",
-        "cost": 33.47
+        "cost": 32.78
       },
       {
         "id": "7f53ca2c-ba06-4157-89db-53544ce71b4c",
         "name": "QFLOW_PERF_TangerineTiger",
-        "cost": 32.76
+        "cost": 31.64
       },
       {
         "id": "c4e0f2f0-eb24-490e-b238-58e72e93f9ab",
         "name": "QFLOW_PERF_Everest",
-        "cost": 30.12
+        "cost": 29.57
       },
       {
         "id": "b8392058-8a1f-4250-98db-a9f4a075e625",
         "name": "QFLOW_Daily_Sanity_VirtualVanilla",
-        "cost": 25.44
+        "cost": 24.73
       },
       {
         "id": "52136516-cfac-489f-a057-9e98cd8e4437",
         "name": "QFLOW_PERF_1_SERVICE",
-        "cost": 24.63
+        "cost": 23.98
       },
       {
         "id": "474bccba-3d6f-4f64-8048-857cbc21bdc6",
         "name": "QFLOW_Daily_Sanity_QuantumQuince",
-        "cost": 24.56
+        "cost": 23.85
       },
       {
         "id": "d08f3411-dcbf-4cfb-98b3-e121c9e5415d",
         "name": "QFLOW_PERF_Charleston",
-        "cost": 20.83
+        "cost": 20.28
       },
       {
         "id": "ee57636b-7b36-43d9-9f64-4c3441119adc",
         "name": "QFLOW_Daily_Sanity_Mysore",
-        "cost": 20.3
-      },
-      {
-        "id": "558e2120-060b-4d81-bffa-da2edd6a0b79",
-        "name": "QFLOW_Daily_Sanity_CacheCurrant",
-        "cost": 19.29
+        "cost": 19.65
       },
       {
         "id": "7d46e492-6041-4f56-9135-b60765643293",
         "name": "QFLOW_Daily_Sanity_DigitalDate",
-        "cost": 19.18
+        "cost": 18.59
       },
       {
         "id": "56422cdf-f7a1-4509-83f4-b1527ffc92d8",
         "name": "QFLOW_PERF_Ladakh",
-        "cost": 19.0
+        "cost": 18.29
       },
       {
-        "id": "fc0967aa-63bb-4d93-bfb6-45ce04906257",
-        "name": "QFLOW_Daily_Sanity_MangoMetric",
-        "cost": 18.35
+        "id": "558e2120-060b-4d81-bffa-da2edd6a0b79",
+        "name": "QFLOW_Daily_Sanity_CacheCurrant",
+        "cost": 18.02
       },
       {
         "id": "706fdbb8-3ccb-4934-8df6-ccd18efeab16",
         "name": "QFLOW_Daily_Sanity_DigitalDill",
-        "cost": 18.28
+        "cost": 17.83
       },
       {
         "id": "40b2585e-f3f0-42c7-a954-046d4719109c",
         "name": "QFLOW_Daily_Sanity_PixelPeach",
-        "cost": 17.8
+        "cost": 17.19
+      },
+      {
+        "id": "fc0967aa-63bb-4d93-bfb6-45ce04906257",
+        "name": "QFLOW_Daily_Sanity_MangoMetric",
+        "cost": 17.18
       },
       {
         "id": "8a65f4ae-3c62-426c-883a-27fe48fa657a",
         "name": "QFLOW_Daily_Sanity_NetworkNectarine",
-        "cost": 17.17
+        "cost": 16.68
       },
       {
         "id": "8b03ffa7-5b48-4c7d-a9ef-8ebf35da507e",
         "name": "QFLOW_Daily_Sanity_Citronova",
-        "cost": 17.1
+        "cost": 16.58
       },
       {
         "id": "453ef4bf-8119-4df7-bb8f-0b6536f4abc8",
         "name": "QFLOW_Daily_Sanity_ByteBerry",
-        "cost": 15.89
+        "cost": 15.43
       },
       {
         "id": "3e0a033c-349d-45e2-b398-4c488bd6b83f",
         "name": "QFLOW_Daily_Sanity_ByteBanana",
-        "cost": 15.49
+        "cost": 14.35
       },
       {
         "id": "3698648d-ffdf-4cbe-a073-d4bc0391bcb5",
         "name": "QFLOW_PERF_IvoryIbis",
-        "cost": 14.57
+        "cost": 14.2
       },
       {
         "id": "82dc3f9d-a248-4322-a55b-e753bff01960",
         "name": "QFLOW_Daily_Sanity_KernelKiwi",
-        "cost": 12.51
+        "cost": 12.07
       },
       {
         "id": "70a3e704-142b-4af3-9a92-b27fc4767609",
         "name": "QFLOW_PERF_Colosseum",
-        "cost": 4.11
-      },
-      {
-        "id": "0b04c716-64ad-43b5-93b1-96dbd9aaa412",
-        "name": "QFlow1-Dev-Elephant-dsp-S",
-        "cost": 3.6
+        "cost": 3.99
       },
       {
         "id": "3b178654-a051-4622-9f84-271f421b9af4",
         "name": "QFLOW_PERF_Barcelona",
-        "cost": 3.6
+        "cost": 3.5
       },
       {
         "id": "894e3b4f-1b0f-4943-845d-fb3bb12a9ad2",
         "name": "QFLOW_PERF_JetJellyfish",
-        "cost": 3.49
+        "cost": 3.39
       },
       {
         "id": "1788b878-2596-4c6e-a6a2-6f3ab80b9d31",
         "name": "QFLOW_PERF_MintMantis",
-        "cost": 3.24
+        "cost": 3.13
+      },
+      {
+        "id": "0b04c716-64ad-43b5-93b1-96dbd9aaa412",
+        "name": "QFlow1-Dev-Elephant-dsp-S",
+        "cost": 3.04
       },
       {
         "id": "56de78cb-de75-49f4-a5bc-4c0346f76bb5",
         "name": "QFLOW_PERF_PumpkinPuffin",
-        "cost": 2.71
+        "cost": 2.64
       },
       {
         "id": "e55a8bd6-70df-4bc0-84a8-83b3f7cafae4",
         "name": "QFlow2-Dev-Tiger",
-        "cost": 2.64
+        "cost": 2.57
       },
       {
         "id": "a3b7f81f-e486-44ac-8d9f-377a1df0efa9",
         "name": "QFLOW_PERF_Dubai",
-        "cost": 1.81
-      },
-      {
-        "id": "00862698-0bd6-47a8-bcfe-1df5aae72871",
-        "name": "QFLOW_PERF_AmberAntelope",
-        "cost": 1.81
-      },
-      {
-        "id": "45a15263-fec4-4c96-8a38-2f76857fe47b",
-        "name": "QFLOW_PERF_KelpKangaroo",
-        "cost": 1.81
+        "cost": 1.76
       },
       {
         "id": "e0d14dd6-20e6-4128-8077-3a01b2ca9d6e",
         "name": "QFLOW_PERF_BlackPanther",
-        "cost": 1.78
+        "cost": 1.76
+      },
+      {
+        "id": "00862698-0bd6-47a8-bcfe-1df5aae72871",
+        "name": "QFLOW_PERF_AmberAntelope",
+        "cost": 1.76
+      },
+      {
+        "id": "45a15263-fec4-4c96-8a38-2f76857fe47b",
+        "name": "QFLOW_PERF_KelpKangaroo",
+        "cost": 1.76
       },
       {
         "id": "e0a5f47b-a347-4a96-a3c9-f84375125a9e",
         "name": "QFLOW_PERF_GreenFrog",
-        "cost": 1.78
+        "cost": 1.76
       },
       {
         "id": "f3c85595-4d59-4588-9452-e05eb6667504",
         "name": "QFLOW_PERF_CyanCoyote",
-        "cost": 1.78
+        "cost": 1.76
       },
       {
         "id": "2f00ec76-208a-4f49-a8f2-31c659506368",
         "name": "QFLOW_PERF_Iceland",
-        "cost": 0.91
-      },
-      {
-        "id": "0e40073c-0f1b-437f-9223-1c20026d73af",
-        "name": "QFLOW_PERF_BronzeBeaver",
-        "cost": 0.91
+        "cost": 0.88
       },
       {
         "id": "f18a5424-eb95-4b09-92ac-46b4218cbf43",
         "name": "QFlow301-QA-Snake",
-        "cost": 0.89
+        "cost": 0.88
       },
       {
         "id": "e89c83a1-4398-4623-8592-234872e6baa7",
         "name": "QFlow302-QA-Koala",
-        "cost": 0.89
+        "cost": 0.88
+      },
+      {
+        "id": "0e40073c-0f1b-437f-9223-1c20026d73af",
+        "name": "QFLOW_PERF_BronzeBeaver",
+        "cost": 0.88
       }
     ],
-    "azure_gov_total": 76.69,
+    "azure_gov_total": 79.25,
     "azure_gov_subs": [
       {
         "id": "c96b3dcb-2d51-4d75-a5d8-71a0a78bc62a",
         "name": "qlysgov-totalcloud-qflow1",
-        "cost": 34.49
+        "cost": 38.06
       },
       {
         "id": "c0835736-8d8a-4141-a0a6-edefda75dc86",
         "name": "qlysgov-totalcloud-tc-sme",
-        "cost": 26.32
+        "cost": 25.68
       },
       {
         "id": "83bf99b5-9d81-4344-a12b-0b0afa91e4f5",
         "name": "qlysgov-totalcloud-qflow4",
-        "cost": 8.84
+        "cost": 8.64
       },
       {
         "id": "e69c1afb-ed01-4176-a757-ca7a909d48c6",
         "name": "qlysgov-totalcloud-qflow2-Dev-RGade",
-        "cost": 7.04
+        "cost": 6.87
       }
     ],
-    "gcp_total": 63.0,
+    "gcp_total": 54.82,
     "gcp_services": {
-      "GCP Total": 63.0
+      "GCP Total": 54.82
     }
   },
   "billing_period": {
-    "aws_normal_total": 341.58,
+    "aws_normal_total": 357.66,
     "aws_normal_services": {
-      "AWS CloudTrail": 192.72,
-      "AWS Cost Explorer": 16.8,
-      "AWS Glue": 0.04,
-      "AWS Key Management Service": 10.11,
-      "AWS Secrets Manager": 2.02,
-      "AWS Security Hub": 0.63,
-      "AWS Step Functions": 0.04,
-      "AWS Systems Manager": 5.71,
-      "Amazon DynamoDB": 0.07,
-      "Amazon EC2 Container Registry (ECR)": 0.63,
-      "EC2 - Other": 50.53,
-      "Amazon Elastic Compute Cloud - Compute": 3.93,
-      "Amazon Macie": 5.18,
-      "Amazon Relational Database Service": 1.43,
-      "Amazon Route 53": 5.25,
+      "AWS CloudTrail": 192.76,
+      "AWS Cost Explorer": 18.51,
+      "AWS Glue": 0.05,
+      "AWS Key Management Service": 11.1,
+      "AWS Secrets Manager": 2.22,
+      "AWS Security Hub": 0.68,
+      "AWS Step Functions": 0.05,
+      "AWS Systems Manager": 6.15,
+      "Amazon DynamoDB": 0.67,
+      "Amazon EC2 Container Registry (ECR)": 0.69,
+      "EC2 - Other": 56.15,
+      "Amazon Elastic Compute Cloud - Compute": 4.39,
+      "Amazon GuardDuty": 1.09,
+      "Amazon Macie": 5.48,
+      "Amazon Relational Database Service": 1.57,
+      "Amazon Route 53": 5.73,
       "Amazon Simple Notification Service": 0.02,
-      "Amazon Simple Queue Service": 0.19,
-      "Amazon Simple Storage Service": 7.96,
-      "Amazon Virtual Private Cloud": 24.85,
+      "Amazon Simple Queue Service": 0.21,
+      "Amazon Simple Storage Service": 9.04,
+      "Amazon Virtual Private Cloud": 27.22,
       "Amazon WorkSpaces": 9.75,
-      "AmazonCloudWatch": 3.72
+      "AmazonCloudWatch": 4.14
     },
-    "aws_org_total": 1174.59,
+    "aws_org_total": 1316.01,
     "aws_org_accounts": [
       {
         "id": "149294230127",
         "name": "TotalCloud QA Account",
-        "cost": 146.32
+        "cost": 161.11
       },
       {
         "id": "682437954104",
         "name": "balasaheb",
-        "cost": 124.67
+        "cost": 148.61
       },
       {
         "id": "928329497587",
         "name": "pjindal tgt2",
-        "cost": 85.46
+        "cost": 102.8
       },
       {
         "id": "198829653374",
         "name": "balasaheb-1",
-        "cost": 72.09
+        "cost": 72.19
       },
       {
         "id": "095611265520",
         "name": "arsh10@qualys.dev",
-        "cost": 50.76
+        "cost": 55.86
       },
       {
         "id": "494753002565",
         "name": "pjindal svc",
-        "cost": 46.23
+        "cost": 51.11
       },
       {
         "id": "273078346626",
         "name": "arsh211@qualys.dev",
-        "cost": 34.94
+        "cost": 38.51
       },
       {
         "id": "590183730935",
         "name": "TESTQA",
-        "cost": 31.7
-      },
-      {
-        "id": "034671213724",
-        "name": "arsh109@qualys.dev",
-        "cost": 20.83
-      },
-      {
-        "id": "148249192560",
-        "name": "arsh105@qualys.dev",
-        "cost": 19.45
-      },
-      {
-        "id": "331556273345",
-        "name": "arsh217@qualys.dev",
-        "cost": 19.41
-      },
-      {
-        "id": "167684443721",
-        "name": "arsh273@qualys.dev",
-        "cost": 18.59
+        "cost": 34.99
       },
       {
         "id": "909870549273",
         "name": "vaishali tgt",
-        "cost": 18.33
+        "cost": 26.4
       },
       {
-        "id": "677284942379",
-        "name": "arsh213@qualys.dev",
-        "cost": 17.48
-      },
-      {
-        "id": "905418261832",
-        "name": "TESTQA6",
-        "cost": 17.38
-      },
-      {
-        "id": "143934116471",
-        "name": "arsh279@qualys.dev",
-        "cost": 16.59
-      },
-      {
-        "id": "975050294188",
-        "name": "TESTQA3",
-        "cost": 16.4
-      },
-      {
-        "id": "583837446846",
-        "name": "arsh110@qualys.dev",
-        "cost": 15.89
+        "id": "034671213724",
+        "name": "arsh109@qualys.dev",
+        "cost": 23.05
       },
       {
         "id": "635571737179",
         "name": "svc uk01",
-        "cost": 15.58
+        "cost": 22.33
+      },
+      {
+        "id": "331556273345",
+        "name": "arsh217@qualys.dev",
+        "cost": 21.64
+      },
+      {
+        "id": "148249192560",
+        "name": "arsh105@qualys.dev",
+        "cost": 21.39
+      },
+      {
+        "id": "167684443721",
+        "name": "arsh273@qualys.dev",
+        "cost": 20.41
+      },
+      {
+        "id": "677284942379",
+        "name": "arsh213@qualys.dev",
+        "cost": 19.32
+      },
+      {
+        "id": "905418261832",
+        "name": "TESTQA6",
+        "cost": 19.2
+      },
+      {
+        "id": "143934116471",
+        "name": "arsh279@qualys.dev",
+        "cost": 18.32
+      },
+      {
+        "id": "975050294188",
+        "name": "TESTQA3",
+        "cost": 17.98
+      },
+      {
+        "id": "583837446846",
+        "name": "arsh110@qualys.dev",
+        "cost": 17.55
       },
       {
         "id": "730335457683",
         "name": "TESTQA5",
-        "cost": 15.57
+        "cost": 17.18
       },
       {
         "id": "240217704174",
         "name": "arsh107@qualys.dev",
-        "cost": 15.31
+        "cost": 16.39
       },
       {
         "id": "987418188891",
         "name": "arsh278@qualys.dev",
-        "cost": 14.32
+        "cost": 15.82
       },
       {
         "id": "199086174209",
         "name": "arsh108@qualys.dev",
-        "cost": 13.76
+        "cost": 15.22
       },
       {
         "id": "535299115383",
         "name": "arsh159@qualys.dev",
-        "cost": 13.33
+        "cost": 14.77
       },
       {
         "id": "187024455668",
         "name": "arsh218@qualys.dev",
-        "cost": 13.14
+        "cost": 14.5
       },
       {
         "id": "285062414223",
         "name": "arsh140@qualys.dev",
-        "cost": 12.89
+        "cost": 14.23
       },
       {
         "id": "202533496720",
         "name": "qualysuser",
-        "cost": 12.68
+        "cost": 14.03
       },
       {
         "id": "475071743267",
         "name": "arsh234@qualys.dev",
-        "cost": 10.54
+        "cost": 11.66
       },
       {
         "id": "044821245880",
         "name": "arsh15@qualys.dev",
-        "cost": 9.93
+        "cost": 10.91
       },
       {
         "id": "863320968128",
         "name": "Qflow-Maithili_4",
-        "cost": 9.87
+        "cost": 10.91
       },
       {
         "id": "855327232746",
         "name": "arsh2@qualys.dev",
-        "cost": 9.54
+        "cost": 10.5
       },
       {
         "id": "509284582761",
         "name": "arsh145@qualys.dev",
+        "cost": 9.31
+      },
+      {
+        "id": "044261911670",
+        "name": "arsh17@qualys.dev",
+        "cost": 9.3
+      },
+      {
+        "id": "327456541158",
+        "name": "sai tgt",
+        "cost": 9.13
+      },
+      {
+        "id": "025532381522",
+        "name": "arsh103@qualys.dev",
+        "cost": 8.82
+      },
+      {
+        "id": "273721849379",
+        "name": "dev-rgade-1",
+        "cost": 8.79
+      },
+      {
+        "id": "059163870577",
+        "name": "arsh48@qualys.dev",
+        "cost": 8.65
+      },
+      {
+        "id": "297853565549",
+        "name": "before optimization 4",
         "cost": 8.65
       },
       {
         "id": "716173093158",
         "name": "Qualys TotalCloud RDS RI",
-        "cost": 8.49
-      },
-      {
-        "id": "044261911670",
-        "name": "arsh17@qualys.dev",
-        "cost": 8.45
-      },
-      {
-        "id": "327456541158",
-        "name": "sai tgt",
-        "cost": 8.26
-      },
-      {
-        "id": "025532381522",
-        "name": "arsh103@qualys.dev",
-        "cost": 8.21
-      },
-      {
-        "id": "297853565549",
-        "name": "before optimization 4",
-        "cost": 7.96
-      },
-      {
-        "id": "273721849379",
-        "name": "dev-rgade-1",
-        "cost": 7.91
-      },
-      {
-        "id": "059163870577",
-        "name": "arsh48@qualys.dev",
-        "cost": 7.83
+        "cost": 8.51
       },
       {
         "id": "459353105060",
         "name": "arsh220@qualys.dev",
-        "cost": 7.61
+        "cost": 8.42
       },
       {
         "id": "429950822387",
         "name": "arsh133@qualys.dev",
-        "cost": 7.56
+        "cost": 8.33
       },
       {
         "id": "164577792704",
         "name": "arsh283@qualys.dev",
-        "cost": 6.86
+        "cost": 7.6
       },
       {
         "id": "980059074852",
         "name": "arsh135@qualys.dev",
-        "cost": 6.79
+        "cost": 7.5
       },
       {
         "id": "751375117945",
         "name": "arsh287@qualys.dev",
-        "cost": 5.07
+        "cost": 5.59
       },
       {
         "id": "260880585145",
         "name": "arsh76@qualys.dev",
-        "cost": 5.03
+        "cost": 5.45
       },
       {
         "id": "876464212992",
         "name": "svc us04",
-        "cost": 4.97
+        "cost": 5.35
       },
       {
         "id": "107311130128",
         "name": "arsh167@qualys.dev",
-        "cost": 4.84
+        "cost": 5.3
       },
       {
         "id": "304125837816",
         "name": "arsh62@qualys.dev",
-        "cost": 4.43
+        "cost": 4.84
       },
       {
         "id": "674393317291",
         "name": "arsh46@qualys.dev",
-        "cost": 4.37
+        "cost": 4.81
       },
       {
         "id": "050990333542",
         "name": "new target 2",
-        "cost": 4.33
-      },
-      {
-        "id": "910594417067",
-        "name": "svc au01",
-        "cost": 4.2
+        "cost": 4.75
       },
       {
         "id": "528646883845",
         "name": "QFlow-Maithili-2",
-        "cost": 4.07
+        "cost": 4.52
+      },
+      {
+        "id": "910594417067",
+        "name": "svc au01",
+        "cost": 4.51
       },
       {
         "id": "852124743903",
         "name": "arsh92@qualys.dev",
-        "cost": 3.91
+        "cost": 4.32
       },
       {
         "id": "390844784899",
         "name": "Whitebox",
-        "cost": 3.87
-      },
-      {
-        "id": "060373238042",
-        "name": "p13 svc",
-        "cost": 3.83
+        "cost": 4.27
       },
       {
         "id": "052877459505",
         "name": "Qflow-Vaishali-22",
-        "cost": 3.78
+        "cost": 4.17
+      },
+      {
+        "id": "060373238042",
+        "name": "p13 svc",
+        "cost": 4.02
       },
       {
         "id": "803993009476",
         "name": "arsh96@qualys.dev",
-        "cost": 3.48
+        "cost": 3.84
       },
       {
         "id": "888657991711",
         "name": "Qflow-Maithili-5",
-        "cost": 3.37
+        "cost": 3.72
       },
       {
         "id": "408429263225",
         "name": "arsh191@qualys.dev",
-        "cost": 3.35
+        "cost": 3.71
       },
       {
         "id": "807310992472",
         "name": "sai svc",
-        "cost": 3.16
+        "cost": 3.4
       },
       {
         "id": "986309855560",
         "name": "arsh186@qualys.dev",
-        "cost": 2.97
+        "cost": 3.28
       },
       {
         "id": "580666022423",
         "name": "arsh226@qualys.dev",
-        "cost": 2.84
+        "cost": 3.01
       },
       {
         "id": "500321821407",
         "name": "arsh125@qualys.dev",
-        "cost": 2.77
+        "cost": 2.94
       },
       {
         "id": "003004624713",
         "name": "arsh147@qualys.dev",
-        "cost": 2.57
+        "cost": 2.84
       },
       {
         "id": "909362960884",
         "name": "pjindal tgt1",
-        "cost": 2.51
-      },
-      {
-        "id": "207175984884",
-        "name": "arsh66@qualys.dev",
-        "cost": 2.47
+        "cost": 2.77
       },
       {
         "id": "229658172382",
         "name": "dev-rgade-service",
-        "cost": 2.37
+        "cost": 2.66
+      },
+      {
+        "id": "207175984884",
+        "name": "arsh66@qualys.dev",
+        "cost": 2.62
       },
       {
         "id": "205666877655",
         "name": "arsh1@qualys.dev",
-        "cost": 2.25
+        "cost": 2.49
       },
       {
         "id": "451600355128",
         "name": "arsh266@qualys.dev",
-        "cost": 2.25
+        "cost": 2.49
       },
       {
         "id": "619028518089",
         "name": "arsh170@qualys.dev",
-        "cost": 2.24
+        "cost": 2.48
       },
       {
         "id": "483773993138",
         "name": "before optimization 2",
-        "cost": 2.1
-      },
-      {
-        "id": "677276115790",
-        "name": "greybox",
-        "cost": 1.8
+        "cost": 2.26
       },
       {
         "id": "817505957732",
         "name": "arsh98@qualys.dev",
-        "cost": 1.73
+        "cost": 1.91
+      },
+      {
+        "id": "677276115790",
+        "name": "greybox",
+        "cost": 1.88
       },
       {
         "id": "475558561317",
         "name": "arsh275@qualys.dev",
-        "cost": 1.65
-      },
-      {
-        "id": "122610512270",
-        "name": "Blackbox",
-        "cost": 1.62
+        "cost": 1.8
       },
       {
         "id": "145838104650",
         "name": "arsh142@qualys.dev",
-        "cost": 1.62
+        "cost": 1.79
       },
       {
-        "id": "488805873141",
-        "name": "arsh143@qualys.dev",
-        "cost": 1.36
-      },
-      {
-        "id": "699475930074",
-        "name": "newtestaccountqa",
-        "cost": 1.33
+        "id": "122610512270",
+        "name": "Blackbox",
+        "cost": 1.69
       },
       {
         "id": "307970860936",
         "name": "svc us02",
-        "cost": 1.32
+        "cost": 1.45
       },
       {
-        "id": "003340426733",
-        "name": "arsh134@qualys.dev",
-        "cost": 1.24
+        "id": "488805873141",
+        "name": "arsh143@qualys.dev",
+        "cost": 1.42
       },
       {
-        "id": "426622616498",
-        "name": "arsh121@qualys.dev",
-        "cost": 1.23
-      },
-      {
-        "id": "503690661551",
-        "name": "arsh47@qualys.dev",
-        "cost": 1.23
+        "id": "699475930074",
+        "name": "newtestaccountqa",
+        "cost": 1.42
       },
       {
         "id": "930832105927",
         "name": "dev-rgade-2",
-        "cost": 1.23
+        "cost": 1.39
+      },
+      {
+        "id": "003340426733",
+        "name": "arsh134@qualys.dev",
+        "cost": 1.37
+      },
+      {
+        "id": "426622616498",
+        "name": "arsh121@qualys.dev",
+        "cost": 1.36
+      },
+      {
+        "id": "503690661551",
+        "name": "arsh47@qualys.dev",
+        "cost": 1.36
       },
       {
         "id": "912026262586",
         "name": "vaishali svc",
-        "cost": 1.15
+        "cost": 1.27
       },
       {
         "id": "779375447290",
         "name": "arsh137@qualys.dev",
-        "cost": 1.14
-      },
-      {
-        "id": "150101695321",
-        "name": "arsh258@qualys.dev",
-        "cost": 1.13
+        "cost": 1.26
       },
       {
         "id": "671281917320",
         "name": "arsh161@qualys.dev",
-        "cost": 1.11
+        "cost": 1.23
       },
       {
         "id": "840158198744",
         "name": "arsh251@qualys.dev",
-        "cost": 1.08
+        "cost": 1.21
+      },
+      {
+        "id": "150101695321",
+        "name": "arsh258@qualys.dev",
+        "cost": 1.19
       },
       {
         "id": "923888388157",
         "name": "QFlow-Maithili-1",
-        "cost": 1.08
+        "cost": 1.15
       },
       {
         "id": "313054287571",
         "name": "p13-2",
-        "cost": 1.03
+        "cost": 1.14
       },
       {
         "id": "456965400883",
         "name": "arsh104@qualys.dev",
-        "cost": 1.02
+        "cost": 1.13
       },
       {
         "id": "151115464552",
         "name": "arsh285@qualys.dev",
-        "cost": 1.0
+        "cost": 1.11
       },
       {
         "id": "742344027791",
         "name": "arsh157@qualys.dev",
-        "cost": 0.94
+        "cost": 1.0
       },
       {
         "id": "625911360890",
         "name": "arsh100@qualys.dev",
-        "cost": 0.86
+        "cost": 0.94
       },
       {
         "id": "574433037642",
         "name": "eu03",
+        "cost": 0.93
+      },
+      {
+        "id": "075674630895",
+        "name": "arsh87@qualys.dev",
+        "cost": 0.88
+      },
+      {
+        "id": "227250474767",
+        "name": "arsh126@qualys.dev",
+        "cost": 0.88
+      },
+      {
+        "id": "007730361209",
+        "name": "EU01",
+        "cost": 0.86
+      },
+      {
+        "id": "561303529171",
+        "name": "maithili svc",
+        "cost": 0.86
+      },
+      {
+        "id": "647836792828",
+        "name": "arsh99@qualys.dev",
         "cost": 0.85
       },
       {
         "id": "847814059329",
         "name": "arsh111@qualys.dev",
-        "cost": 0.8
-      },
-      {
-        "id": "227250474767",
-        "name": "arsh126@qualys.dev",
-        "cost": 0.79
-      },
-      {
-        "id": "007730361209",
-        "name": "EU01",
-        "cost": 0.78
-      },
-      {
-        "id": "561303529171",
-        "name": "maithili svc",
-        "cost": 0.78
-      },
-      {
-        "id": "647836792828",
-        "name": "arsh99@qualys.dev",
-        "cost": 0.78
-      },
-      {
-        "id": "075674630895",
-        "name": "arsh87@qualys.dev",
-        "cost": 0.75
+        "cost": 0.85
       },
       {
         "id": "548855206515",
         "name": "arsh227@qualys.dev",
-        "cost": 0.74
+        "cost": 0.81
       },
       {
         "id": "029361457612",
         "name": "Qflow-Maithili-7",
-        "cost": 0.68
+        "cost": 0.75
       },
       {
         "id": "026090517945",
         "name": "newqaaccounttesting",
-        "cost": 0.66
-      },
-      {
-        "id": "332177277666",
-        "name": "arsh85@qualys.dev",
-        "cost": 0.66
+        "cost": 0.73
       },
       {
         "id": "724203528054",
         "name": "svc us01",
-        "cost": 0.66
+        "cost": 0.73
+      },
+      {
+        "id": "332177277666",
+        "name": "arsh85@qualys.dev",
+        "cost": 0.7
       },
       {
         "id": "156300301894",
         "name": "arsh208@qualys.dev",
-        "cost": 0.51
+        "cost": 0.55
       },
       {
         "id": "273193025391",
         "name": "arsh153@qualys.dev",
-        "cost": 0.43
+        "cost": 0.47
       },
       {
         "id": "780109526425",
         "name": "arsh129@qualys.dev",
-        "cost": 0.37
+        "cost": 0.41
       },
       {
         "id": "688458530518",
         "name": "p19-dev",
-        "cost": 0.33
-      },
-      {
-        "id": "827201566344",
-        "name": "arsh106@qualys.dev",
-        "cost": 0.26
-      },
-      {
-        "id": "086544974598",
-        "name": "arsh214@qualys.dev",
-        "cost": 0.25
+        "cost": 0.36
       },
       {
         "id": "209745620352",
         "name": "arsh205@qualys.dev",
-        "cost": 0.25
+        "cost": 0.28
+      },
+      {
+        "id": "086544974598",
+        "name": "arsh214@qualys.dev",
+        "cost": 0.27
+      },
+      {
+        "id": "827201566344",
+        "name": "arsh106@qualys.dev",
+        "cost": 0.27
       },
       {
         "id": "820077247727",
         "name": "arsh178@qualys.dev",
-        "cost": 0.23
+        "cost": 0.24
       },
       {
         "id": "992382622144",
         "name": "TESTQA8",
-        "cost": 0.23
+        "cost": 0.24
       },
       {
         "id": "019466240241",
         "name": "arsh82@qualys.dev",
-        "cost": 0.21
+        "cost": 0.23
       },
       {
         "id": "048076892301",
         "name": "arsh215@qualys.dev",
-        "cost": 0.21
+        "cost": 0.23
       },
       {
         "id": "270013331545",
         "name": "arsh265@qualys.dev",
-        "cost": 0.21
+        "cost": 0.23
       },
       {
         "id": "268675503799",
         "name": "Qualys TotalCloud Redshift RI",
-        "cost": 0.19
+        "cost": 0.21
       },
       {
         "id": "803664810273",
         "name": "Qualys TotalCloud EC2 RI",
-        "cost": 0.19
+        "cost": 0.21
       },
       {
         "id": "833390816798",
         "name": "Qualys TotalCloud Opensearch RI",
-        "cost": 0.19
+        "cost": 0.21
       },
       {
         "id": "141412784181",
         "name": "arsh195@qualys.dev",
-        "cost": 0.16
+        "cost": 0.18
       },
       {
         "id": "951931581453",
         "name": "danny",
-        "cost": 0.15
+        "cost": 0.16
       },
       {
         "id": "621367206022",
         "name": "arsh225@qualys.dev",
-        "cost": 0.1
+        "cost": 0.11
       },
       {
         "id": "556151867167",
         "name": "arsh63@qualys.dev",
-        "cost": 0.09
+        "cost": 0.1
       },
       {
         "id": "142539195748",
         "name": "arsh197@qualys.dev",
-        "cost": 0.08
+        "cost": 0.09
       },
       {
         "id": "263345096540",
         "name": "arsh222@qualys.dev",
-        "cost": 0.08
+        "cost": 0.09
       },
       {
         "id": "358978438510",
         "name": "ashish-4",
-        "cost": 0.08
+        "cost": 0.09
       },
       {
         "id": "310704580916",
         "name": "arsh9@qualys.dev",
-        "cost": 0.07
+        "cost": 0.08
       },
       {
         "id": "459693206480",
         "name": "arsh261@qualys.dev",
-        "cost": 0.07
+        "cost": 0.08
       },
       {
         "id": "707308403191",
         "name": "arsh166@qualys.dev",
-        "cost": 0.07
+        "cost": 0.08
       },
       {
         "id": "828323832156",
         "name": "Qflow-Ashish-15",
+        "cost": 0.08
+      },
+      {
+        "id": "393669890587",
+        "name": "svc us03",
+        "cost": 0.07
+      },
+      {
+        "id": "577400626275",
+        "name": "arsh216@qualys.dev",
         "cost": 0.07
       },
       {
@@ -2716,23 +2734,18 @@
         "cost": 0.06
       },
       {
-        "id": "393669890587",
-        "name": "svc us03",
-        "cost": 0.06
-      },
-      {
         "id": "219750295209",
         "name": "arsh233@qualys.dev",
         "cost": 0.05
       },
       {
-        "id": "381491968057",
-        "name": "Qflow-Rushi-1",
+        "id": "289361332187",
+        "name": "before optimization 1",
         "cost": 0.05
       },
       {
-        "id": "577400626275",
-        "name": "arsh216@qualys.dev",
+        "id": "381491968057",
+        "name": "Qflow-Rushi-1",
         "cost": 0.05
       },
       {
@@ -2741,8 +2754,8 @@
         "cost": 0.04
       },
       {
-        "id": "289361332187",
-        "name": "before optimization 1",
+        "id": "641135200776",
+        "name": "arsh219@qualys.dev",
         "cost": 0.04
       },
       {
@@ -2751,13 +2764,13 @@
         "cost": 0.03
       },
       {
-        "id": "623366770845",
-        "name": "arsh270@qualys.dev",
+        "id": "249182660281",
+        "name": "arsh231@qualys.dev",
         "cost": 0.03
       },
       {
-        "id": "641135200776",
-        "name": "arsh219@qualys.dev",
+        "id": "623366770845",
+        "name": "arsh270@qualys.dev",
         "cost": 0.03
       },
       {
@@ -2766,8 +2779,18 @@
         "cost": 0.02
       },
       {
+        "id": "057836876658",
+        "name": "Qflow-Ashish-12",
+        "cost": 0.02
+      },
+      {
         "id": "139758242976",
         "name": "p13-1",
+        "cost": 0.02
+      },
+      {
+        "id": "154477844448",
+        "name": "arsh235@qualys.dev",
         "cost": 0.02
       },
       {
@@ -2783,11 +2806,6 @@
       {
         "id": "242102729613",
         "name": "arsh212@qualys.dev",
-        "cost": 0.02
-      },
-      {
-        "id": "249182660281",
-        "name": "arsh231@qualys.dev",
         "cost": 0.02
       },
       {
@@ -2821,6 +2839,11 @@
         "cost": 0.02
       },
       {
+        "id": "779448144139",
+        "name": "Qflow-Ashish-11",
+        "cost": 0.02
+      },
+      {
         "id": "844246668213",
         "name": "arsh52@qualys.dev",
         "cost": 0.02
@@ -2836,250 +2859,245 @@
         "cost": 0.02
       },
       {
-        "id": "057836876658",
-        "name": "Qflow-Ashish-12",
+        "id": "228733323931",
+        "name": "arsh151@qualys.dev",
         "cost": 0.01
       },
       {
-        "id": "154477844448",
-        "name": "arsh235@qualys.dev",
-        "cost": 0.01
-      },
-      {
-        "id": "779448144139",
-        "name": "Qflow-Ashish-11",
+        "id": "278819683592",
+        "name": "arsh45@qualys.dev",
         "cost": 0.01
       }
     ],
-    "azure_total": 1526.29,
+    "azure_total": 1668.34,
     "azure_subscriptions": [
       {
         "id": "0cff124b-97e0-49ac-9fe4-98ddec8a060b",
         "name": "QFlow301-QA-Panther",
-        "cost": 171.25
+        "cost": 187.99
       },
       {
         "id": "894e3b4f-1b0f-4943-845d-fb3bb12a9ad2",
         "name": "QFLOW_PERF_JetJellyfish",
-        "cost": 141.67
+        "cost": 142.53
       },
       {
         "id": "5e91f820-d05f-4ca3-8ecd-4ea2b64769ca",
         "name": "QFLOW_PERF_CobaltCondor",
-        "cost": 95.67
+        "cost": 105.63
       },
       {
         "id": "7dbd9dfb-4f5b-45d4-a301-a6049d03bcf7",
         "name": "QFLOW_PERF_CircuitCitrus",
-        "cost": 91.26
+        "cost": 101.05
       },
       {
         "id": "82a6c5f8-fecc-40c0-975e-1bba1fb705a8",
         "name": "QFLOW_PERF_Rome",
-        "cost": 76.8
+        "cost": 84.95
       },
       {
         "id": "7f53ca2c-ba06-4157-89db-53544ce71b4c",
         "name": "QFLOW_PERF_TangerineTiger",
-        "cost": 71.61
+        "cost": 79.26
       },
       {
         "id": "c4e0f2f0-eb24-490e-b238-58e72e93f9ab",
         "name": "QFLOW_PERF_Everest",
-        "cost": 66.24
+        "cost": 73.52
       },
       {
         "id": "b8392058-8a1f-4250-98db-a9f4a075e625",
         "name": "QFLOW_Daily_Sanity_VirtualVanilla",
-        "cost": 61.25
+        "cost": 67.24
       },
       {
         "id": "474bccba-3d6f-4f64-8048-857cbc21bdc6",
         "name": "QFLOW_Daily_Sanity_QuantumQuince",
-        "cost": 59.6
+        "cost": 65.42
       },
       {
         "id": "558e2120-060b-4d81-bffa-da2edd6a0b79",
         "name": "QFLOW_Daily_Sanity_CacheCurrant",
-        "cost": 49.21
+        "cost": 53.39
       },
       {
         "id": "ee57636b-7b36-43d9-9f64-4c3441119adc",
         "name": "QFLOW_Daily_Sanity_Mysore",
-        "cost": 48.28
+        "cost": 53.08
       },
       {
         "id": "d08f3411-dcbf-4cfb-98b3-e121c9e5415d",
         "name": "QFLOW_PERF_Charleston",
-        "cost": 48.1
+        "cost": 52.95
       },
       {
         "id": "fc0967aa-63bb-4d93-bfb6-45ce04906257",
         "name": "QFLOW_Daily_Sanity_MangoMetric",
-        "cost": 47.27
+        "cost": 51.31
       },
       {
         "id": "7d46e492-6041-4f56-9135-b60765643293",
         "name": "QFLOW_Daily_Sanity_DigitalDate",
-        "cost": 46.68
+        "cost": 51.08
       },
       {
         "id": "56422cdf-f7a1-4509-83f4-b1527ffc92d8",
         "name": "QFLOW_PERF_Ladakh",
-        "cost": 43.12
+        "cost": 47.41
       },
       {
         "id": "706fdbb8-3ccb-4934-8df6-ccd18efeab16",
         "name": "QFLOW_Daily_Sanity_DigitalDill",
-        "cost": 42.68
-      },
-      {
-        "id": "8b03ffa7-5b48-4c7d-a9ef-8ebf35da507e",
-        "name": "QFLOW_Daily_Sanity_Citronova",
-        "cost": 41.62
+        "cost": 46.95
       },
       {
         "id": "40b2585e-f3f0-42c7-a954-046d4719109c",
         "name": "QFLOW_Daily_Sanity_PixelPeach",
-        "cost": 41.5
+        "cost": 45.65
+      },
+      {
+        "id": "8b03ffa7-5b48-4c7d-a9ef-8ebf35da507e",
+        "name": "QFLOW_Daily_Sanity_Citronova",
+        "cost": 45.51
       },
       {
         "id": "8a65f4ae-3c62-426c-883a-27fe48fa657a",
         "name": "QFLOW_Daily_Sanity_NetworkNectarine",
-        "cost": 40.91
+        "cost": 44.97
       },
       {
         "id": "3e0a033c-349d-45e2-b398-4c488bd6b83f",
         "name": "QFLOW_Daily_Sanity_ByteBanana",
-        "cost": 39.79
+        "cost": 42.94
       },
       {
         "id": "453ef4bf-8119-4df7-bb8f-0b6536f4abc8",
         "name": "QFLOW_Daily_Sanity_ByteBerry",
-        "cost": 37.19
+        "cost": 40.89
       },
       {
         "id": "3698648d-ffdf-4cbe-a073-d4bc0391bcb5",
         "name": "QFLOW_PERF_IvoryIbis",
-        "cost": 34.1
+        "cost": 37.52
       },
       {
         "id": "52136516-cfac-489f-a057-9e98cd8e4437",
         "name": "QFLOW_PERF_1_SERVICE",
-        "cost": 24.5
+        "cost": 30.37
       },
       {
         "id": "82dc3f9d-a248-4322-a55b-e753bff01960",
         "name": "QFLOW_Daily_Sanity_KernelKiwi",
-        "cost": 23.27
+        "cost": 26.14
       },
       {
         "id": "70a3e704-142b-4af3-9a92-b27fc4767609",
         "name": "QFLOW_PERF_Colosseum",
-        "cost": 11.6
+        "cost": 12.56
       },
       {
         "id": "0b04c716-64ad-43b5-93b1-96dbd9aaa412",
         "name": "QFlow1-Dev-Elephant-dsp-S",
-        "cost": 9.19
+        "cost": 9.73
       },
       {
         "id": "3b178654-a051-4622-9f84-271f421b9af4",
         "name": "QFLOW_PERF_Barcelona",
-        "cost": 8.38
+        "cost": 9.22
       },
       {
         "id": "1788b878-2596-4c6e-a6a2-6f3ab80b9d31",
         "name": "QFLOW_PERF_MintMantis",
-        "cost": 7.52
+        "cost": 8.29
       },
       {
         "id": "56de78cb-de75-49f4-a5bc-4c0346f76bb5",
         "name": "QFLOW_PERF_PumpkinPuffin",
-        "cost": 6.3
+        "cost": 6.95
       },
       {
         "id": "e55a8bd6-70df-4bc0-84a8-83b3f7cafae4",
         "name": "QFlow2-Dev-Tiger",
-        "cost": 6.16
+        "cost": 6.78
       },
       {
         "id": "00862698-0bd6-47a8-bcfe-1df5aae72871",
         "name": "QFLOW_PERF_AmberAntelope",
-        "cost": 4.22
+        "cost": 4.64
       },
       {
         "id": "a3b7f81f-e486-44ac-8d9f-377a1df0efa9",
         "name": "QFLOW_PERF_Dubai",
-        "cost": 4.21
-      },
-      {
-        "id": "45a15263-fec4-4c96-8a38-2f76857fe47b",
-        "name": "QFLOW_PERF_KelpKangaroo",
-        "cost": 4.21
+        "cost": 4.63
       },
       {
         "id": "e0d14dd6-20e6-4128-8077-3a01b2ca9d6e",
         "name": "QFLOW_PERF_BlackPanther",
-        "cost": 4.18
+        "cost": 4.63
+      },
+      {
+        "id": "45a15263-fec4-4c96-8a38-2f76857fe47b",
+        "name": "QFLOW_PERF_KelpKangaroo",
+        "cost": 4.63
       },
       {
         "id": "e0a5f47b-a347-4a96-a3c9-f84375125a9e",
         "name": "QFLOW_PERF_GreenFrog",
-        "cost": 4.18
+        "cost": 4.63
       },
       {
         "id": "f3c85595-4d59-4588-9452-e05eb6667504",
         "name": "QFLOW_PERF_CyanCoyote",
-        "cost": 4.18
-      },
-      {
-        "id": "2f00ec76-208a-4f49-a8f2-31c659506368",
-        "name": "QFLOW_PERF_Iceland",
-        "cost": 2.1
+        "cost": 4.63
       },
       {
         "id": "f18a5424-eb95-4b09-92ac-46b4218cbf43",
         "name": "QFlow301-QA-Snake",
-        "cost": 2.1
-      },
-      {
-        "id": "0e40073c-0f1b-437f-9223-1c20026d73af",
-        "name": "QFLOW_PERF_BronzeBeaver",
-        "cost": 2.1
+        "cost": 2.32
       },
       {
         "id": "e89c83a1-4398-4623-8592-234872e6baa7",
         "name": "QFlow302-QA-Koala",
-        "cost": 2.09
+        "cost": 2.32
+      },
+      {
+        "id": "0e40073c-0f1b-437f-9223-1c20026d73af",
+        "name": "QFLOW_PERF_BronzeBeaver",
+        "cost": 2.32
+      },
+      {
+        "id": "2f00ec76-208a-4f49-a8f2-31c659506368",
+        "name": "QFLOW_PERF_Iceland",
+        "cost": 2.31
       }
     ],
-    "azure_gov_total": 47.26,
+    "azure_gov_total": 69.44,
     "azure_gov_subs": [
       {
         "id": "c96b3dcb-2d51-4d75-a5d8-71a0a78bc62a",
         "name": "qlysgov-totalcloud-qflow1",
-        "cost": 23.43
+        "cost": 34.37
       },
       {
         "id": "c0835736-8d8a-4141-a0a6-edefda75dc86",
         "name": "qlysgov-totalcloud-tc-sme",
-        "cost": 14.85
+        "cost": 21.86
       },
       {
         "id": "83bf99b5-9d81-4344-a12b-0b0afa91e4f5",
         "name": "qlysgov-totalcloud-qflow4",
-        "cost": 5.0
+        "cost": 7.36
       },
       {
         "id": "e69c1afb-ed01-4176-a757-ca7a909d48c6",
         "name": "qlysgov-totalcloud-qflow2-Dev-RGade",
-        "cost": 3.98
+        "cost": 5.85
       }
     ],
-    "gcp_total": 117.0,
+    "gcp_total": 170.48,
     "gcp_services": {
-      "GCP Total": 117.0
+      "GCP Total": 170.48
     }
   }
 }
