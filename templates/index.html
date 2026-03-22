@@ -13,6 +13,7 @@
   --text:#e8eaf6; --muted:#546e7a; --accent:#f59e0b;
 }
 *{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
 body{background:var(--bg);color:var(--text);font-family:'Syne',sans-serif;min-height:100vh;}
 body::before{content:'';position:fixed;inset:0;background:
   radial-gradient(ellipse at 10% 20%,rgba(0,180,216,0.07) 0%,transparent 50%),
@@ -29,7 +30,8 @@ body::before{content:'';position:fixed;inset:0;background:
 .toggle-btn{padding:0.45rem 1.1rem;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--muted);font-family:'Syne',sans-serif;font-size:0.83rem;cursor:pointer;transition:all 0.2s;}
 .toggle-btn.active{background:var(--accent);border-color:var(--accent);color:#000;font-weight:700;}
 .summary-strip{display:flex;gap:0.75rem;flex-wrap:wrap;margin-bottom:1.5rem;}
-.summary-pill{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:0.75rem 1.25rem;display:flex;align-items:center;gap:0.75rem;flex:1;min-width:180px;transition:border-color 0.2s;}
+.summary-pill{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:0.75rem 1.25rem;display:flex;align-items:center;gap:0.75rem;flex:1;min-width:160px;transition:all 0.2s;cursor:pointer;text-decoration:none;}
+.summary-pill:hover{border-color:rgba(255,255,255,0.3);transform:translateY(-2px);box-shadow:0 4px 20px rgba(0,0,0,0.3);}
 .summary-pill:hover{border-color:rgba(255,255,255,0.15);}
 .pill-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
 .pill-info{flex:1;}
@@ -152,6 +154,7 @@ body::before{content:'';position:fixed;inset:0;background:
       <span class="section-tag" style="background:rgba(255,153,0,0.12);color:var(--aws)">AWS · Azure · GCP</span>
     </div>
     <!-- AWS Normal -->
+    <div id="section-aws-normal">
     <div class="account-block fade-in">
       <div class="account-header">
         <div>
@@ -174,7 +177,7 @@ body::before{content:'';position:fixed;inset:0;background:
       </div>
     </div>
     <!-- Azure QFlow -->
-    <div class="account-block fade-in">
+    <div id="block-azure-qflow" class="account-block fade-in">
       <div class="account-header">
         <div>
           <div class="account-id">Azure QFlow Subscriptions</div>
@@ -199,7 +202,7 @@ body::before{content:'';position:fixed;inset:0;background:
       </div>
     </div>
     <!-- Azure Gov -->
-    <div class="account-block fade-in">
+    <div id="block-azure-gov" class="account-block fade-in">
       <div class="account-header">
         <div>
           <div class="account-id">Azure Government Cloud</div>
@@ -224,7 +227,7 @@ body::before{content:'';position:fixed;inset:0;background:
       </div>
     </div>
     <!-- GCP -->
-    <div class="account-block fade-in">
+    <div id="block-gcp" class="account-block fade-in">
       <div class="account-header">
         <div>
           <div class="account-id" id="gcp-project-id">Project: —</div>
@@ -245,7 +248,7 @@ body::before{content:'';position:fixed;inset:0;background:
       <span class="section-tag" style="background:rgba(179,136,255,0.12);color:var(--org)">AWS Org · 200+ Linked Accounts</span>
     </div>
     <!-- AWS Org -->
-    <div class="account-block fade-in">
+    <div id="block-aws-org" class="account-block fade-in">
       <div class="account-header">
         <div>
           <div class="account-id" id="aws-org-id">Org Master Account</div>
@@ -277,7 +280,7 @@ let donutChart = null, barChart = null;
 
 async function loadData() {
   try {
-    const res = await fetch('/api/data');
+    const res = await fetch('https://cloud-cost-dashboard-qualys-dont-delete.s3.amazonaws.com/data.json');
     DATA = await res.json();
     if (DATA.error) {
       document.getElementById('loading').innerHTML = `<p style="color:#ff5252;font-size:0.9rem">${DATA.error}</p>`;
@@ -360,13 +363,13 @@ function render(period) {
 
   // Summary strip
   document.getElementById('summary-strip').innerHTML = [
-    { dot:'#FF9900', name:'AWS Normal',  acct: DATA.aws_normal_account_id || '—', cost: awsNormal  },
-    { dot:'#b388ff', name:'AWS Org',     acct: 'Org Master',                       cost: awsOrg     },
-    { dot:'#00b4d8', name:'Azure QFlow', acct: 'QFlow Subscriptions',              cost: azure      },
-    { dot:'#00b4d8', name:'Azure Gov',   acct: 'Government Cloud',                 cost: azureGov   },
-    { dot:'#00e676', name:'GCP',         acct: DATA.gcp_project_id || '—',         cost: gcp        },
+    { dot:'#FF9900', name:'AWS Normal',  acct: DATA.aws_normal_account_id || '—', cost: awsNormal,  anchor: 'block-aws-normal'  },
+    { dot:'#b388ff', name:'AWS Org',     acct: 'Org Master',                       cost: awsOrg,     anchor: 'block-aws-org'     },
+    { dot:'#00b4d8', name:'Azure QFlow', acct: 'QFlow Subscriptions',              cost: azure,      anchor: 'block-azure-qflow' },
+    { dot:'#00b4d8', name:'Azure Gov',   acct: 'Government Cloud',                 cost: azureGov,   anchor: 'block-azure-gov'   },
+    { dot:'#00e676', name:'GCP',         acct: DATA.gcp_project_id || '—',         cost: gcp,        anchor: 'block-gcp'         },
   ].map(p => `
-    <div class="summary-pill">
+    <div class="summary-pill" onclick="document.getElementById('${p.anchor}').scrollIntoView({behavior:'smooth', block:'start'})" title="Click to view ${p.name} details">
       <div class="pill-dot" style="background:${p.dot}"></div>
       <div class="pill-info">
         <div class="pill-name">${p.name}</div>
