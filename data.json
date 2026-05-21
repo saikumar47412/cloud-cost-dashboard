@@ -1,705 +1,775 @@
 {
-  "last_updated": "15-May-2026 04:59 PM IST",
+  "last_updated": "21-May-2026 07:06 PM IST",
   "mtd_start": "01 May",
-  "today": "15 May",
+  "today": "21 May",
   "aws_normal_account_id": "993493008830",
   "aws_org_account_id": "149294230127",
   "gcp_project_id": "qlys-devqa-workflow",
-  "gcp_data_period_mtd": "2026-05-01 \u2192 2026-05-14",
-  "gcp_data_period_l7": "2026-05-08 \u2192 2026-05-14",
+  "gcp_data_period_mtd": "2026-05-01 \u2192 2026-05-20",
+  "gcp_data_period_l7": "2026-05-14 \u2192 2026-05-20",
   "mtd": {
-    "aws_normal_total": 167.63,
+    "aws_normal_total": 241.91,
     "aws_normal_services": {
-      "AWS CloudTrail": 0.36,
-      "AWS Cost Explorer": 9.81,
-      "AWS Glue": 0.01,
-      "AWS Key Management Service": 6.92,
-      "AWS Secrets Manager": 1.56,
-      "AWS Security Hub": 0.5,
-      "AWS Step Functions": 0.03,
-      "AWS Systems Manager": 4.43,
+      "AWS CloudTrail": 0.55,
+      "AWS Cost Explorer": 14.6,
+      "AWS Glue": 0.04,
+      "AWS Key Management Service": 10.36,
+      "AWS Secrets Manager": 2.34,
+      "AWS Security Hub": 0.75,
+      "AWS Step Functions": 0.05,
+      "AWS Systems Manager": 6.64,
       "Amazon CloudFront": 0.02,
-      "Amazon DynamoDB": 0.05,
-      "Amazon EC2 Container Registry (ECR)": 0.5,
-      "EC2 - Other": 38.95,
-      "Amazon Elastic Compute Cloud - Compute": 6.12,
-      "Amazon GuardDuty": 37.51,
-      "Amazon Kinesis": 13.0,
-      "Amazon Macie": 4.02,
-      "Amazon Relational Database Service": 0.46,
-      "Amazon Route 53": 4.06,
-      "Amazon Simple Notification Service": 0.01,
-      "Amazon Simple Queue Service": 0.15,
-      "Amazon Simple Storage Service": 4.89,
-      "Amazon Virtual Private Cloud": 21.46,
+      "Amazon DynamoDB": 1.15,
+      "Amazon EC2 Container Registry (ECR)": 0.75,
+      "EC2 - Other": 57.32,
+      "Amazon Elastic Compute Cloud - Compute": 7.35,
+      "Amazon GuardDuty": 56.06,
+      "Amazon Kinesis": 19.36,
+      "Amazon Macie": 6.18,
+      "Amazon Relational Database Service": 0.7,
+      "Amazon Route 53": 5.65,
+      "Amazon Simple Notification Service": 0.02,
+      "Amazon Simple Queue Service": 0.22,
+      "Amazon Simple Storage Service": 7.12,
+      "Amazon Virtual Private Cloud": 30.28,
       "Amazon WorkSpaces": 9.75,
-      "AmazonCloudWatch": 3.08
+      "AmazonCloudWatch": 4.66
     },
-    "aws_org_total": 840.33,
+    "aws_org_total": 1235.98,
     "aws_org_accounts": [
       {
         "id": "149294230127",
         "name": "TotalCloud QA Account",
-        "cost": 71.92
+        "cost": 107.33
       },
       {
         "id": "273078346626",
         "name": "arsh211@qualys.dev",
-        "cost": 65.42
+        "cost": 97.73
       },
       {
         "id": "635571737179",
         "name": "svc uk01",
-        "cost": 50.56
-      },
-      {
-        "id": "682437954104",
-        "name": "balasaheb",
-        "cost": 44.51
+        "cost": 74.79
       },
       {
         "id": "494753002565",
         "name": "pjindal svc",
-        "cost": 44.42
+        "cost": 65.84
+      },
+      {
+        "id": "682437954104",
+        "name": "balasaheb",
+        "cost": 64.39
       },
       {
         "id": "095611265520",
         "name": "arsh10@qualys.dev",
-        "cost": 39.99
-      },
-      {
-        "id": "229658172382",
-        "name": "dev-rgade-service",
-        "cost": 25.1
+        "cost": 59.18
       },
       {
         "id": "590183730935",
         "name": "TESTQA",
-        "cost": 25.02
+        "cost": 36.89
+      },
+      {
+        "id": "229658172382",
+        "name": "dev-rgade-service",
+        "cost": 35.41
       },
       {
         "id": "541438730734",
         "name": "BHC_CDR_QA",
-        "cost": 18.62
+        "cost": 27.56
       },
       {
         "id": "034671213724",
         "name": "arsh109@qualys.dev",
-        "cost": 16.42
+        "cost": 24.09
       },
       {
         "id": "331556273345",
         "name": "arsh217@qualys.dev",
-        "cost": 15.53
-      },
-      {
-        "id": "060373238042",
-        "name": "p13 svc",
-        "cost": 15.15
+        "cost": 22.96
       },
       {
         "id": "148249192560",
         "name": "arsh105@qualys.dev",
-        "cost": 15.03
+        "cost": 22.44
+      },
+      {
+        "id": "060373238042",
+        "name": "p13 svc",
+        "cost": 22.12
       },
       {
         "id": "167684443721",
         "name": "arsh273@qualys.dev",
-        "cost": 14.55
-      },
-      {
-        "id": "240217704174",
-        "name": "arsh107@qualys.dev",
-        "cost": 13.97
+        "cost": 20.84
       },
       {
         "id": "677284942379",
         "name": "arsh213@qualys.dev",
-        "cost": 13.78
+        "cost": 20.38
+      },
+      {
+        "id": "240217704174",
+        "name": "arsh107@qualys.dev",
+        "cost": 20.08
       },
       {
         "id": "975050294188",
         "name": "TESTQA3",
-        "cost": 12.95
+        "cost": 18.61
       },
       {
         "id": "583837446846",
         "name": "arsh110@qualys.dev",
-        "cost": 12.51
-      },
-      {
-        "id": "905418261832",
-        "name": "TESTQA6",
-        "cost": 11.92
+        "cost": 18.51
       },
       {
         "id": "730335457683",
         "name": "TESTQA5",
-        "cost": 11.86
+        "cost": 17.74
+      },
+      {
+        "id": "905418261832",
+        "name": "TESTQA6",
+        "cost": 17.71
       },
       {
         "id": "143934116471",
         "name": "arsh279@qualys.dev",
-        "cost": 11.77
+        "cost": 17.31
       },
       {
         "id": "987418188891",
         "name": "arsh278@qualys.dev",
-        "cost": 11.24
+        "cost": 16.65
       },
       {
         "id": "199086174209",
         "name": "arsh108@qualys.dev",
-        "cost": 10.87
+        "cost": 15.95
       },
       {
         "id": "535299115383",
         "name": "arsh159@qualys.dev",
-        "cost": 10.37
+        "cost": 15.48
       },
       {
         "id": "285062414223",
         "name": "arsh140@qualys.dev",
-        "cost": 10.12
+        "cost": 15.03
       },
       {
         "id": "187024455668",
         "name": "arsh218@qualys.dev",
-        "cost": 9.98
+        "cost": 14.85
       },
       {
         "id": "202533496720",
         "name": "qualysuser",
-        "cost": 9.78
+        "cost": 14.61
       },
       {
         "id": "909870549273",
         "name": "vaishali tgt",
-        "cost": 9.24
-      },
-      {
-        "id": "716173093158",
-        "name": "Qualys TotalCloud RDS RI",
-        "cost": 8.25
+        "cost": 13.79
       },
       {
         "id": "475071743267",
         "name": "arsh234@qualys.dev",
-        "cost": 8.04
+        "cost": 12.06
       },
       {
         "id": "044821245880",
         "name": "arsh15@qualys.dev",
-        "cost": 7.8
+        "cost": 11.57
       },
       {
         "id": "863320968128",
         "name": "Qflow-Maithili_4",
-        "cost": 7.73
+        "cost": 11.45
       },
       {
         "id": "855327232746",
         "name": "arsh2@qualys.dev",
-        "cost": 7.52
-      },
-      {
-        "id": "509284582761",
-        "name": "arsh145@qualys.dev",
-        "cost": 6.9
+        "cost": 11.02
       },
       {
         "id": "930832105927",
         "name": "dev-rgade-2",
-        "cost": 6.69
+        "cost": 10.0
+      },
+      {
+        "id": "509284582761",
+        "name": "arsh145@qualys.dev",
+        "cost": 9.99
       },
       {
         "id": "297853565549",
         "name": "before optimization 4",
-        "cost": 6.55
+        "cost": 9.85
       },
       {
         "id": "044261911670",
         "name": "arsh17@qualys.dev",
-        "cost": 6.49
+        "cost": 9.82
       },
       {
         "id": "327456541158",
         "name": "sai tgt",
-        "cost": 6.39
+        "cost": 9.53
       },
       {
         "id": "059163870577",
         "name": "arsh48@qualys.dev",
-        "cost": 6.11
+        "cost": 9.08
       },
       {
         "id": "459353105060",
         "name": "arsh220@qualys.dev",
-        "cost": 5.89
+        "cost": 8.8
       },
       {
         "id": "429950822387",
         "name": "arsh133@qualys.dev",
-        "cost": 5.86
+        "cost": 8.75
+      },
+      {
+        "id": "716173093158",
+        "name": "Qualys TotalCloud RDS RI",
+        "cost": 8.26
       },
       {
         "id": "291066412207",
         "name": "arshAutomation2",
-        "cost": 5.53
+        "cost": 8.2
       },
       {
         "id": "980059074852",
         "name": "arsh135@qualys.dev",
-        "cost": 5.32
+        "cost": 7.9
       },
       {
         "id": "164577792704",
         "name": "arsh283@qualys.dev",
-        "cost": 5.29
+        "cost": 7.85
       },
       {
         "id": "304125837816",
         "name": "arsh62@qualys.dev",
-        "cost": 4.23
-      },
-      {
-        "id": "260880585145",
-        "name": "arsh76@qualys.dev",
-        "cost": 4.13
+        "cost": 6.1
       },
       {
         "id": "751375117945",
         "name": "arsh287@qualys.dev",
-        "cost": 3.96
+        "cost": 5.9
+      },
+      {
+        "id": "260880585145",
+        "name": "arsh76@qualys.dev",
+        "cost": 5.69
       },
       {
         "id": "107311130128",
         "name": "arsh167@qualys.dev",
-        "cost": 3.89
+        "cost": 5.56
       },
       {
         "id": "876464212992",
         "name": "svc us04",
-        "cost": 3.67
-      },
-      {
-        "id": "390844784899",
-        "name": "Whitebox",
-        "cost": 3.43
+        "cost": 5.53
       },
       {
         "id": "674393317291",
         "name": "arsh46@qualys.dev",
-        "cost": 3.41
-      },
-      {
-        "id": "528646883845",
-        "name": "QFlow-Maithili-2",
-        "cost": 3.26
-      },
-      {
-        "id": "050990333542",
-        "name": "new target 2",
-        "cost": 3.25
+        "cost": 5.1
       },
       {
         "id": "807310992472",
         "name": "sai svc",
-        "cost": 3.23
+        "cost": 4.87
+      },
+      {
+        "id": "390844784899",
+        "name": "Whitebox",
+        "cost": 4.86
+      },
+      {
+        "id": "528646883845",
+        "name": "QFlow-Maithili-2",
+        "cost": 4.86
+      },
+      {
+        "id": "050990333542",
+        "name": "new target 2",
+        "cost": 4.84
       },
       {
         "id": "852124743903",
         "name": "arsh92@qualys.dev",
-        "cost": 3.06
+        "cost": 4.55
       },
       {
         "id": "052877459505",
         "name": "Qflow-Vaishali-22",
-        "cost": 2.9
+        "cost": 4.33
       },
       {
         "id": "910594417067",
         "name": "svc au01",
-        "cost": 2.82
-      },
-      {
-        "id": "986309855560",
-        "name": "arsh186@qualys.dev",
-        "cost": 2.74
+        "cost": 4.27
       },
       {
         "id": "803993009476",
         "name": "arsh96@qualys.dev",
-        "cost": 2.73
+        "cost": 4.06
+      },
+      {
+        "id": "986309855560",
+        "name": "arsh186@qualys.dev",
+        "cost": 4.06
       },
       {
         "id": "888657991711",
         "name": "Qflow-Maithili-5",
-        "cost": 2.65
+        "cost": 3.93
       },
       {
         "id": "408429263225",
         "name": "arsh191@qualys.dev",
-        "cost": 2.61
-      },
-      {
-        "id": "207175984884",
-        "name": "arsh66@qualys.dev",
-        "cost": 2.24
+        "cost": 3.89
       },
       {
         "id": "580666022423",
         "name": "arsh226@qualys.dev",
-        "cost": 2.15
+        "cost": 3.3
       },
       {
         "id": "500321821407",
         "name": "arsh125@qualys.dev",
-        "cost": 2.1
+        "cost": 3.23
+      },
+      {
+        "id": "207175984884",
+        "name": "arsh66@qualys.dev",
+        "cost": 3.21
       },
       {
         "id": "003004624713",
         "name": "arsh147@qualys.dev",
-        "cost": 2.03
+        "cost": 2.99
       },
       {
         "id": "909362960884",
         "name": "pjindal tgt1",
-        "cost": 1.98
+        "cost": 2.94
       },
       {
         "id": "205666877655",
         "name": "arsh1@qualys.dev",
-        "cost": 1.78
+        "cost": 2.63
       },
       {
         "id": "451600355128",
         "name": "arsh266@qualys.dev",
-        "cost": 1.78
+        "cost": 2.63
       },
       {
         "id": "619028518089",
         "name": "arsh170@qualys.dev",
-        "cost": 1.77
-      },
-      {
-        "id": "677276115790",
-        "name": "greybox",
-        "cost": 1.6
+        "cost": 2.62
       },
       {
         "id": "483773993138",
         "name": "before optimization 2",
-        "cost": 1.53
+        "cost": 2.32
       },
       {
         "id": "817505957732",
         "name": "arsh98@qualys.dev",
-        "cost": 1.37
+        "cost": 2.02
       },
       {
-        "id": "122610512270",
-        "name": "Blackbox",
-        "cost": 1.34
-      },
-      {
-        "id": "475558561317",
-        "name": "arsh275@qualys.dev",
-        "cost": 1.25
-      },
-      {
-        "id": "912026262586",
-        "name": "vaishali svc",
-        "cost": 1.24
-      },
-      {
-        "id": "198829653374",
-        "name": "balasaheb-1",
-        "cost": 1.23
+        "id": "677276115790",
+        "name": "greybox",
+        "cost": 1.94
       },
       {
         "id": "273721849379",
         "name": "dev-rgade-1",
-        "cost": 1.23
+        "cost": 1.9
+      },
+      {
+        "id": "475558561317",
+        "name": "arsh275@qualys.dev",
+        "cost": 1.88
+      },
+      {
+        "id": "912026262586",
+        "name": "vaishali svc",
+        "cost": 1.84
+      },
+      {
+        "id": "198829653374",
+        "name": "balasaheb-1",
+        "cost": 1.82
+      },
+      {
+        "id": "122610512270",
+        "name": "Blackbox",
+        "cost": 1.8
       },
       {
         "id": "145838104650",
         "name": "arsh142@qualys.dev",
-        "cost": 1.09
-      },
-      {
-        "id": "488805873141",
-        "name": "arsh143@qualys.dev",
-        "cost": 1.07
+        "cost": 1.62
       },
       {
         "id": "574433037642",
         "name": "eu03",
-        "cost": 1.07
-      },
-      {
-        "id": "923888388157",
-        "name": "QFlow-Maithili-1",
-        "cost": 1.05
+        "cost": 1.6
       },
       {
         "id": "307970860936",
         "name": "svc us02",
-        "cost": 1.03
+        "cost": 1.53
       },
       {
         "id": "075674630895",
         "name": "arsh87@qualys.dev",
-        "cost": 0.99
-      },
-      {
-        "id": "150101695321",
-        "name": "arsh258@qualys.dev",
-        "cost": 0.98
+        "cost": 1.46
       },
       {
         "id": "003340426733",
         "name": "arsh134@qualys.dev",
-        "cost": 0.97
+        "cost": 1.44
       },
       {
         "id": "426622616498",
         "name": "arsh121@qualys.dev",
-        "cost": 0.97
+        "cost": 1.43
       },
       {
         "id": "503690661551",
         "name": "arsh47@qualys.dev",
-        "cost": 0.97
+        "cost": 1.43
       },
       {
         "id": "840158198744",
         "name": "arsh251@qualys.dev",
-        "cost": 0.97
+        "cost": 1.43
+      },
+      {
+        "id": "923888388157",
+        "name": "QFlow-Maithili-1",
+        "cost": 1.4
+      },
+      {
+        "id": "488805873141",
+        "name": "arsh143@qualys.dev",
+        "cost": 1.38
       },
       {
         "id": "779375447290",
         "name": "arsh137@qualys.dev",
-        "cost": 0.9
+        "cost": 1.33
       },
       {
         "id": "671281917320",
         "name": "arsh161@qualys.dev",
-        "cost": 0.89
+        "cost": 1.32
+      },
+      {
+        "id": "150101695321",
+        "name": "arsh258@qualys.dev",
+        "cost": 1.23
       },
       {
         "id": "313054287571",
         "name": "p13-2",
-        "cost": 0.81
+        "cost": 1.2
       },
       {
         "id": "456965400883",
         "name": "arsh104@qualys.dev",
-        "cost": 0.81
+        "cost": 1.19
       },
       {
         "id": "151115464552",
         "name": "arsh285@qualys.dev",
-        "cost": 0.79
-      },
-      {
-        "id": "156300301894",
-        "name": "arsh208@qualys.dev",
-        "cost": 0.79
+        "cost": 1.17
       },
       {
         "id": "699475930074",
         "name": "newtestaccountqa",
-        "cost": 0.77
+        "cost": 1.1
       },
       {
         "id": "742344027791",
         "name": "arsh157@qualys.dev",
-        "cost": 0.71
-      },
-      {
-        "id": "928329497587",
-        "name": "pjindal tgt2",
-        "cost": 0.65
+        "cost": 1.1
       },
       {
         "id": "625911360890",
         "name": "arsh100@qualys.dev",
-        "cost": 0.64
+        "cost": 1.0
       },
       {
-        "id": "227250474767",
-        "name": "arsh126@qualys.dev",
-        "cost": 0.63
+        "id": "928329497587",
+        "name": "pjindal tgt2",
+        "cost": 1.0
       },
       {
-        "id": "007730361209",
-        "name": "EU01",
-        "cost": 0.61
-      },
-      {
-        "id": "561303529171",
-        "name": "maithili svc",
-        "cost": 0.61
+        "id": "156300301894",
+        "name": "arsh208@qualys.dev",
+        "cost": 0.95
       },
       {
         "id": "847814059329",
         "name": "arsh111@qualys.dev",
-        "cost": 0.61
+        "cost": 0.94
+      },
+      {
+        "id": "227250474767",
+        "name": "arsh126@qualys.dev",
+        "cost": 0.92
+      },
+      {
+        "id": "007730361209",
+        "name": "EU01",
+        "cost": 0.9
+      },
+      {
+        "id": "561303529171",
+        "name": "maithili svc",
+        "cost": 0.9
       },
       {
         "id": "577400626275",
         "name": "arsh216@qualys.dev",
-        "cost": 0.6
+        "cost": 0.89
       },
       {
         "id": "548855206515",
         "name": "arsh227@qualys.dev",
-        "cost": 0.58
+        "cost": 0.86
       },
       {
         "id": "647836792828",
         "name": "arsh99@qualys.dev",
-        "cost": 0.55
+        "cost": 0.82
       },
       {
         "id": "029361457612",
         "name": "Qflow-Maithili-7",
-        "cost": 0.54
+        "cost": 0.79
       },
       {
         "id": "026090517945",
         "name": "newqaaccounttesting",
-        "cost": 0.52
+        "cost": 0.77
       },
       {
         "id": "724203528054",
         "name": "svc us01",
-        "cost": 0.52
+        "cost": 0.77
       },
       {
         "id": "332177277666",
         "name": "arsh85@qualys.dev",
-        "cost": 0.5
-      },
-      {
-        "id": "273193025391",
-        "name": "arsh153@qualys.dev",
-        "cost": 0.32
+        "cost": 0.76
       },
       {
         "id": "025532381522",
         "name": "arsh103@qualys.dev",
-        "cost": 0.29
+        "cost": 0.54
+      },
+      {
+        "id": "273193025391",
+        "name": "arsh153@qualys.dev",
+        "cost": 0.48
       },
       {
         "id": "780109526425",
         "name": "arsh129@qualys.dev",
-        "cost": 0.29
+        "cost": 0.43
       },
       {
         "id": "688458530518",
         "name": "p19-dev",
-        "cost": 0.25
-      },
-      {
-        "id": "086544974598",
-        "name": "arsh214@qualys.dev",
-        "cost": 0.2
+        "cost": 0.38
       },
       {
         "id": "827201566344",
         "name": "arsh106@qualys.dev",
-        "cost": 0.19
+        "cost": 0.3
+      },
+      {
+        "id": "086544974598",
+        "name": "arsh214@qualys.dev",
+        "cost": 0.29
       },
       {
         "id": "820077247727",
         "name": "arsh178@qualys.dev",
-        "cost": 0.17
+        "cost": 0.26
       },
       {
         "id": "992382622144",
         "name": "TESTQA8",
-        "cost": 0.17
-      },
-      {
-        "id": "019466240241",
-        "name": "arsh82@qualys.dev",
-        "cost": 0.16
-      },
-      {
-        "id": "048076892301",
-        "name": "arsh215@qualys.dev",
-        "cost": 0.16
+        "cost": 0.26
       },
       {
         "id": "209745620352",
         "name": "arsh205@qualys.dev",
-        "cost": 0.16
+        "cost": 0.25
+      },
+      {
+        "id": "019466240241",
+        "name": "arsh82@qualys.dev",
+        "cost": 0.24
+      },
+      {
+        "id": "048076892301",
+        "name": "arsh215@qualys.dev",
+        "cost": 0.24
       },
       {
         "id": "270013331545",
         "name": "arsh265@qualys.dev",
-        "cost": 0.16
+        "cost": 0.24
       },
       {
         "id": "263345096540",
         "name": "arsh222@qualys.dev",
-        "cost": 0.08
+        "cost": 0.12
       },
       {
         "id": "556151867167",
         "name": "arsh63@qualys.dev",
-        "cost": 0.08
+        "cost": 0.12
       },
       {
         "id": "621367206022",
         "name": "arsh225@qualys.dev",
-        "cost": 0.08
-      },
-      {
-        "id": "141412784181",
-        "name": "arsh195@qualys.dev",
-        "cost": 0.07
+        "cost": 0.12
       },
       {
         "id": "828323832156",
         "name": "Qflow-Ashish-15",
-        "cost": 0.07
+        "cost": 0.11
+      },
+      {
+        "id": "141412784181",
+        "name": "arsh195@qualys.dev",
+        "cost": 0.1
       },
       {
         "id": "951931581453",
         "name": "danny",
-        "cost": 0.06
+        "cost": 0.1
       },
       {
         "id": "219750295209",
         "name": "arsh233@qualys.dev",
-        "cost": 0.04
-      },
-      {
-        "id": "268675503799",
-        "name": "Qualys TotalCloud Redshift RI",
-        "cost": 0.04
+        "cost": 0.06
       },
       {
         "id": "340573535312",
         "name": "arsh149@qualys.dev",
-        "cost": 0.04
+        "cost": 0.06
       },
       {
         "id": "381491968057",
         "name": "Qflow-Rushi-1",
-        "cost": 0.04
+        "cost": 0.06
+      },
+      {
+        "id": "268675503799",
+        "name": "Qualys TotalCloud Redshift RI",
+        "cost": 0.05
       },
       {
         "id": "803664810273",
         "name": "Qualys TotalCloud EC2 RI",
-        "cost": 0.03
+        "cost": 0.05
       },
       {
         "id": "833390816798",
         "name": "Qualys TotalCloud Opensearch RI",
+        "cost": 0.05
+      },
+      {
+        "id": "641135200776",
+        "name": "arsh219@qualys.dev",
+        "cost": 0.04
+      },
+      {
+        "id": "110747401450",
+        "name": "arsh196@qualys.dev",
+        "cost": 0.03
+      },
+      {
+        "id": "208632845092",
+        "name": "arsh29@qualys.dev",
+        "cost": 0.03
+      },
+      {
+        "id": "238235927391",
+        "name": "arsh139@qualys.dev",
+        "cost": 0.03
+      },
+      {
+        "id": "242102729613",
+        "name": "arsh212@qualys.dev",
+        "cost": 0.03
+      },
+      {
+        "id": "249182660281",
+        "name": "arsh231@qualys.dev",
+        "cost": 0.03
+      },
+      {
+        "id": "268514689407",
+        "name": "arsh79@qualys.dev",
+        "cost": 0.03
+      },
+      {
+        "id": "289361332187",
+        "name": "before optimization 1",
+        "cost": 0.03
+      },
+      {
+        "id": "509554789406",
+        "name": "arsh60@qualys.dev",
+        "cost": 0.03
+      },
+      {
+        "id": "525291109373",
+        "name": "arsh61@qualys.dev",
+        "cost": 0.03
+      },
+      {
+        "id": "534796636025",
+        "name": "arsh136@qualys.dev",
+        "cost": 0.03
+      },
+      {
+        "id": "623366770845",
+        "name": "arsh270@qualys.dev",
+        "cost": 0.03
+      },
+      {
+        "id": "703549570652",
+        "name": "ashish tgt",
+        "cost": 0.03
+      },
+      {
+        "id": "844246668213",
+        "name": "arsh52@qualys.dev",
         "cost": 0.03
       },
       {
@@ -708,1091 +778,1154 @@
         "cost": 0.02
       },
       {
-        "id": "110747401450",
-        "name": "arsh196@qualys.dev",
-        "cost": 0.02
-      },
-      {
-        "id": "208632845092",
-        "name": "arsh29@qualys.dev",
-        "cost": 0.02
-      },
-      {
         "id": "222962371540",
         "name": "arsh32@qualys.dev",
         "cost": 0.02
       },
       {
-        "id": "238235927391",
-        "name": "arsh139@qualys.dev",
-        "cost": 0.02
-      },
-      {
-        "id": "242102729613",
-        "name": "arsh212@qualys.dev",
-        "cost": 0.02
-      },
-      {
-        "id": "249182660281",
-        "name": "arsh231@qualys.dev",
-        "cost": 0.02
-      },
-      {
-        "id": "268514689407",
-        "name": "arsh79@qualys.dev",
-        "cost": 0.02
-      },
-      {
-        "id": "289361332187",
-        "name": "before optimization 1",
-        "cost": 0.02
-      },
-      {
-        "id": "509554789406",
-        "name": "arsh60@qualys.dev",
-        "cost": 0.02
-      },
-      {
-        "id": "525291109373",
-        "name": "arsh61@qualys.dev",
-        "cost": 0.02
-      },
-      {
-        "id": "534796636025",
-        "name": "arsh136@qualys.dev",
-        "cost": 0.02
-      },
-      {
-        "id": "623366770845",
-        "name": "arsh270@qualys.dev",
-        "cost": 0.02
-      },
-      {
-        "id": "641135200776",
-        "name": "arsh219@qualys.dev",
-        "cost": 0.02
-      },
-      {
-        "id": "703549570652",
-        "name": "ashish tgt",
-        "cost": 0.02
-      },
-      {
-        "id": "844246668213",
-        "name": "arsh52@qualys.dev",
-        "cost": 0.02
-      },
-      {
         "id": "278819683592",
         "name": "arsh45@qualys.dev",
-        "cost": 0.01
+        "cost": 0.02
       },
       {
         "id": "779448144139",
         "name": "Qflow-Ashish-11",
-        "cost": 0.01
+        "cost": 0.02
       },
       {
         "id": "879435543682",
         "name": "arsh51@qualys.dev",
-        "cost": 0.01
+        "cost": 0.02
       }
     ],
     "aws_org_services": {
       "003004624713": {
-        "AWS Key Management Service": 2.03
+        "AWS Key Management Service": 2.99
       },
       "003340426733": {
-        "AWS Key Management Service": 0.81,
-        "AWS Secrets Manager": 0.16
+        "AWS Key Management Service": 1.2,
+        "AWS Secrets Manager": 0.24
       },
       "007730361209": {
-        "AWS Secrets Manager": 0.16,
-        "AWS Step Functions": 0.36,
-        "Amazon Simple Queue Service": 0.09
+        "AWS Secrets Manager": 0.24,
+        "AWS Step Functions": 0.53,
+        "Amazon Simple Queue Service": 0.14
       },
       "019466240241": {
-        "AWS Secrets Manager": 0.16
+        "AWS Secrets Manager": 0.24
       },
       "025532381522": {
-        "AWS Key Management Service": 0.02,
-        "Amazon GuardDuty": 0.11,
-        "Amazon Simple Storage Service": 0.09,
-        "AmazonCloudWatch": 0.07
+        "AWS Key Management Service": 0.04,
+        "AWS Secrets Manager": 0.01,
+        "Amazon GuardDuty": 0.17,
+        "Amazon Simple Storage Service": 0.13,
+        "AmazonCloudWatch": 0.19
       },
       "026090517945": {
-        "AWS Secrets Manager": 0.16,
-        "AWS Step Functions": 0.36
+        "AWS Secrets Manager": 0.24,
+        "AWS Step Functions": 0.53
       },
       "029361457612": {
-        "AWS Secrets Manager": 0.17,
-        "AWS Step Functions": 0.36
+        "AWS Key Management Service": 0.01,
+        "AWS Secrets Manager": 0.25,
+        "AWS Step Functions": 0.53
       },
       "034671213724": {
-        "AWS Key Management Service": 0.99,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.21,
-        "AWS Step Functions": 5.29,
+        "AWS Key Management Service": 1.46,
+        "AWS Lambda": 0.1,
+        "AWS Secrets Manager": 0.31,
+        "AWS Step Functions": 7.83,
         "AWS Systems Manager": 0.02,
-        "Amazon API Gateway": 0.07,
-        "EC2 - Other": 0.39,
-        "Amazon Elastic Compute Cloud - Compute": 6.99,
+        "Amazon API Gateway": 0.11,
+        "Amazon DynamoDB": 0.01,
+        "EC2 - Other": 0.57,
+        "Amazon Elastic Compute Cloud - Compute": 10.26,
         "Amazon Route 53": 0.46,
-        "Amazon Simple Queue Service": 0.25,
-        "Amazon Simple Storage Service": 0.08,
-        "Amazon Virtual Private Cloud": 1.62,
-        "AmazonCloudWatch": 0.03
+        "Amazon Simple Queue Service": 0.38,
+        "Amazon Simple Storage Service": 0.12,
+        "Amazon Virtual Private Cloud": 2.4,
+        "AmazonCloudWatch": 0.06
       },
       "044261911670": {
-        "AWS Key Management Service": 3.0,
-        "AWS Lambda": 0.02,
-        "AWS Secrets Manager": 0.18,
-        "AWS Step Functions": 1.49,
-        "Amazon API Gateway": 0.05,
-        "Amazon DynamoDB": 0.23,
-        "EC2 - Other": 0.92,
-        "Amazon GuardDuty": 0.15,
-        "Amazon Simple Queue Service": 0.39,
-        "AmazonCloudWatch": 0.05
+        "AWS Key Management Service": 4.44,
+        "AWS Lambda": 0.17,
+        "AWS Secrets Manager": 0.26,
+        "AWS Step Functions": 2.2,
+        "Amazon API Gateway": 0.07,
+        "Amazon DynamoDB": 0.33,
+        "EC2 - Other": 1.42,
+        "Amazon GuardDuty": 0.23,
+        "Amazon Simple Queue Service": 0.58,
+        "AmazonCloudWatch": 0.12
       },
       "044821245880": {
-        "AWS Key Management Service": 6.9,
-        "EC2 - Other": 0.9
+        "AWS Key Management Service": 10.19,
+        "EC2 - Other": 1.38
       },
       "048076892301": {
-        "AWS Secrets Manager": 0.16
+        "AWS Secrets Manager": 0.24
       },
       "050990333542": {
-        "AWS Key Management Service": 1.27,
-        "AWS Secrets Manager": 0.19,
-        "AWS Step Functions": 1.11,
-        "Amazon API Gateway": 0.05,
-        "EC2 - Other": 0.18,
-        "Amazon GuardDuty": 0.1,
-        "Amazon Simple Queue Service": 0.34,
-        "AmazonCloudWatch": 0.01
+        "AWS Key Management Service": 1.87,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.29,
+        "AWS Step Functions": 1.64,
+        "Amazon API Gateway": 0.07,
+        "EC2 - Other": 0.27,
+        "Amazon GuardDuty": 0.15,
+        "Amazon Simple Queue Service": 0.51,
+        "AmazonCloudWatch": 0.02
       },
       "052877459505": {
-        "AWS Cost Explorer": 2.9
+        "AWS Cost Explorer": 4.32
       },
-      "059163870577": {
-        "AWS Key Management Service": 0.88,
-        "AWS Secrets Manager": 0.19,
-        "AWS Step Functions": 1.2,
-        "AWS Systems Manager": 0.02,
-        "AWS WAF": 3.24,
-        "EC2 - Other": 0.3,
-        "Amazon Simple Queue Service": 0.22,
-        "Amazon Simple Storage Service": 0.02,
-        "AmazonCloudWatch": 0.03
-      },
-      "060373238042": {
-        "AWS Key Management Service": 7.84,
-        "AWS Secrets Manager": 0.2,
-        "AWS Step Functions": 2.2,
-        "AWS WAF": 3.24,
-        "EC2 - Other": 0.88,
-        "Amazon GuardDuty": 0.54,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Simple Storage Service": 0.01
-      },
-      "075674630895": {
-        "AWS Key Management Service": 0.81,
-        "AWS Secrets Manager": 0.16
-      },
-      "086544974598": {
-        "AWS Secrets Manager": 0.16,
-        "EC2 - Other": 0.03
-      },
-      "095611265520": {
-        "AWS Key Management Service": 1.69,
-        "AWS Secrets Manager": 0.2,
-        "AWS Step Functions": 1.15,
-        "Amazon API Gateway": 0.05,
-        "EC2 - Other": 0.36,
-        "Amazon Elastic Load Balancing": 28.67,
-        "Amazon Simple Queue Service": 0.33,
-        "Amazon Virtual Private Cloud": 7.52,
-        "AmazonCloudWatch": 0.01
-      },
-      "107311130128": {
-        "AWS Key Management Service": 1.26,
-        "AWS Secrets Manager": 0.36,
-        "AWS Step Functions": 1.24,
-        "Amazon API Gateway": 0.05,
-        "EC2 - Other": 0.17,
-        "Amazon Route 53": 0.46,
-        "Amazon Simple Queue Service": 0.36
-      },
-      "110747401450": {
+      "057836876658": {
         "AWS Key Management Service": 0.01
       },
+      "059163870577": {
+        "AWS Key Management Service": 1.3,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.28,
+        "AWS Step Functions": 1.77,
+        "AWS Systems Manager": 0.02,
+        "AWS WAF": 4.8,
+        "EC2 - Other": 0.45,
+        "Amazon Simple Queue Service": 0.34,
+        "Amazon Simple Storage Service": 0.04,
+        "AmazonCloudWatch": 0.07
+      },
+      "060373238042": {
+        "AWS Key Management Service": 11.35,
+        "AWS Lambda": 0.04,
+        "AWS Secrets Manager": 0.3,
+        "AWS Step Functions": 3.37,
+        "AWS WAF": 4.51,
+        "EC2 - Other": 1.31,
+        "Amazon GuardDuty": 0.85,
+        "Amazon Simple Queue Service": 0.36,
+        "Amazon Simple Storage Service": 0.02
+      },
+      "075674630895": {
+        "AWS Key Management Service": 1.2,
+        "AWS Secrets Manager": 0.24,
+        "Amazon GuardDuty": 0.01
+      },
+      "086544974598": {
+        "AWS Secrets Manager": 0.24,
+        "EC2 - Other": 0.05
+      },
+      "095611265520": {
+        "AWS Key Management Service": 2.49,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.29,
+        "AWS Step Functions": 1.7,
+        "Amazon API Gateway": 0.07,
+        "EC2 - Other": 0.56,
+        "Amazon Elastic Load Balancing": 42.39,
+        "Amazon Simple Queue Service": 0.5,
+        "Amazon Virtual Private Cloud": 11.14,
+        "AmazonCloudWatch": 0.02
+      },
+      "107311130128": {
+        "AWS Key Management Service": 1.86,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.53,
+        "AWS Step Functions": 1.83,
+        "Amazon API Gateway": 0.07,
+        "EC2 - Other": 0.26,
+        "Amazon Route 53": 0.46,
+        "Amazon Simple Queue Service": 0.53
+      },
+      "110747401450": {
+        "AWS Key Management Service": 0.02
+      },
       "122610512270": {
-        "AWS Secrets Manager": 0.16,
-        "EC2 - Other": 0.72,
+        "AWS Secrets Manager": 0.24,
+        "EC2 - Other": 1.1,
         "Amazon Route 53": 0.46
       },
       "141412784181": {
-        "AWS Key Management Service": 0.01,
-        "Amazon GuardDuty": 0.05
+        "AWS Key Management Service": 0.02,
+        "Amazon GuardDuty": 0.07
       },
       "143934116471": {
-        "AWS Key Management Service": 0.93,
-        "AWS Secrets Manager": 0.22,
-        "AWS Step Functions": 3.79,
+        "AWS Key Management Service": 1.37,
+        "AWS Lambda": 0.06,
+        "AWS Secrets Manager": 0.33,
+        "AWS Step Functions": 5.59,
         "AWS Systems Manager": 0.04,
-        "AWS WAF": 3.24,
-        "EC2 - Other": 1.32,
-        "Amazon Elastic Compute Cloud - Compute": 1.35,
+        "AWS WAF": 4.8,
+        "EC2 - Other": 1.97,
+        "Amazon Elastic Compute Cloud - Compute": 2.08,
         "Amazon Route 53": 0.46,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Simple Storage Service": 0.04,
-        "Amazon Virtual Private Cloud": 0.12
+        "Amazon Simple Queue Service": 0.34,
+        "Amazon Simple Storage Service": 0.06,
+        "Amazon Virtual Private Cloud": 0.17,
+        "AmazonCloudWatch": 0.03
       },
       "145838104650": {
-        "AWS Key Management Service": 0.04,
-        "AWS Secrets Manager": 0.19,
-        "AWS Step Functions": 0.36,
-        "Amazon GuardDuty": 0.49
+        "AWS Key Management Service": 0.06,
+        "AWS Secrets Manager": 0.29,
+        "AWS Step Functions": 0.53,
+        "Amazon GuardDuty": 0.74
       },
       "148249192560": {
-        "AWS Key Management Service": 1.42,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.26,
-        "AWS Step Functions": 4.69,
+        "AWS Key Management Service": 2.1,
+        "AWS Lambda": 0.13,
+        "AWS Secrets Manager": 0.38,
+        "AWS Step Functions": 6.95,
         "AWS Systems Manager": 0.02,
-        "AWS WAF": 3.24,
-        "EC2 - Other": 2.4,
-        "Amazon Elastic Compute Cloud - Compute": 1.13,
-        "Amazon GuardDuty": 1.33,
+        "AWS WAF": 4.8,
+        "Amazon DynamoDB": 0.01,
+        "EC2 - Other": 3.64,
+        "Amazon Elastic Compute Cloud - Compute": 1.74,
+        "Amazon GuardDuty": 1.93,
         "Amazon Route 53": 0.09,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Simple Storage Service": 0.07,
-        "Amazon Virtual Private Cloud": 0.12
+        "Amazon Simple Queue Service": 0.35,
+        "Amazon Simple Storage Service": 0.11,
+        "Amazon Virtual Private Cloud": 0.17
       },
       "149294230127": {
-        "AWS Cost Explorer": 15.79,
-        "AWS Key Management Service": 0.88,
-        "AWS Secrets Manager": 0.19,
-        "AWS WAF": 3.24,
+        "AWS Cost Explorer": 24.44,
+        "AWS Key Management Service": 1.31,
+        "AWS Secrets Manager": 0.28,
+        "AWS WAF": 4.8,
         "Amazon Bedrock": 0.04,
-        "Amazon EC2 Container Registry (ECR)": 0.14,
-        "EC2 - Other": 6.14,
-        "Amazon Elastic Compute Cloud - Compute": 4.8,
-        "Amazon Kinesis": 18.16,
-        "Amazon Relational Database Service": 1.12,
-        "Amazon Simple Storage Service": 8.05,
-        "Amazon Virtual Private Cloud": 12.06,
+        "Amazon EC2 Container Registry (ECR)": 0.2,
+        "EC2 - Other": 9.12,
+        "Amazon Elastic Compute Cloud - Compute": 7.11,
+        "Amazon Kinesis": 26.83,
+        "Amazon Relational Database Service": 1.66,
+        "Amazon Simple Storage Service": 12.39,
+        "Amazon Virtual Private Cloud": 17.84,
+        "AmazonCloudWatch": 0.01,
         "Claude Opus 4.7 (Amazon Bedrock Edition)": 1.3
       },
       "150101695321": {
-        "AWS Secrets Manager": 0.16,
-        "AWS Step Functions": 0.36,
+        "AWS Secrets Manager": 0.24,
+        "AWS Step Functions": 0.53,
         "Amazon Route 53": 0.46
       },
       "151115464552": {
-        "AWS Secrets Manager": 0.17,
-        "AWS Step Functions": 0.36,
-        "Amazon Simple Queue Service": 0.26
+        "AWS Key Management Service": 0.01,
+        "AWS Secrets Manager": 0.25,
+        "AWS Step Functions": 0.53,
+        "Amazon Simple Queue Service": 0.38
       },
       "156300301894": {
-        "AWS Secrets Manager": 0.16,
-        "EC2 - Other": 0.16,
+        "AWS Secrets Manager": 0.24,
+        "EC2 - Other": 0.25,
         "Amazon Route 53": 0.46
       },
       "164577792704": {
-        "AWS Key Management Service": 0.88,
-        "AWS Secrets Manager": 0.2,
-        "AWS Step Functions": 3.42,
+        "AWS Key Management Service": 1.31,
+        "AWS Lambda": 0.04,
+        "AWS Secrets Manager": 0.3,
+        "AWS Step Functions": 5.05,
         "AWS Systems Manager": 0.04,
-        "Amazon API Gateway": 0.08,
-        "EC2 - Other": 0.03,
-        "Amazon GuardDuty": 0.33,
-        "Amazon Simple Queue Service": 0.27,
-        "AmazonCloudWatch": 0.01
-      },
-      "167684443721": {
-        "AWS Key Management Service": 0.92,
-        "AWS Secrets Manager": 0.24,
-        "AWS Step Functions": 2.22,
-        "AWS WAF": 3.24,
-        "EC2 - Other": 1.33,
-        "Amazon GuardDuty": 0.31,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Simple Storage Service": 0.02,
-        "Amazon Virtual Private Cloud": 6.02
-      },
-      "187024455668": {
-        "AWS Key Management Service": 1.01,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.26,
-        "AWS Step Functions": 4.59,
-        "AWS WAF": 3.24,
-        "EC2 - Other": 0.23,
-        "Amazon Elastic Compute Cloud - Compute": 0.13,
-        "Amazon Route 53": 0.09,
-        "Amazon Simple Queue Service": 0.22,
-        "Amazon Simple Storage Service": 0.05,
-        "Amazon Virtual Private Cloud": 0.12
-      },
-      "198829653374": {
-        "AWS Key Management Service": 0.81,
-        "AWS Secrets Manager": 0.16,
-        "Amazon EC2 Container Registry (ECR)": 0.08,
-        "EC2 - Other": 0.17
-      },
-      "199086174209": {
-        "AWS Key Management Service": 0.96,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.22,
-        "AWS Step Functions": 4.84,
-        "AWS WAF": 3.26,
-        "Amazon API Gateway": 0.07,
-        "EC2 - Other": 0.11,
-        "Amazon Elastic Compute Cloud - Compute": 0.48,
-        "Amazon Route 53": 0.46,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Simple Storage Service": 0.08,
-        "Amazon Virtual Private Cloud": 0.12,
+        "Amazon API Gateway": 0.12,
+        "EC2 - Other": 0.05,
+        "Amazon GuardDuty": 0.48,
+        "Amazon Simple Queue Service": 0.4,
+        "Amazon Simple Storage Service": 0.01,
         "AmazonCloudWatch": 0.03
       },
+      "167684443721": {
+        "AWS Key Management Service": 1.33,
+        "AWS Lambda": 0.07,
+        "AWS Secrets Manager": 0.33,
+        "AWS Step Functions": 2.62,
+        "AWS WAF": 4.8,
+        "EC2 - Other": 1.98,
+        "Amazon GuardDuty": 0.39,
+        "Amazon Simple Queue Service": 0.34,
+        "Amazon Simple Storage Service": 0.02,
+        "Amazon Virtual Private Cloud": 8.91,
+        "AmazonCloudWatch": 0.05
+      },
+      "187024455668": {
+        "AWS Key Management Service": 1.49,
+        "AWS Lambda": 0.15,
+        "AWS Secrets Manager": 0.39,
+        "AWS Step Functions": 6.78,
+        "AWS WAF": 4.8,
+        "EC2 - Other": 0.36,
+        "Amazon Elastic Compute Cloud - Compute": 0.19,
+        "Amazon Route 53": 0.09,
+        "Amazon Simple Queue Service": 0.34,
+        "Amazon Simple Storage Service": 0.08,
+        "Amazon Virtual Private Cloud": 0.17
+      },
+      "198829653374": {
+        "AWS Key Management Service": 1.2,
+        "AWS Secrets Manager": 0.24,
+        "Amazon EC2 Container Registry (ECR)": 0.11,
+        "EC2 - Other": 0.26
+      },
+      "199086174209": {
+        "AWS Key Management Service": 1.43,
+        "AWS Lambda": 0.12,
+        "AWS Secrets Manager": 0.33,
+        "AWS Step Functions": 7.16,
+        "AWS WAF": 4.82,
+        "Amazon API Gateway": 0.1,
+        "Amazon DynamoDB": 0.01,
+        "EC2 - Other": 0.16,
+        "Amazon Elastic Compute Cloud - Compute": 0.67,
+        "Amazon Route 53": 0.46,
+        "Amazon Simple Queue Service": 0.34,
+        "Amazon Simple Storage Service": 0.11,
+        "Amazon Virtual Private Cloud": 0.17,
+        "AmazonCloudWatch": 0.06
+      },
       "202533496720": {
-        "AWS Key Management Service": 1.01,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.26,
-        "AWS Step Functions": 4.46,
-        "AWS WAF": 3.24,
-        "EC2 - Other": 0.25,
-        "Amazon Elastic Compute Cloud - Compute": 0.13,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Simple Storage Service": 0.05,
-        "Amazon Virtual Private Cloud": 0.12
+        "AWS Key Management Service": 1.49,
+        "AWS Lambda": 0.17,
+        "AWS Secrets Manager": 0.38,
+        "AWS Step Functions": 6.59,
+        "AWS WAF": 4.8,
+        "EC2 - Other": 0.39,
+        "Amazon Elastic Compute Cloud - Compute": 0.19,
+        "Amazon Simple Queue Service": 0.34,
+        "Amazon Simple Storage Service": 0.08,
+        "Amazon Virtual Private Cloud": 0.17
       },
       "205666877655": {
-        "AWS Key Management Service": 1.62,
-        "AWS Secrets Manager": 0.16
+        "AWS Key Management Service": 2.39,
+        "AWS Secrets Manager": 0.24
       },
       "207175984884": {
-        "AWS Key Management Service": 0.01,
-        "EC2 - Other": 1.71,
-        "Amazon GuardDuty": 0.05,
+        "AWS Key Management Service": 0.02,
+        "EC2 - Other": 2.63,
+        "Amazon GuardDuty": 0.09,
         "Amazon Route 53": 0.46
       },
       "208632845092": {
-        "AWS Key Management Service": 0.01
+        "AWS Key Management Service": 0.02
       },
       "209745620352": {
-        "AWS Key Management Service": 0.03,
-        "AWS Secrets Manager": 0.01,
-        "Amazon GuardDuty": 0.12
+        "AWS Key Management Service": 0.05,
+        "AWS Secrets Manager": 0.02,
+        "Amazon GuardDuty": 0.18
       },
       "219750295209": {
-        "AWS Key Management Service": 0.03,
-        "AWS Secrets Manager": 0.01
+        "AWS Key Management Service": 0.04,
+        "AWS Secrets Manager": 0.02
+      },
+      "222962371540": {
+        "AWS Key Management Service": 0.01
       },
       "227250474767": {
-        "AWS Secrets Manager": 0.16,
-        "AWS Step Functions": 0.36,
-        "Amazon GuardDuty": 0.01,
-        "Amazon Simple Queue Service": 0.09
+        "AWS Secrets Manager": 0.24,
+        "AWS Step Functions": 0.53,
+        "Amazon GuardDuty": 0.02,
+        "Amazon Simple Queue Service": 0.14
       },
       "229658172382": {
-        "AWS Key Management Service": 1.21,
-        "EC2 - Other": 0.76,
-        "Amazon Elastic Compute Cloud - Compute": 3.48,
-        "Amazon Simple Storage Service": 0.02,
-        "Amazon Virtual Private Cloud": 19.61
+        "AWS Key Management Service": 1.79,
+        "EC2 - Other": 1.07,
+        "Amazon Elastic Compute Cloud - Compute": 4.04,
+        "Amazon Simple Storage Service": 0.03,
+        "Amazon Virtual Private Cloud": 28.47
       },
       "238235927391": {
-        "AWS Key Management Service": 0.01
+        "AWS Key Management Service": 0.02
       },
       "240217704174": {
-        "AWS Key Management Service": 0.83,
-        "EC2 - Other": 9.5,
+        "AWS Key Management Service": 1.23,
+        "AWS Secrets Manager": 0.01,
+        "EC2 - Other": 14.49,
         "Amazon Elastic Compute Cloud - Compute": 1.43,
-        "Amazon Virtual Private Cloud": 2.19
+        "Amazon Virtual Private Cloud": 2.91
       },
       "242102729613": {
-        "AWS Key Management Service": 0.01
+        "AWS Key Management Service": 0.02
       },
       "249182660281": {
-        "AWS Key Management Service": 0.01
+        "AWS Key Management Service": 0.02
       },
       "260880585145": {
-        "AWS Key Management Service": 1.27,
-        "AWS Secrets Manager": 0.19,
-        "AWS Step Functions": 1.13,
-        "Amazon API Gateway": 0.05,
-        "Amazon DynamoDB": 0.01,
-        "EC2 - Other": 0.17,
+        "AWS Key Management Service": 1.88,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.29,
+        "AWS Step Functions": 1.67,
+        "Amazon API Gateway": 0.07,
+        "Amazon DynamoDB": 0.02,
+        "EC2 - Other": 0.27,
         "Amazon Route 53": 0.92,
-        "Amazon Simple Queue Service": 0.35,
-        "AmazonCloudWatch": 0.01
-      },
-      "263345096540": {
-        "AWS Key Management Service": 0.01,
-        "Amazon GuardDuty": 0.06
-      },
-      "268514689407": {
-        "AWS Key Management Service": 0.01
-      },
-      "268675503799": {
-        "Amazon Simple Storage Service": 0.04
-      },
-      "270013331545": {
-        "AWS Secrets Manager": 0.16
-      },
-      "273078346626": {
-        "AWS Key Management Service": 10.1,
-        "AWS Secrets Manager": 0.16,
-        "AWS WAF": 3.24,
-        "EC2 - Other": 47.0,
-        "Amazon Elastic Compute Cloud - Compute": 0.13,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Simple Storage Service": 0.02,
-        "Amazon Virtual Private Cloud": 4.53
-      },
-      "273193025391": {
-        "AWS Key Management Service": 0.06,
-        "AWS Secrets Manager": 0.02,
-        "Amazon GuardDuty": 0.23
-      },
-      "273721849379": {
-        "AWS Key Management Service": 0.4,
-        "EC2 - Other": 0.83
-      },
-      "285062414223": {
-        "AWS Key Management Service": 5.67,
-        "AWS Secrets Manager": 0.16,
-        "EC2 - Other": 4.28
-      },
-      "289361332187": {
-        "AWS Key Management Service": 0.01
-      },
-      "291066412207": {
-        "EC2 - Other": 0.29,
-        "Amazon Elastic Compute Cloud - Compute": 3.72,
-        "Amazon Virtual Private Cloud": 1.51
-      },
-      "297853565549": {
-        "AWS Key Management Service": 1.29,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.18,
-        "AWS Step Functions": 1.18,
-        "Amazon API Gateway": 0.05,
-        "Amazon DynamoDB": 0.07,
-        "EC2 - Other": 1.87,
-        "Amazon Simple Queue Service": 0.36,
-        "Amazon Virtual Private Cloud": 1.5,
-        "AmazonCloudWatch": 0.04
-      },
-      "304125837816": {
-        "AWS Key Management Service": 1.28,
-        "AWS Secrets Manager": 0.18,
-        "AWS Step Functions": 1.12,
-        "Amazon API Gateway": 0.05,
-        "Amazon DynamoDB": 0.03,
-        "EC2 - Other": 0.74,
-        "Amazon Route 53": 0.46,
-        "Amazon Simple Queue Service": 0.37
-      },
-      "307970860936": {
-        "AWS Key Management Service": 0.81,
-        "AWS Secrets Manager": 0.16,
-        "EC2 - Other": 0.06
-      },
-      "313054287571": {
-        "AWS Key Management Service": 0.81
-      },
-      "327456541158": {
-        "AWS Key Management Service": 0.86,
-        "AWS Secrets Manager": 0.19,
-        "AWS Step Functions": 1.62,
-        "AWS WAF": 3.25,
-        "Amazon API Gateway": 0.05,
-        "Amazon GuardDuty": 0.12,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Simple Storage Service": 0.01,
-        "AmazonCloudWatch": 0.04
-      },
-      "331556273345": {
-        "AWS Key Management Service": 0.99,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.24,
-        "AWS Step Functions": 4.91,
-        "AWS Systems Manager": 0.08,
-        "AWS WAF": 3.24,
-        "EC2 - Other": 1.9,
-        "Amazon Elastic Compute Cloud - Compute": 0.86,
-        "Amazon Route 53": 0.46,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Simple Storage Service": 0.07,
-        "Amazon Virtual Private Cloud": 0.12,
-        "Ubuntu 20 (Ubuntu 20.04 LTS) | Support by SupportedImages": 1.4,
-        "Ubuntu 26.04 Latest (Ubuntu 26.04 LTS) | Support by ProComputers": 1.0
-      },
-      "332177277666": {
-        "EC2 - Other": 0.5
-      },
-      "340573535312": {
-        "AWS Key Management Service": 0.03,
-        "AWS Secrets Manager": 0.01
-      },
-      "381491968057": {
-        "Amazon GuardDuty": 0.03
-      },
-      "390844784899": {
-        "AWS Key Management Service": 1.25,
-        "AWS Secrets Manager": 0.19,
-        "AWS Step Functions": 1.11,
-        "Amazon API Gateway": 0.05,
-        "Amazon Route 53": 0.46,
-        "Amazon Simple Queue Service": 0.34,
-        "AmazonCloudWatch": 0.01
-      },
-      "408429263225": {
-        "AWS Key Management Service": 0.86,
-        "AWS Secrets Manager": 0.2,
-        "AWS Step Functions": 1.19,
-        "Amazon API Gateway": 0.05,
-        "Amazon Simple Queue Service": 0.28,
-        "Amazon Simple Storage Service": 0.01,
-        "AmazonCloudWatch": 0.01
-      },
-      "426622616498": {
-        "AWS Key Management Service": 0.81,
-        "AWS Secrets Manager": 0.16
-      },
-      "429950822387": {
-        "AWS Key Management Service": 0.84,
-        "AWS Secrets Manager": 0.19,
-        "AWS Step Functions": 0.44,
-        "AWS WAF": 3.24,
-        "EC2 - Other": 0.64,
-        "Amazon Elastic Compute Cloud - Compute": 0.13,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Virtual Private Cloud": 0.12,
+        "Amazon Simple Queue Service": 0.52,
         "AmazonCloudWatch": 0.02
       },
-      "451600355128": {
-        "AWS Key Management Service": 1.61,
-        "AWS Secrets Manager": 0.16
+      "263345096540": {
+        "AWS Key Management Service": 0.02,
+        "Amazon GuardDuty": 0.09
       },
-      "456965400883": {
-        "AWS Key Management Service": 0.81
+      "268514689407": {
+        "AWS Key Management Service": 0.02
       },
-      "459353105060": {
-        "AWS Key Management Service": 1.36,
-        "AWS Lambda": 0.02,
-        "AWS Secrets Manager": 0.18,
-        "AWS Step Functions": 3.36,
-        "Amazon API Gateway": 0.06,
-        "Amazon DynamoDB": 0.39,
-        "Amazon Simple Queue Service": 0.35,
-        "AmazonCloudWatch": 0.03,
-        "CloudWatch Events": 0.14
+      "268675503799": {
+        "Amazon Simple Storage Service": 0.05
       },
-      "475071743267": {
-        "AWS Key Management Service": 0.88,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.19,
-        "AWS Step Functions": 3.2,
-        "AWS WAF": 3.25,
-        "Amazon API Gateway": 0.05,
-        "Amazon DynamoDB": 0.02,
-        "Amazon GuardDuty": 0.12,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Simple Storage Service": 0.01,
-        "AmazonCloudWatch": 0.07
+      "270013331545": {
+        "AWS Secrets Manager": 0.24
       },
-      "475558561317": {
-        "AWS Key Management Service": 0.4,
-        "EC2 - Other": 0.85
+      "273078346626": {
+        "AWS Key Management Service": 14.96,
+        "AWS Lambda": 0.03,
+        "AWS Secrets Manager": 0.25,
+        "AWS Step Functions": 0.27,
+        "AWS WAF": 4.62,
+        "EC2 - Other": 70.34,
+        "Amazon Elastic Compute Cloud - Compute": 0.16,
+        "Amazon Simple Queue Service": 0.37,
+        "Amazon Simple Storage Service": 0.04,
+        "Amazon Virtual Private Cloud": 6.7
       },
-      "483773993138": {
-        "AWS Key Management Service": 0.41,
-        "EC2 - Other": 1.1,
+      "273193025391": {
+        "AWS Key Management Service": 0.09,
+        "AWS Secrets Manager": 0.04,
+        "Amazon GuardDuty": 0.35
+      },
+      "273721849379": {
+        "AWS Key Management Service": 0.6,
+        "AWS Systems Manager": 0.06,
+        "EC2 - Other": 1.24
+      },
+      "278819683592": {
         "Amazon GuardDuty": 0.01
       },
+      "285062414223": {
+        "AWS Key Management Service": 8.39,
+        "AWS Secrets Manager": 0.24,
+        "EC2 - Other": 6.39
+      },
+      "289361332187": {
+        "AWS Key Management Service": 0.02
+      },
+      "291066412207": {
+        "AWS Systems Manager": 0.02,
+        "EC2 - Other": 0.44,
+        "Amazon Elastic Compute Cloud - Compute": 5.51,
+        "Amazon Virtual Private Cloud": 2.23
+      },
+      "297853565549": {
+        "AWS Key Management Service": 1.91,
+        "AWS Lambda": 0.05,
+        "AWS Secrets Manager": 0.26,
+        "AWS Step Functions": 1.75,
+        "Amazon API Gateway": 0.07,
+        "Amazon DynamoDB": 0.1,
+        "EC2 - Other": 2.88,
+        "Amazon Simple Queue Service": 0.53,
+        "Amazon Virtual Private Cloud": 2.23,
+        "AmazonCloudWatch": 0.07
+      },
+      "304125837816": {
+        "AWS Key Management Service": 1.89,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.26,
+        "AWS Step Functions": 1.66,
+        "Amazon API Gateway": 0.07,
+        "Amazon DynamoDB": 0.04,
+        "EC2 - Other": 1.14,
+        "Amazon Route 53": 0.46,
+        "Amazon Simple Queue Service": 0.54,
+        "AmazonCloudWatch": 0.02
+      },
+      "307970860936": {
+        "AWS Key Management Service": 1.2,
+        "AWS Secrets Manager": 0.24,
+        "EC2 - Other": 0.1
+      },
+      "313054287571": {
+        "AWS Key Management Service": 1.19
+      },
+      "327456541158": {
+        "AWS Key Management Service": 1.27,
+        "AWS Lambda": 0.03,
+        "AWS Secrets Manager": 0.29,
+        "AWS Step Functions": 2.4,
+        "AWS WAF": 4.81,
+        "Amazon API Gateway": 0.07,
+        "Amazon GuardDuty": 0.18,
+        "Amazon Simple Queue Service": 0.34,
+        "Amazon Simple Storage Service": 0.02,
+        "AmazonCloudWatch": 0.11
+      },
+      "331556273345": {
+        "AWS Key Management Service": 1.46,
+        "AWS Lambda": 0.19,
+        "AWS Secrets Manager": 0.35,
+        "AWS Step Functions": 7.25,
+        "AWS Systems Manager": 0.08,
+        "AWS WAF": 4.8,
+        "Amazon DynamoDB": 0.01,
+        "EC2 - Other": 2.83,
+        "Amazon Elastic Compute Cloud - Compute": 1.29,
+        "Amazon Route 53": 0.46,
+        "Amazon Simple Queue Service": 0.35,
+        "Amazon Simple Storage Service": 0.1,
+        "Amazon Virtual Private Cloud": 0.17,
+        "Ubuntu 20 (Ubuntu 20.04 LTS) | Support by SupportedImages": 2.1,
+        "Ubuntu 26.04 Latest (Ubuntu 26.04 LTS) | Support by ProComputers": 1.5
+      },
+      "332177277666": {
+        "EC2 - Other": 0.76
+      },
+      "340573535312": {
+        "AWS Key Management Service": 0.04,
+        "AWS Secrets Manager": 0.02
+      },
+      "381491968057": {
+        "Amazon GuardDuty": 0.04
+      },
+      "390844784899": {
+        "AWS Key Management Service": 1.85,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.29,
+        "AWS Step Functions": 1.64,
+        "Amazon API Gateway": 0.07,
+        "Amazon Route 53": 0.46,
+        "Amazon Simple Queue Service": 0.5,
+        "AmazonCloudWatch": 0.02
+      },
+      "408429263225": {
+        "AWS Key Management Service": 1.27,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.29,
+        "AWS Step Functions": 1.75,
+        "Amazon API Gateway": 0.07,
+        "Amazon Simple Queue Service": 0.43,
+        "Amazon Simple Storage Service": 0.02,
+        "AmazonCloudWatch": 0.03
+      },
+      "426622616498": {
+        "AWS Key Management Service": 1.19,
+        "AWS Secrets Manager": 0.24
+      },
+      "429950822387": {
+        "AWS Key Management Service": 1.24,
+        "AWS Lambda": 0.03,
+        "AWS Secrets Manager": 0.28,
+        "AWS Step Functions": 0.65,
+        "AWS WAF": 4.8,
+        "EC2 - Other": 0.99,
+        "Amazon Elastic Compute Cloud - Compute": 0.18,
+        "Amazon Simple Queue Service": 0.34,
+        "Amazon Virtual Private Cloud": 0.17,
+        "AmazonCloudWatch": 0.07
+      },
+      "451600355128": {
+        "AWS Key Management Service": 2.39,
+        "AWS Secrets Manager": 0.24
+      },
+      "456965400883": {
+        "AWS Key Management Service": 1.19
+      },
+      "459353105060": {
+        "AWS Key Management Service": 2.01,
+        "AWS Lambda": 0.07,
+        "AWS Secrets Manager": 0.27,
+        "AWS Step Functions": 4.97,
+        "Amazon API Gateway": 0.08,
+        "Amazon DynamoDB": 0.58,
+        "Amazon Simple Queue Service": 0.52,
+        "AmazonCloudWatch": 0.08,
+        "CloudWatch Events": 0.21
+      },
+      "475071743267": {
+        "AWS Key Management Service": 1.3,
+        "AWS Lambda": 0.05,
+        "AWS Secrets Manager": 0.29,
+        "AWS Step Functions": 4.72,
+        "AWS WAF": 4.81,
+        "Amazon API Gateway": 0.07,
+        "Amazon DynamoDB": 0.04,
+        "Amazon GuardDuty": 0.17,
+        "Amazon Simple Queue Service": 0.35,
+        "Amazon Simple Storage Service": 0.02,
+        "AmazonCloudWatch": 0.24
+      },
+      "475558561317": {
+        "AWS Key Management Service": 0.6,
+        "EC2 - Other": 1.28
+      },
+      "483773993138": {
+        "AWS Key Management Service": 0.6,
+        "EC2 - Other": 1.69,
+        "Amazon GuardDuty": 0.02
+      },
       "488805873141": {
-        "AWS Key Management Service": 0.06,
-        "AWS Secrets Manager": 0.19,
-        "EC2 - Other": 0.35,
+        "AWS Key Management Service": 0.08,
+        "AWS Secrets Manager": 0.29,
+        "EC2 - Other": 0.54,
         "Amazon Route 53": 0.46
       },
       "494753002565": {
-        "AWS Key Management Service": 27.96,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.19,
-        "AWS Step Functions": 2.08,
-        "AWS WAF": 3.24,
-        "EC2 - Other": 1.25,
-        "Amazon Elastic Compute Cloud - Compute": 6.24,
+        "AWS Key Management Service": 41.37,
+        "AWS Lambda": 0.1,
+        "AWS Secrets Manager": 0.28,
+        "AWS Step Functions": 3.08,
+        "AWS WAF": 4.8,
+        "Amazon DynamoDB": 0.01,
+        "EC2 - Other": 1.87,
+        "Amazon Elastic Compute Cloud - Compute": 9.24,
         "Amazon Route 53": 0.09,
-        "Amazon Simple Queue Service": 0.22,
-        "Amazon Simple Storage Service": 0.05,
-        "Amazon Virtual Private Cloud": 3.02,
-        "AmazonCloudWatch": 0.05
+        "Amazon Simple Queue Service": 0.34,
+        "Amazon Simple Storage Service": 0.08,
+        "Amazon Virtual Private Cloud": 4.46,
+        "AmazonCloudWatch": 0.12
       },
       "500321821407": {
-        "AWS Secrets Manager": 0.16,
-        "EC2 - Other": 1.93
-      },
-      "503690661551": {
-        "AWS Key Management Service": 0.81,
-        "AWS Secrets Manager": 0.16
-      },
-      "509284582761": {
-        "AWS Key Management Service": 1.31,
-        "AWS Secrets Manager": 0.2,
-        "AWS Step Functions": 1.24,
-        "Amazon API Gateway": 0.05,
-        "Amazon DynamoDB": 0.04,
-        "EC2 - Other": 2.68,
-        "Amazon GuardDuty": 0.07,
-        "Amazon Route 53": 0.92,
-        "Amazon Simple Queue Service": 0.37,
+        "AWS Secrets Manager": 0.24,
+        "EC2 - Other": 2.98,
         "AmazonCloudWatch": 0.01
       },
-      "509554789406": {
-        "AWS Key Management Service": 0.01
+      "503690661551": {
+        "AWS Key Management Service": 1.19,
+        "AWS Secrets Manager": 0.24
       },
-      "525291109373": {
-        "AWS Key Management Service": 0.01
-      },
-      "528646883845": {
-        "AWS Key Management Service": 1.31,
-        "AWS Secrets Manager": 0.19,
-        "AWS Step Functions": 1.25,
-        "Amazon API Gateway": 0.05,
-        "Amazon DynamoDB": 0.07,
-        "Amazon Simple Queue Service": 0.37,
+      "509284582761": {
+        "AWS Key Management Service": 1.93,
+        "AWS Lambda": 0.03,
+        "AWS Secrets Manager": 0.29,
+        "AWS Step Functions": 1.88,
+        "Amazon API Gateway": 0.07,
+        "Amazon DynamoDB": 0.06,
+        "EC2 - Other": 4.12,
+        "Amazon GuardDuty": 0.1,
+        "Amazon Route 53": 0.92,
+        "Amazon Simple Queue Service": 0.55,
         "AmazonCloudWatch": 0.02
       },
+      "509554789406": {
+        "AWS Key Management Service": 0.02
+      },
+      "525291109373": {
+        "AWS Key Management Service": 0.02
+      },
+      "528646883845": {
+        "AWS Key Management Service": 1.93,
+        "AWS Lambda": 0.04,
+        "AWS Secrets Manager": 0.29,
+        "AWS Step Functions": 1.84,
+        "Amazon API Gateway": 0.07,
+        "Amazon DynamoDB": 0.1,
+        "Amazon Simple Queue Service": 0.55,
+        "AmazonCloudWatch": 0.04
+      },
       "534796636025": {
-        "AWS Key Management Service": 0.01
+        "AWS Key Management Service": 0.02
       },
       "535299115383": {
-        "AWS Key Management Service": 1.04,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.26,
-        "AWS Step Functions": 4.91,
-        "AWS WAF": 3.24,
-        "Amazon DynamoDB": 0.01,
-        "EC2 - Other": 0.11,
-        "Amazon Elastic Compute Cloud - Compute": 0.34,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Simple Storage Service": 0.08,
-        "Amazon Virtual Private Cloud": 0.12
+        "AWS Key Management Service": 1.53,
+        "AWS Lambda": 0.17,
+        "AWS Secrets Manager": 0.39,
+        "AWS Step Functions": 7.27,
+        "AWS WAF": 4.8,
+        "Amazon DynamoDB": 0.02,
+        "EC2 - Other": 0.17,
+        "Amazon Elastic Compute Cloud - Compute": 0.47,
+        "Amazon Simple Queue Service": 0.35,
+        "Amazon Simple Storage Service": 0.11,
+        "Amazon Virtual Private Cloud": 0.17,
+        "AmazonCloudWatch": 0.01
       },
       "541438730734": {
-        "EC2 - Other": 13.98,
-        "Amazon Elastic Compute Cloud - Compute": 3.13,
-        "Amazon Virtual Private Cloud": 1.51
+        "AWS Systems Manager": 0.02,
+        "EC2 - Other": 20.68,
+        "Amazon Elastic Compute Cloud - Compute": 4.63,
+        "Amazon Virtual Private Cloud": 2.23
       },
       "548855206515": {
-        "AWS Key Management Service": 0.41,
-        "AWS Secrets Manager": 0.17
+        "AWS Key Management Service": 0.61,
+        "AWS Secrets Manager": 0.25
       },
       "556151867167": {
         "AWS Key Management Service": 0.02,
-        "Amazon GuardDuty": 0.06
+        "Amazon GuardDuty": 0.09
       },
       "561303529171": {
-        "AWS Secrets Manager": 0.16,
-        "AWS Step Functions": 0.36,
-        "Amazon Simple Queue Service": 0.09
+        "AWS Secrets Manager": 0.24,
+        "AWS Step Functions": 0.53,
+        "Amazon Simple Queue Service": 0.14
       },
       "574433037642": {
-        "AWS Key Management Service": 0.81,
-        "EC2 - Other": 0.25,
-        "AmazonCloudWatch": 0.01
+        "AWS Key Management Service": 1.19,
+        "EC2 - Other": 0.38,
+        "AmazonCloudWatch": 0.02
       },
       "577400626275": {
-        "AWS Key Management Service": 0.41,
-        "AWS Secrets Manager": 0.16,
-        "Amazon GuardDuty": 0.03
+        "AWS Key Management Service": 0.6,
+        "AWS Secrets Manager": 0.24,
+        "Amazon GuardDuty": 0.04
       },
       "580666022423": {
-        "AWS Secrets Manager": 0.16,
-        "EC2 - Other": 1.99
+        "AWS Secrets Manager": 0.24,
+        "EC2 - Other": 3.06
       },
       "583837446846": {
-        "AWS Key Management Service": 0.4,
-        "Amazon GuardDuty": 0.01,
-        "Amazon Virtual Private Cloud": 12.09
+        "AWS Key Management Service": 0.6,
+        "Amazon GuardDuty": 0.02,
+        "Amazon Virtual Private Cloud": 17.88
       },
       "590183730935": {
-        "AWS Key Management Service": 1.03,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.27,
-        "AWS Step Functions": 4.83,
+        "AWS Key Management Service": 1.53,
+        "AWS Lambda": 0.18,
+        "AWS Secrets Manager": 0.4,
+        "AWS Step Functions": 7.13,
         "AWS Systems Manager": 0.04,
-        "AWS WAF": 3.24,
-        "Amazon DynamoDB": 0.01,
-        "EC2 - Other": 1.32,
-        "Amazon Elastic Compute Cloud - Compute": 10.37,
+        "AWS WAF": 4.8,
+        "Amazon DynamoDB": 0.02,
+        "EC2 - Other": 1.96,
+        "Amazon Elastic Compute Cloud - Compute": 15.27,
         "Amazon Route 53": 0.46,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Simple Storage Service": 0.07,
-        "Amazon Virtual Private Cloud": 3.13
+        "Amazon Simple Queue Service": 0.35,
+        "Amazon Simple Storage Service": 0.11,
+        "Amazon Virtual Private Cloud": 4.63
       },
       "619028518089": {
-        "AWS Key Management Service": 1.61,
-        "AWS Secrets Manager": 0.16
+        "AWS Key Management Service": 2.38,
+        "AWS Secrets Manager": 0.24
       },
       "621367206022": {
-        "AWS Key Management Service": 0.01,
-        "Amazon GuardDuty": 0.06
+        "AWS Key Management Service": 0.02,
+        "Amazon GuardDuty": 0.09
       },
       "623366770845": {
         "AWS Key Management Service": 0.02
       },
       "625911360890": {
-        "EC2 - Other": 0.64
+        "AWS Systems Manager": 0.04,
+        "EC2 - Other": 0.95
       },
       "635571737179": {
-        "AWS Key Management Service": 0.4,
-        "EC2 - Other": 40.99,
-        "Amazon Elastic Compute Cloud - Compute": 3.12,
-        "Amazon Virtual Private Cloud": 6.03
+        "AWS Key Management Service": 0.6,
+        "AWS Systems Manager": 0.02,
+        "EC2 - Other": 60.62,
+        "Amazon Elastic Compute Cloud - Compute": 4.63,
+        "Amazon Virtual Private Cloud": 8.92
       },
       "641135200776": {
-        "AWS Key Management Service": 0.01
+        "AWS Key Management Service": 0.02
       },
       "647836792828": {
-        "AWS Key Management Service": 0.02,
-        "AWS Secrets Manager": 0.17,
-        "AWS Step Functions": 0.36
+        "AWS Key Management Service": 0.03,
+        "AWS Secrets Manager": 0.26,
+        "AWS Step Functions": 0.53
       },
       "671281917320": {
-        "AWS Key Management Service": 0.82,
-        "Amazon GuardDuty": 0.07
+        "AWS Key Management Service": 1.21,
+        "Amazon GuardDuty": 0.1
       },
       "674393317291": {
-        "AWS Key Management Service": 1.28,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.18,
-        "AWS Step Functions": 1.14,
-        "Amazon API Gateway": 0.06,
-        "Amazon DynamoDB": 0.04,
-        "EC2 - Other": 0.35,
-        "Amazon Simple Queue Service": 0.37
+        "AWS Key Management Service": 1.88,
+        "AWS Lambda": 0.04,
+        "AWS Secrets Manager": 0.26,
+        "AWS Step Functions": 1.68,
+        "Amazon API Gateway": 0.09,
+        "Amazon DynamoDB": 0.05,
+        "EC2 - Other": 0.53,
+        "Amazon Simple Queue Service": 0.55,
+        "AmazonCloudWatch": 0.01
       },
       "677276115790": {
-        "AWS Secrets Manager": 0.16,
-        "AWS Step Functions": 0.36,
-        "EC2 - Other": 0.16,
+        "AWS Secrets Manager": 0.24,
+        "AWS Step Functions": 0.53,
+        "EC2 - Other": 0.25,
         "Amazon Route 53": 0.92
       },
       "677284942379": {
-        "AWS Key Management Service": 13.77
+        "AWS Key Management Service": 20.37
       },
       "682437954104": {
         "AWS Key Management Service": 0.27,
-        "AWS Secrets Manager": 0.65,
+        "AWS Secrets Manager": 0.96,
         "AWS Step Functions": 0.08,
         "AWS WAF": 0.04,
-        "Amazon EC2 Container Registry (ECR)": 0.49,
-        "EC2 - Other": 29.12,
-        "Amazon Elastic Compute Cloud - Compute": 9.13,
+        "Amazon EC2 Container Registry (ECR)": 0.66,
+        "EC2 - Other": 43.18,
+        "Amazon Elastic Compute Cloud - Compute": 12.01,
         "Amazon Elastic Container Service for Kubernetes": 1.03,
-        "Amazon Simple Storage Service": 0.04,
-        "Amazon Virtual Private Cloud": 3.58,
-        "AmazonCloudWatch": 0.07
+        "Amazon Simple Storage Service": 0.06,
+        "Amazon Virtual Private Cloud": 5.94,
+        "AmazonCloudWatch": 0.15
       },
       "688458530518": {
-        "EC2 - Other": 0.25
+        "EC2 - Other": 0.38
       },
       "699475930074": {
-        "AWS Secrets Manager": 0.32,
-        "AWS Step Functions": 0.36,
+        "AWS Secrets Manager": 0.48,
+        "AWS Step Functions": 0.53,
         "Amazon Route 53": 0.09
       },
       "703549570652": {
-        "AWS Key Management Service": 0.01
+        "AWS Key Management Service": 0.02
       },
       "716173093158": {
         "Amazon Relational Database Service": 8.21,
-        "Amazon Simple Storage Service": 0.03
+        "Amazon Simple Storage Service": 0.05
       },
       "724203528054": {
-        "AWS Secrets Manager": 0.16,
-        "AWS Step Functions": 0.36
+        "AWS Secrets Manager": 0.24,
+        "AWS Step Functions": 0.53
       },
       "730335457683": {
-        "AWS Key Management Service": 5.09,
-        "AWS Lambda": 0.06,
-        "AWS Secrets Manager": 0.2,
-        "AWS Step Functions": 4.51,
-        "Amazon API Gateway": 0.05,
-        "Amazon DynamoDB": 0.71,
-        "EC2 - Other": 0.17,
+        "AWS Key Management Service": 7.54,
+        "AWS Lambda": 0.27,
+        "AWS Secrets Manager": 0.29,
+        "AWS Step Functions": 6.66,
+        "Amazon API Gateway": 0.07,
+        "Amazon DynamoDB": 1.05,
+        "EC2 - Other": 0.26,
         "Amazon Route 53": 0.46,
-        "Amazon Simple Queue Service": 0.36,
-        "Amazon Simple Storage Service": 0.09,
-        "AmazonCloudWatch": 0.17
+        "Amazon Simple Queue Service": 0.54,
+        "Amazon Simple Storage Service": 0.13,
+        "AmazonCloudWatch": 0.46
       },
       "742344027791": {
-        "EC2 - Other": 0.71
+        "EC2 - Other": 1.1
       },
       "751375117945": {
-        "AWS Key Management Service": 2.44,
-        "AWS Secrets Manager": 0.18,
-        "AWS Step Functions": 0.75,
-        "Amazon API Gateway": 0.02,
-        "EC2 - Other": 0.21,
+        "AWS Key Management Service": 3.61,
+        "AWS Lambda": 0.03,
+        "AWS Secrets Manager": 0.26,
+        "AWS Step Functions": 1.11,
+        "Amazon API Gateway": 0.03,
+        "EC2 - Other": 0.33,
         "Amazon GuardDuty": 0.02,
-        "Amazon Simple Queue Service": 0.3,
-        "AmazonCloudWatch": 0.03
+        "Amazon Simple Queue Service": 0.45,
+        "AmazonCloudWatch": 0.05
       },
       "779375447290": {
-        "AWS Key Management Service": 0.82,
-        "Amazon GuardDuty": 0.07
+        "AWS Key Management Service": 1.22,
+        "Amazon GuardDuty": 0.1
+      },
+      "779448144139": {
+        "AWS Key Management Service": 0.01
       },
       "780109526425": {
         "AWS Key Management Service": 0.02,
-        "EC2 - Other": 0.27
+        "EC2 - Other": 0.4
       },
       "803664810273": {
-        "Amazon Simple Storage Service": 0.03
+        "Amazon Simple Storage Service": 0.05
       },
       "803993009476": {
-        "AWS Key Management Service": 1.24,
-        "AWS Secrets Manager": 0.2,
-        "AWS Step Functions": 0.96,
-        "Amazon API Gateway": 0.02,
-        "Amazon Simple Queue Service": 0.3
+        "AWS Key Management Service": 1.83,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.29,
+        "AWS Step Functions": 1.42,
+        "Amazon API Gateway": 0.03,
+        "Amazon Simple Queue Service": 0.45,
+        "AmazonCloudWatch": 0.02
       },
       "807310992472": {
-        "AWS Key Management Service": 1.61,
-        "AWS Secrets Manager": 0.16,
-        "EC2 - Other": 1.46
+        "AWS Key Management Service": 2.38,
+        "AWS Secrets Manager": 0.24,
+        "EC2 - Other": 2.24
       },
       "817505957732": {
-        "AWS Key Management Service": 1.21,
-        "AWS Secrets Manager": 0.16
+        "AWS Key Management Service": 1.78,
+        "AWS Secrets Manager": 0.24
       },
       "820077247727": {
-        "EC2 - Other": 0.17
+        "EC2 - Other": 0.26
       },
       "827201566344": {
-        "EC2 - Other": 0.19
+        "EC2 - Other": 0.3
       },
       "828323832156": {
-        "AWS Key Management Service": 0.01,
-        "Amazon GuardDuty": 0.05
+        "AWS Key Management Service": 0.02,
+        "Amazon GuardDuty": 0.08
       },
       "833390816798": {
-        "Amazon Simple Storage Service": 0.03
+        "Amazon Simple Storage Service": 0.05
       },
       "840158198744": {
-        "AWS Key Management Service": 0.8,
-        "AWS Secrets Manager": 0.16
+        "AWS Key Management Service": 1.19,
+        "AWS Secrets Manager": 0.24
       },
       "844246668213": {
-        "AWS Key Management Service": 0.01
+        "AWS Key Management Service": 0.02
       },
       "847814059329": {
-        "EC2 - Other": 0.58,
-        "Amazon GuardDuty": 0.02
+        "EC2 - Other": 0.9,
+        "Amazon GuardDuty": 0.03
       },
       "852124743903": {
-        "AWS Key Management Service": 1.28,
-        "AWS Secrets Manager": 0.2,
-        "AWS Step Functions": 1.13,
-        "Amazon API Gateway": 0.05,
-        "Amazon DynamoDB": 0.01,
-        "Amazon Simple Queue Service": 0.36,
-        "AmazonCloudWatch": 0.01
+        "AWS Key Management Service": 1.9,
+        "AWS Lambda": 0.03,
+        "AWS Secrets Manager": 0.3,
+        "AWS Step Functions": 1.67,
+        "Amazon API Gateway": 0.07,
+        "Amazon DynamoDB": 0.02,
+        "Amazon Simple Queue Service": 0.54,
+        "AmazonCloudWatch": 0.02
       },
       "855327232746": {
-        "AWS Key Management Service": 0.92,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.21,
-        "AWS Step Functions": 5.05,
-        "Amazon API Gateway": 0.07,
-        "EC2 - Other": 0.22,
-        "Amazon Elastic Compute Cloud - Compute": 0.14,
+        "AWS Key Management Service": 1.37,
+        "AWS Lambda": 0.12,
+        "AWS Secrets Manager": 0.31,
+        "AWS Step Functions": 7.46,
+        "Amazon API Gateway": 0.11,
+        "EC2 - Other": 0.34,
+        "Amazon Elastic Compute Cloud - Compute": 0.19,
         "Amazon Route 53": 0.46,
-        "Amazon Simple Queue Service": 0.24,
-        "Amazon Simple Storage Service": 0.05,
-        "Amazon Virtual Private Cloud": 0.12,
-        "AmazonCloudWatch": 0.02
+        "Amazon Simple Queue Service": 0.36,
+        "Amazon Simple Storage Service": 0.08,
+        "Amazon Virtual Private Cloud": 0.17,
+        "AmazonCloudWatch": 0.05
       },
       "863320968128": {
-        "AWS Key Management Service": 7.28,
-        "AWS Secrets Manager": 0.18,
+        "AWS Key Management Service": 10.77,
+        "AWS Secrets Manager": 0.27,
         "Amazon GuardDuty": 0.02,
-        "Amazon Simple Queue Service": 0.23,
-        "AmazonCloudWatch": 0.02
+        "Amazon Simple Queue Service": 0.34,
+        "Amazon Simple Storage Service": 0.01,
+        "AmazonCloudWatch": 0.03
       },
       "876464212992": {
-        "AWS Key Management Service": 1.63,
-        "AWS Secrets Manager": 0.01,
-        "EC2 - Other": 1.73,
-        "Amazon Simple Storage Service": 0.29
+        "AWS Key Management Service": 2.41,
+        "AWS Secrets Manager": 0.02,
+        "EC2 - Other": 2.67,
+        "Amazon Simple Storage Service": 0.43,
+        "AmazonCloudWatch": 0.01
+      },
+      "879435543682": {
+        "AWS Key Management Service": 0.01
       },
       "888657991711": {
-        "AWS Key Management Service": 0.83,
-        "AWS Secrets Manager": 0.18,
-        "AWS Step Functions": 1.36,
-        "Amazon API Gateway": 0.02,
-        "Amazon Simple Queue Service": 0.25
-      },
-      "905418261832": {
-        "AWS Key Management Service": 1.82,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.25,
-        "AWS Step Functions": 5.42,
-        "AWS WAF": 3.24,
-        "EC2 - Other": 0.52,
-        "Amazon Elastic Compute Cloud - Compute": 0.13,
-        "Amazon Route 53": 0.09,
-        "Amazon Simple Queue Service": 0.22,
-        "Amazon Simple Storage Service": 0.06,
-        "Amazon Virtual Private Cloud": 0.12,
-        "AmazonCloudWatch": 0.02
-      },
-      "909362960884": {
-        "AWS Key Management Service": 1.21,
-        "EC2 - Other": 0.76
-      },
-      "909870549273": {
-        "AWS Key Management Service": 2.63,
+        "AWS Key Management Service": 1.23,
         "AWS Lambda": 0.01,
         "AWS Secrets Manager": 0.26,
-        "AWS Step Functions": 5.7,
-        "Amazon GuardDuty": 0.19,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Simple Storage Service": 0.2
+        "AWS Step Functions": 2.01,
+        "Amazon API Gateway": 0.03,
+        "Amazon Simple Queue Service": 0.38
+      },
+      "905418261832": {
+        "AWS Key Management Service": 2.69,
+        "AWS Lambda": 0.1,
+        "AWS Secrets Manager": 0.37,
+        "AWS Step Functions": 8.02,
+        "AWS WAF": 4.8,
+        "Amazon DynamoDB": 0.01,
+        "EC2 - Other": 0.78,
+        "Amazon Elastic Compute Cloud - Compute": 0.19,
+        "Amazon Route 53": 0.09,
+        "Amazon Simple Queue Service": 0.34,
+        "Amazon Simple Storage Service": 0.09,
+        "Amazon Virtual Private Cloud": 0.17,
+        "AmazonCloudWatch": 0.05
+      },
+      "909362960884": {
+        "AWS Key Management Service": 1.79,
+        "EC2 - Other": 1.14
+      },
+      "909870549273": {
+        "AWS Key Management Service": 3.89,
+        "AWS Lambda": 0.15,
+        "AWS Secrets Manager": 0.38,
+        "AWS Step Functions": 8.43,
+        "Amazon GuardDuty": 0.29,
+        "Amazon Simple Queue Service": 0.34,
+        "Amazon Simple Storage Service": 0.3
       },
       "910594417067": {
-        "AWS Key Management Service": 0.42,
-        "AWS Secrets Manager": 0.17,
-        "EC2 - Other": 1.42,
-        "Amazon GuardDuty": 0.63,
-        "Amazon Simple Storage Service": 0.18
+        "AWS Key Management Service": 0.62,
+        "AWS Secrets Manager": 0.25,
+        "EC2 - Other": 2.18,
+        "Amazon GuardDuty": 0.95,
+        "Amazon Simple Storage Service": 0.27
       },
       "912026262586": {
-        "AWS Key Management Service": 1.21,
-        "EC2 - Other": 0.03
+        "AWS Key Management Service": 1.78,
+        "EC2 - Other": 0.05
       },
       "923888388157": {
-        "AWS Key Management Service": 0.02,
-        "AWS Secrets Manager": 0.02,
-        "EC2 - Other": 0.33,
-        "Amazon GuardDuty": 0.22,
+        "AWS Key Management Service": 0.04,
+        "AWS Secrets Manager": 0.03,
+        "EC2 - Other": 0.51,
+        "Amazon GuardDuty": 0.35,
         "Amazon Route 53": 0.46
       },
       "928329497587": {
-        "Amazon Simple Storage Service": 0.65
+        "Amazon Simple Storage Service": 0.99
       },
       "930832105927": {
-        "AWS Key Management Service": 0.81,
-        "EC2 - Other": 0.87,
-        "Amazon Elastic Compute Cloud - Compute": 3.48,
-        "Amazon Simple Storage Service": 0.03,
-        "Amazon Virtual Private Cloud": 1.51
+        "AWS Key Management Service": 1.19,
+        "AWS Systems Manager": 0.06,
+        "EC2 - Other": 1.32,
+        "Amazon Elastic Compute Cloud - Compute": 5.16,
+        "Amazon Simple Storage Service": 0.04,
+        "Amazon Virtual Private Cloud": 2.23
       },
       "951931581453": {
-        "EC2 - Other": 0.06
+        "EC2 - Other": 0.1
       },
       "975050294188": {
-        "AWS Key Management Service": 1.02,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.27,
-        "AWS Step Functions": 4.79,
-        "AWS WAF": 3.24,
+        "AWS Key Management Service": 1.52,
+        "AWS Lambda": 0.15,
+        "AWS Secrets Manager": 0.39,
+        "AWS Step Functions": 7.08,
+        "AWS WAF": 4.8,
         "Amazon DynamoDB": 0.01,
-        "EC2 - Other": 0.11,
-        "Amazon Elastic Compute Cloud - Compute": 0.35,
-        "Amazon GuardDuty": 1.32,
+        "EC2 - Other": 0.16,
+        "Amazon Elastic Compute Cloud - Compute": 0.5,
+        "Amazon GuardDuty": 1.96,
         "Amazon Route 53": 1.38,
-        "Amazon Simple Queue Service": 0.23,
-        "Amazon Simple Storage Service": 0.09,
-        "Amazon Virtual Private Cloud": 0.11
+        "Amazon Simple Queue Service": 0.34,
+        "Amazon Simple Storage Service": 0.14,
+        "Amazon Virtual Private Cloud": 0.17
       },
       "980059074852": {
-        "AWS Key Management Service": 0.83,
-        "AWS Secrets Manager": 0.18,
-        "AWS Step Functions": 0.78,
-        "AWS WAF": 3.24,
-        "EC2 - Other": 0.03,
-        "Amazon Simple Queue Service": 0.23,
-        "AmazonCloudWatch": 0.01
+        "AWS Key Management Service": 1.23,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.27,
+        "AWS Step Functions": 1.16,
+        "AWS WAF": 4.8,
+        "EC2 - Other": 0.05,
+        "Amazon Simple Queue Service": 0.34,
+        "AmazonCloudWatch": 0.03
       },
       "986309855560": {
-        "AWS Key Management Service": 1.24,
-        "AWS Secrets Manager": 0.19,
-        "AWS Step Functions": 0.97,
-        "Amazon API Gateway": 0.02,
-        "Amazon Simple Queue Service": 0.3
+        "AWS Key Management Service": 1.83,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.29,
+        "AWS Step Functions": 1.43,
+        "Amazon API Gateway": 0.03,
+        "Amazon Simple Queue Service": 0.44,
+        "AmazonCloudWatch": 0.01
       },
       "987418188891": {
-        "AWS Key Management Service": 7.28,
-        "AWS Secrets Manager": 0.18,
-        "AWS WAF": 3.24,
-        "EC2 - Other": 0.03,
-        "Amazon Simple Queue Service": 0.18,
-        "Amazon Simple Storage Service": 0.29,
-        "AmazonCloudWatch": 0.04
+        "AWS Key Management Service": 10.77,
+        "AWS Secrets Manager": 0.27,
+        "AWS WAF": 4.8,
+        "EC2 - Other": 0.05,
+        "Amazon Simple Queue Service": 0.27,
+        "Amazon Simple Storage Service": 0.41,
+        "AmazonCloudWatch": 0.07
       },
       "992382622144": {
-        "EC2 - Other": 0.17
+        "EC2 - Other": 0.26
       }
     },
-    "azure_total": 1569.05,
+    "azure_total": 2254.64,
     "azure_subscriptions": [
       {
         "id": "fe6f783a-c9cb-4e49-9f3d-7f2e86a3ff8e",
         "name": "QFLOW_PERF_BlushBison",
-        "cost": 158.27
+        "cost": 220.43
       },
       {
         "id": "0cff124b-97e0-49ac-9fe4-98ddec8a060b",
         "name": "QFlow301-QA-Panther",
-        "cost": 148.14
-      },
-      {
-        "id": "0b04c716-64ad-43b5-93b1-96dbd9aaa412",
-        "name": "QFlow1-Dev-Elephant-dsp-S",
-        "cost": 119.79
+        "cost": 214.14
       },
       {
         "id": "5e91f820-d05f-4ca3-8ecd-4ea2b64769ca",
         "name": "QFLOW_PERF_CobaltCondor",
-        "cost": 115.89
+        "cost": 168.55
+      },
+      {
+        "id": "0b04c716-64ad-43b5-93b1-96dbd9aaa412",
+        "name": "QFlow1-Dev-Elephant-dsp-S",
+        "cost": 138.69
       },
       {
         "id": "e23a2182-aa48-410e-922e-cda494a1cb39",
         "name": "QFLOW_PERF_SiliconSpinach",
-        "cost": 72.51
+        "cost": 105.79
       },
       {
         "id": "52136516-cfac-489f-a057-9e98cd8e4437",
         "name": "QFLOW_PERF_1_SERVICE",
-        "cost": 58.9
+        "cost": 87.18
       },
       {
         "id": "c4e0f2f0-eb24-490e-b238-58e72e93f9ab",
         "name": "QFLOW_PERF_Everest",
-        "cost": 58.77
+        "cost": 85.85
       },
       {
         "id": "7f53ca2c-ba06-4157-89db-53544ce71b4c",
         "name": "QFLOW_PERF_TangerineTiger",
-        "cost": 58.19
+        "cost": 82.78
       },
       {
         "id": "474bccba-3d6f-4f64-8048-857cbc21bdc6",
         "name": "QFLOW_Daily_Sanity_QuantumQuince",
-        "cost": 47.82
+        "cost": 70.93
       },
       {
         "id": "3698648d-ffdf-4cbe-a073-d4bc0391bcb5",
         "name": "QFLOW_PERF_IvoryIbis",
-        "cost": 47.12
+        "cost": 68.17
+      },
+      {
+        "id": "9af00ddb-384e-4d88-a8db-f670a615253e",
+        "name": "QFLOW_PERF_Tokyo",
+        "cost": 53.81
+      },
+      {
+        "id": "ee57636b-7b36-43d9-9f64-4c3441119adc",
+        "name": "QFLOW_Daily_Sanity_Mysore",
+        "cost": 53.68
+      },
+      {
+        "id": "45e43a02-626a-4893-8a5b-eb916f98ce8e",
+        "name": "QFLOW_PERF_XanthicXerus",
+        "cost": 52.92
+      },
+      {
+        "id": "7d46e492-6041-4f56-9135-b60765643293",
+        "name": "QFLOW_Daily_Sanity_DigitalDate",
+        "cost": 52.5
+      },
+      {
+        "id": "f42f9d72-d972-4a1f-9017-1ec225b6c8bb",
+        "name": "QFLOW_PERF_StreamSquash",
+        "cost": 52.35
+      },
+      {
+        "id": "fc0967aa-63bb-4d93-bfb6-45ce04906257",
+        "name": "QFLOW_Daily_Sanity_MangoMetric",
+        "cost": 48.22
+      },
+      {
+        "id": "706fdbb8-3ccb-4934-8df6-ccd18efeab16",
+        "name": "QFLOW_Daily_Sanity_DigitalDill",
+        "cost": 48.07
+      },
+      {
+        "id": "40b2585e-f3f0-42c7-a954-046d4719109c",
+        "name": "QFLOW_Daily_Sanity_PixelPeach",
+        "cost": 47.36
+      },
+      {
+        "id": "8b03ffa7-5b48-4c7d-a9ef-8ebf35da507e",
+        "name": "QFLOW_Daily_Sanity_Citronova",
+        "cost": 47.17
+      },
+      {
+        "id": "b03509fb-6a3b-414d-9a69-f9e8b31ab2d7",
+        "name": "QFLOW_PERF_PixelPapaya",
+        "cost": 46.29
+      },
+      {
+        "id": "8a65f4ae-3c62-426c-883a-27fe48fa657a",
+        "name": "QFLOW_Daily_Sanity_NetworkNectarine",
+        "cost": 45.85
+      },
+      {
+        "id": "bffd5100-6a26-44d4-a592-df4f72d39bb0",
+        "name": "QFLOW_PERF_OrangeTiger",
+        "cost": 45.84
+      },
+      {
+        "id": "453ef4bf-8119-4df7-bb8f-0b6536f4abc8",
+        "name": "QFLOW_Daily_Sanity_ByteBerry",
+        "cost": 43.04
       },
       {
         "id": "a203fd1f-d780-45da-86b8-41be01d14bdb",
@@ -1800,204 +1933,139 @@
         "cost": 42.31
       },
       {
-        "id": "ee57636b-7b36-43d9-9f64-4c3441119adc",
-        "name": "QFLOW_Daily_Sanity_Mysore",
-        "cost": 37.42
-      },
-      {
-        "id": "7d46e492-6041-4f56-9135-b60765643293",
-        "name": "QFLOW_Daily_Sanity_DigitalDate",
-        "cost": 36.87
-      },
-      {
-        "id": "9af00ddb-384e-4d88-a8db-f670a615253e",
-        "name": "QFLOW_PERF_Tokyo",
-        "cost": 36.79
-      },
-      {
-        "id": "45e43a02-626a-4893-8a5b-eb916f98ce8e",
-        "name": "QFLOW_PERF_XanthicXerus",
-        "cost": 35.72
-      },
-      {
-        "id": "fc0967aa-63bb-4d93-bfb6-45ce04906257",
-        "name": "QFLOW_Daily_Sanity_MangoMetric",
-        "cost": 34.31
-      },
-      {
-        "id": "706fdbb8-3ccb-4934-8df6-ccd18efeab16",
-        "name": "QFLOW_Daily_Sanity_DigitalDill",
-        "cost": 33.76
-      },
-      {
-        "id": "f42f9d72-d972-4a1f-9017-1ec225b6c8bb",
-        "name": "QFLOW_PERF_StreamSquash",
-        "cost": 33.12
-      },
-      {
-        "id": "8b03ffa7-5b48-4c7d-a9ef-8ebf35da507e",
-        "name": "QFLOW_Daily_Sanity_Citronova",
-        "cost": 32.7
-      },
-      {
-        "id": "8a65f4ae-3c62-426c-883a-27fe48fa657a",
-        "name": "QFLOW_Daily_Sanity_NetworkNectarine",
-        "cost": 32.2
-      },
-      {
-        "id": "40b2585e-f3f0-42c7-a954-046d4719109c",
-        "name": "QFLOW_Daily_Sanity_PixelPeach",
-        "cost": 31.89
-      },
-      {
-        "id": "bffd5100-6a26-44d4-a592-df4f72d39bb0",
-        "name": "QFLOW_PERF_OrangeTiger",
-        "cost": 31.2
-      },
-      {
-        "id": "453ef4bf-8119-4df7-bb8f-0b6536f4abc8",
-        "name": "QFLOW_Daily_Sanity_ByteBerry",
-        "cost": 30.12
-      },
-      {
         "id": "3e0a033c-349d-45e2-b398-4c488bd6b83f",
         "name": "QFLOW_Daily_Sanity_ByteBanana",
-        "cost": 28.07
-      },
-      {
-        "id": "b03509fb-6a3b-414d-9a69-f9e8b31ab2d7",
-        "name": "QFLOW_PERF_PixelPapaya",
-        "cost": 25.26
+        "cost": 39.29
       },
       {
         "id": "6943a55b-4a83-42db-9578-a2b140d2cd35",
         "name": "QFLOW_PERF_AlgorithmApple",
-        "cost": 24.76
-      },
-      {
-        "id": "558e2120-060b-4d81-bffa-da2edd6a0b79",
-        "name": "QFLOW_Daily_Sanity_CacheCurrant",
-        "cost": 21.01
+        "cost": 37.27
       },
       {
         "id": "82dc3f9d-a248-4322-a55b-e753bff01960",
         "name": "QFLOW_Daily_Sanity_KernelKiwi",
-        "cost": 17.29
-      },
-      {
-        "id": "aec5c425-0c85-4182-a7fe-badf9dd52438",
-        "name": "QFLOW_PERF_ScriptSorbet",
-        "cost": 11.94
-      },
-      {
-        "id": "39172dd9-6270-4630-9ca4-1549693404cf",
-        "name": "QFlow101-Sub-Cheetah",
-        "cost": 11.76
-      },
-      {
-        "id": "70a3e704-142b-4af3-9a92-b27fc4767609",
-        "name": "QFLOW_PERF_Colosseum",
-        "cost": 7.8
+        "cost": 26.4
       },
       {
         "id": "83ff9ced-0b13-4eab-a21c-884b3b4c2493",
         "name": "QFlow301-QA-Hyena",
-        "cost": 7.25
+        "cost": 23.36
       },
       {
-        "id": "b8392058-8a1f-4250-98db-a9f4a075e625",
-        "name": "QFLOW_Daily_Sanity_VirtualVanilla",
-        "cost": 7.14
+        "id": "aec5c425-0c85-4182-a7fe-badf9dd52438",
+        "name": "QFLOW_PERF_ScriptSorbet",
+        "cost": 22.38
       },
       {
-        "id": "0d124890-b374-4a51-a11f-a1248e22be8b",
-        "name": "QFLOW_PERF_Budapest",
-        "cost": 6.97
-      },
-      {
-        "id": "894e3b4f-1b0f-4943-845d-fb3bb12a9ad2",
-        "name": "QFLOW_PERF_JetJellyfish",
-        "cost": 6.12
-      },
-      {
-        "id": "1788b878-2596-4c6e-a6a2-6f3ab80b9d31",
-        "name": "QFLOW_PERF_MintMantis",
-        "cost": 6.1
+        "id": "558e2120-060b-4d81-bffa-da2edd6a0b79",
+        "name": "QFLOW_Daily_Sanity_CacheCurrant",
+        "cost": 21.87
       },
       {
         "id": "b2290775-9935-4725-96bd-5bc8997260c8",
         "name": "QFlow-Seahorse",
-        "cost": 5.67
+        "cost": 18.07
       },
       {
         "id": "430cd476-1d8a-4698-a863-032f9d55c875",
         "name": "QFlow301-QA-Meerkat",
-        "cost": 5.48
+        "cost": 17.92
+      },
+      {
+        "id": "39172dd9-6270-4630-9ca4-1549693404cf",
+        "name": "QFlow101-Sub-Cheetah",
+        "cost": 17.01
+      },
+      {
+        "id": "70a3e704-142b-4af3-9a92-b27fc4767609",
+        "name": "QFLOW_PERF_Colosseum",
+        "cost": 11.15
+      },
+      {
+        "id": "b8392058-8a1f-4250-98db-a9f4a075e625",
+        "name": "QFLOW_Daily_Sanity_VirtualVanilla",
+        "cost": 10.14
+      },
+      {
+        "id": "0d124890-b374-4a51-a11f-a1248e22be8b",
+        "name": "QFLOW_PERF_Budapest",
+        "cost": 10.01
+      },
+      {
+        "id": "1788b878-2596-4c6e-a6a2-6f3ab80b9d31",
+        "name": "QFLOW_PERF_MintMantis",
+        "cost": 8.76
+      },
+      {
+        "id": "894e3b4f-1b0f-4943-845d-fb3bb12a9ad2",
+        "name": "QFLOW_PERF_JetJellyfish",
+        "cost": 8.58
       },
       {
         "id": "56de78cb-de75-49f4-a5bc-4c0346f76bb5",
         "name": "QFLOW_PERF_PumpkinPuffin",
-        "cost": 5.12
+        "cost": 7.33
       },
       {
         "id": "e55a8bd6-70df-4bc0-84a8-83b3f7cafae4",
         "name": "QFlow2-Dev-Tiger",
-        "cost": 4.99
-      },
-      {
-        "id": "d08f3411-dcbf-4cfb-98b3-e121c9e5415d",
-        "name": "QFLOW_PERF_Charleston",
-        "cost": 3.41
-      },
-      {
-        "id": "a3b7f81f-e486-44ac-8d9f-377a1df0efa9",
-        "name": "QFLOW_PERF_Dubai",
-        "cost": 3.41
-      },
-      {
-        "id": "e0d14dd6-20e6-4128-8077-3a01b2ca9d6e",
-        "name": "QFLOW_PERF_BlackPanther",
-        "cost": 3.41
+        "cost": 7.16
       },
       {
         "id": "00862698-0bd6-47a8-bcfe-1df5aae72871",
         "name": "QFLOW_PERF_AmberAntelope",
-        "cost": 3.41
+        "cost": 4.9
+      },
+      {
+        "id": "d08f3411-dcbf-4cfb-98b3-e121c9e5415d",
+        "name": "QFLOW_PERF_Charleston",
+        "cost": 4.89
+      },
+      {
+        "id": "a3b7f81f-e486-44ac-8d9f-377a1df0efa9",
+        "name": "QFLOW_PERF_Dubai",
+        "cost": 4.89
+      },
+      {
+        "id": "e0d14dd6-20e6-4128-8077-3a01b2ca9d6e",
+        "name": "QFLOW_PERF_BlackPanther",
+        "cost": 4.89
       },
       {
         "id": "45a15263-fec4-4c96-8a38-2f76857fe47b",
         "name": "QFLOW_PERF_KelpKangaroo",
-        "cost": 3.41
+        "cost": 4.89
       },
       {
         "id": "e0a5f47b-a347-4a96-a3c9-f84375125a9e",
         "name": "QFLOW_PERF_GreenFrog",
-        "cost": 3.41
+        "cost": 4.89
       },
       {
         "id": "f3c85595-4d59-4588-9452-e05eb6667504",
         "name": "QFLOW_PERF_CyanCoyote",
-        "cost": 3.41
-      },
-      {
-        "id": "2f00ec76-208a-4f49-a8f2-31c659506368",
-        "name": "QFLOW_PERF_Iceland",
-        "cost": 1.71
+        "cost": 4.89
       },
       {
         "id": "f18a5424-eb95-4b09-92ac-46b4218cbf43",
         "name": "QFlow301-QA-Snake",
-        "cost": 1.71
+        "cost": 2.46
       },
       {
         "id": "e89c83a1-4398-4623-8592-234872e6baa7",
         "name": "QFlow302-QA-Koala",
-        "cost": 1.71
+        "cost": 2.45
+      },
+      {
+        "id": "2f00ec76-208a-4f49-a8f2-31c659506368",
+        "name": "QFLOW_PERF_Iceland",
+        "cost": 2.44
       },
       {
         "id": "0e40073c-0f1b-437f-9223-1c20026d73af",
         "name": "QFLOW_PERF_BronzeBeaver",
-        "cost": 1.71
+        "cost": 2.44
       },
       {
         "id": "0e1ec532-3703-4ad0-89ef-950e704ae599",
@@ -2007,686 +2075,683 @@
       {
         "id": "ee546080-fdc2-4925-b8b0-2dcad74b6ffb",
         "name": "QFLOW_PERF_VioletVulture",
-        "cost": 0.32
+        "cost": 0.38
       },
       {
         "id": "93ac76be-94a7-451e-8658-320e851ba427",
         "name": "QFLOW_PERF_NeonNewt",
-        "cost": 0.32
+        "cost": 0.38
       },
       {
         "id": "7dbd9dfb-4f5b-45d4-a301-a6049d03bcf7",
         "name": "QFLOW_PERF_CircuitCitrus",
-        "cost": 0.16
+        "cost": 0.23
       }
     ],
-    "azure_gov_total": 171.82,
+    "azure_gov_total": 239.15,
     "azure_gov_subs": [
       {
         "id": "c96b3dcb-2d51-4d75-a5d8-71a0a78bc62a",
         "name": "qlysgov-totalcloud-qflow1",
-        "cost": 87.29
+        "cost": 125.86
       },
       {
         "id": "c0835736-8d8a-4141-a0a6-edefda75dc86",
         "name": "qlysgov-totalcloud-tc-sme",
-        "cost": 52.76
+        "cost": 68.27
       },
       {
         "id": "83bf99b5-9d81-4344-a12b-0b0afa91e4f5",
         "name": "qlysgov-totalcloud-qflow4",
-        "cost": 17.7
+        "cost": 25.13
       },
       {
         "id": "e69c1afb-ed01-4176-a757-ca7a909d48c6",
         "name": "qlysgov-totalcloud-qflow2-Dev-RGade",
-        "cost": 14.07
+        "cost": 19.89
       }
     ],
-    "gcp_total": 189.04,
+    "gcp_total": 271.18,
     "gcp_services": {
-      "Compute Engine": 87.21,
-      "Networking": 38.59,
-      "Cloud Key Management Service (KMS)": 27.89,
-      "Cloud Monitoring": 27.88,
-      "VM Manager": 5.44,
-      "Notebooks": 1.63,
-      "Cloud DNS": 0.25,
-      "Artifact Registry": 0.06,
-      "BigQuery": 0.05,
-      "Cloud Storage": 0.04
+      "Compute Engine": 124.58,
+      "Networking": 54.75,
+      "Cloud Monitoring": 40.98,
+      "Cloud Key Management Service (KMS)": 39.95,
+      "VM Manager": 7.78,
+      "Notebooks": 2.33,
+      "Cloud DNS": 0.35,
+      "BigQuery": 0.17,
+      "Secret Manager": 0.15,
+      "Artifact Registry": 0.09,
+      "Cloud Storage": 0.05
     }
   },
   "last7": {
-    "aws_normal_total": 71.14,
+    "aws_normal_total": 79.0,
     "aws_normal_services": {
-      "AWS CloudTrail": 0.18,
-      "AWS Cost Explorer": 4.78,
-      "AWS Key Management Service": 3.33,
-      "AWS Secrets Manager": 0.77,
-      "AWS Security Hub": 0.23,
+      "AWS CloudTrail": 0.2,
+      "AWS Cost Explorer": 5.21,
+      "AWS Glue": 0.01,
+      "AWS Key Management Service": 3.67,
+      "AWS Secrets Manager": 0.85,
+      "AWS Security Hub": 0.27,
       "AWS Step Functions": 0.02,
-      "AWS Systems Manager": 2.21,
-      "Amazon DynamoDB": 0.03,
-      "Amazon EC2 Container Registry (ECR)": 0.24,
-      "EC2 - Other": 17.93,
-      "Amazon Elastic Compute Cloud - Compute": 1.53,
-      "Amazon GuardDuty": 17.49,
-      "Amazon Kinesis": 6.28,
-      "Amazon Macie": 1.85,
-      "Amazon Relational Database Service": 0.22,
-      "Amazon Route 53": 1.47,
-      "Amazon Simple Queue Service": 0.07,
-      "Amazon Simple Storage Service": 2.29,
-      "Amazon Virtual Private Cloud": 8.74,
-      "AmazonCloudWatch": 1.48
+      "AWS Systems Manager": 2.65,
+      "Amazon DynamoDB": 0.41,
+      "Amazon EC2 Container Registry (ECR)": 0.26,
+      "EC2 - Other": 19.32,
+      "Amazon Elastic Compute Cloud - Compute": 1.4,
+      "Amazon GuardDuty": 20.06,
+      "Amazon Kinesis": 6.88,
+      "Amazon Macie": 2.16,
+      "Amazon Relational Database Service": 0.24,
+      "Amazon Route 53": 1.73,
+      "Amazon Simple Queue Service": 0.08,
+      "Amazon Simple Storage Service": 2.38,
+      "Amazon Virtual Private Cloud": 9.54,
+      "AmazonCloudWatch": 1.65
     },
-    "aws_org_total": 392.12,
+    "aws_org_total": 431.0,
     "aws_org_accounts": [
       {
         "id": "149294230127",
         "name": "TotalCloud QA Account",
-        "cost": 34.36
+        "cost": 38.17
       },
       {
         "id": "273078346626",
         "name": "arsh211@qualys.dev",
-        "cost": 31.64
+        "cost": 34.64
       },
       {
         "id": "635571737179",
         "name": "svc uk01",
-        "cost": 24.65
+        "cost": 26.68
       },
       {
         "id": "494753002565",
         "name": "pjindal svc",
-        "cost": 21.6
-      },
-      {
-        "id": "095611265520",
-        "name": "arsh10@qualys.dev",
-        "cost": 19.49
+        "cost": 23.48
       },
       {
         "id": "682437954104",
         "name": "balasaheb",
-        "cost": 16.84
+        "cost": 21.69
       },
       {
-        "id": "229658172382",
-        "name": "dev-rgade-service",
-        "cost": 12.22
+        "id": "095611265520",
+        "name": "arsh10@qualys.dev",
+        "cost": 21.11
       },
       {
         "id": "590183730935",
         "name": "TESTQA",
-        "cost": 11.96
+        "cost": 12.93
+      },
+      {
+        "id": "229658172382",
+        "name": "dev-rgade-service",
+        "cost": 11.5
       },
       {
         "id": "541438730734",
         "name": "BHC_CDR_QA",
-        "cost": 9.08
+        "cost": 9.84
       },
       {
         "id": "034671213724",
         "name": "arsh109@qualys.dev",
-        "cost": 7.79
-      },
-      {
-        "id": "060373238042",
-        "name": "p13 svc",
-        "cost": 7.41
+        "cost": 8.44
       },
       {
         "id": "148249192560",
         "name": "arsh105@qualys.dev",
-        "cost": 7.26
+        "cost": 8.05
       },
       {
         "id": "331556273345",
         "name": "arsh217@qualys.dev",
-        "cost": 7.11
+        "cost": 8.01
       },
       {
-        "id": "167684443721",
-        "name": "arsh273@qualys.dev",
-        "cost": 7.06
+        "id": "060373238042",
+        "name": "p13 svc",
+        "cost": 7.7
       },
       {
         "id": "677284942379",
         "name": "arsh213@qualys.dev",
-        "cost": 6.7
+        "cost": 7.24
+      },
+      {
+        "id": "167684443721",
+        "name": "arsh273@qualys.dev",
+        "cost": 6.93
       },
       {
         "id": "583837446846",
         "name": "arsh110@qualys.dev",
-        "cost": 6.11
-      },
-      {
-        "id": "905418261832",
-        "name": "TESTQA6",
-        "cost": 5.79
-      },
-      {
-        "id": "975050294188",
-        "name": "TESTQA3",
-        "cost": 5.66
+        "cost": 6.62
       },
       {
         "id": "730335457683",
         "name": "TESTQA5",
-        "cost": 5.63
+        "cost": 6.45
       },
       {
-        "id": "143934116471",
-        "name": "arsh279@qualys.dev",
-        "cost": 5.53
+        "id": "905418261832",
+        "name": "TESTQA6",
+        "cost": 6.37
       },
       {
         "id": "240217704174",
         "name": "arsh107@qualys.dev",
-        "cost": 5.51
+        "cost": 6.27
+      },
+      {
+        "id": "975050294188",
+        "name": "TESTQA3",
+        "cost": 6.27
+      },
+      {
+        "id": "143934116471",
+        "name": "arsh279@qualys.dev",
+        "cost": 6.02
       },
       {
         "id": "987418188891",
         "name": "arsh278@qualys.dev",
-        "cost": 5.49
-      },
-      {
-        "id": "199086174209",
-        "name": "arsh108@qualys.dev",
-        "cost": 5.11
+        "cost": 5.94
       },
       {
         "id": "535299115383",
         "name": "arsh159@qualys.dev",
-        "cost": 5.09
+        "cost": 5.66
       },
       {
-        "id": "285062414223",
-        "name": "arsh140@qualys.dev",
-        "cost": 4.89
+        "id": "199086174209",
+        "name": "arsh108@qualys.dev",
+        "cost": 5.64
       },
       {
         "id": "187024455668",
         "name": "arsh218@qualys.dev",
-        "cost": 4.84
+        "cost": 5.37
       },
       {
         "id": "202533496720",
         "name": "qualysuser",
-        "cost": 4.78
+        "cost": 5.32
+      },
+      {
+        "id": "285062414223",
+        "name": "arsh140@qualys.dev",
+        "cost": 5.32
       },
       {
         "id": "909870549273",
         "name": "vaishali tgt",
-        "cost": 4.52
+        "cost": 5.02
       },
       {
         "id": "475071743267",
         "name": "arsh234@qualys.dev",
-        "cost": 3.97
+        "cost": 4.41
       },
       {
         "id": "044821245880",
         "name": "arsh15@qualys.dev",
-        "cost": 3.78
+        "cost": 4.11
       },
       {
         "id": "863320968128",
         "name": "Qflow-Maithili_4",
-        "cost": 3.77
+        "cost": 4.08
       },
       {
         "id": "855327232746",
         "name": "arsh2@qualys.dev",
-        "cost": 3.46
-      },
-      {
-        "id": "930832105927",
-        "name": "dev-rgade-2",
-        "cost": 3.24
+        "cost": 3.86
       },
       {
         "id": "044261911670",
         "name": "arsh17@qualys.dev",
-        "cost": 3.16
+        "cost": 3.61
+      },
+      {
+        "id": "930832105927",
+        "name": "dev-rgade-2",
+        "cost": 3.59
       },
       {
         "id": "297853565549",
         "name": "before optimization 4",
-        "cost": 3.15
+        "cost": 3.53
       },
       {
         "id": "327456541158",
         "name": "sai tgt",
-        "cost": 3.14
+        "cost": 3.45
       },
       {
         "id": "059163870577",
         "name": "arsh48@qualys.dev",
-        "cost": 3.01
+        "cost": 3.27
       },
       {
         "id": "509284582761",
         "name": "arsh145@qualys.dev",
-        "cost": 2.9
+        "cost": 3.25
       },
       {
         "id": "459353105060",
         "name": "arsh220@qualys.dev",
-        "cost": 2.89
+        "cost": 3.19
       },
       {
         "id": "429950822387",
         "name": "arsh133@qualys.dev",
-        "cost": 2.87
+        "cost": 3.17
       },
       {
         "id": "291066412207",
         "name": "arshAutomation2",
-        "cost": 2.69
-      },
-      {
-        "id": "980059074852",
-        "name": "arsh135@qualys.dev",
-        "cost": 2.61
+        "cost": 2.93
       },
       {
         "id": "164577792704",
         "name": "arsh283@qualys.dev",
-        "cost": 2.59
+        "cost": 2.85
+      },
+      {
+        "id": "980059074852",
+        "name": "arsh135@qualys.dev",
+        "cost": 2.84
       },
       {
         "id": "751375117945",
         "name": "arsh287@qualys.dev",
-        "cost": 1.93
+        "cost": 2.12
       },
       {
         "id": "304125837816",
         "name": "arsh62@qualys.dev",
-        "cost": 1.82
+        "cost": 2.02
       },
       {
         "id": "876464212992",
         "name": "svc us04",
-        "cost": 1.73
-      },
-      {
-        "id": "107311130128",
-        "name": "arsh167@qualys.dev",
-        "cost": 1.67
+        "cost": 1.94
       },
       {
         "id": "674393317291",
         "name": "arsh46@qualys.dev",
-        "cost": 1.66
+        "cost": 1.84
+      },
+      {
+        "id": "107311130128",
+        "name": "arsh167@qualys.dev",
+        "cost": 1.83
       },
       {
         "id": "528646883845",
         "name": "QFlow-Maithili-2",
-        "cost": 1.6
+        "cost": 1.76
       },
       {
         "id": "050990333542",
         "name": "new target 2",
-        "cost": 1.59
+        "cost": 1.74
       },
       {
         "id": "260880585145",
         "name": "arsh76@qualys.dev",
-        "cost": 1.56
+        "cost": 1.71
       },
       {
         "id": "807310992472",
         "name": "sai svc",
-        "cost": 1.54
+        "cost": 1.71
       },
       {
         "id": "852124743903",
         "name": "arsh92@qualys.dev",
-        "cost": 1.5
+        "cost": 1.64
       },
       {
         "id": "390844784899",
         "name": "Whitebox",
-        "cost": 1.45
+        "cost": 1.58
       },
       {
         "id": "052877459505",
         "name": "Qflow-Vaishali-22",
-        "cost": 1.38
-      },
-      {
-        "id": "986309855560",
-        "name": "arsh186@qualys.dev",
-        "cost": 1.34
-      },
-      {
-        "id": "803993009476",
-        "name": "arsh96@qualys.dev",
-        "cost": 1.33
+        "cost": 1.56
       },
       {
         "id": "910594417067",
         "name": "svc au01",
-        "cost": 1.31
+        "cost": 1.51
       },
       {
-        "id": "888657991711",
-        "name": "Qflow-Maithili-5",
-        "cost": 1.3
+        "id": "803993009476",
+        "name": "arsh96@qualys.dev",
+        "cost": 1.46
+      },
+      {
+        "id": "986309855560",
+        "name": "arsh186@qualys.dev",
+        "cost": 1.46
       },
       {
         "id": "408429263225",
         "name": "arsh191@qualys.dev",
-        "cost": 1.29
+        "cost": 1.41
+      },
+      {
+        "id": "888657991711",
+        "name": "Qflow-Maithili-5",
+        "cost": 1.41
       },
       {
         "id": "580666022423",
         "name": "arsh226@qualys.dev",
-        "cost": 1.0
-      },
-      {
-        "id": "003004624713",
-        "name": "arsh147@qualys.dev",
-        "cost": 0.99
+        "cost": 1.16
       },
       {
         "id": "500321821407",
         "name": "arsh125@qualys.dev",
-        "cost": 0.98
+        "cost": 1.13
+      },
+      {
+        "id": "003004624713",
+        "name": "arsh147@qualys.dev",
+        "cost": 1.07
       },
       {
         "id": "909362960884",
         "name": "pjindal tgt1",
-        "cost": 0.96
-      },
-      {
-        "id": "205666877655",
-        "name": "arsh1@qualys.dev",
-        "cost": 0.87
-      },
-      {
-        "id": "451600355128",
-        "name": "arsh266@qualys.dev",
-        "cost": 0.87
-      },
-      {
-        "id": "619028518089",
-        "name": "arsh170@qualys.dev",
-        "cost": 0.86
+        "cost": 1.03
       },
       {
         "id": "207175984884",
         "name": "arsh66@qualys.dev",
-        "cost": 0.83
+        "cost": 0.97
+      },
+      {
+        "id": "205666877655",
+        "name": "arsh1@qualys.dev",
+        "cost": 0.93
+      },
+      {
+        "id": "451600355128",
+        "name": "arsh266@qualys.dev",
+        "cost": 0.93
+      },
+      {
+        "id": "619028518089",
+        "name": "arsh170@qualys.dev",
+        "cost": 0.93
       },
       {
         "id": "483773993138",
         "name": "before optimization 2",
-        "cost": 0.72
+        "cost": 0.82
       },
       {
         "id": "817505957732",
         "name": "arsh98@qualys.dev",
-        "cost": 0.67
-      },
-      {
-        "id": "475558561317",
-        "name": "arsh275@qualys.dev",
-        "cost": 0.6
-      },
-      {
-        "id": "912026262586",
-        "name": "vaishali svc",
-        "cost": 0.6
-      },
-      {
-        "id": "198829653374",
-        "name": "balasaheb-1",
-        "cost": 0.59
+        "cost": 0.72
       },
       {
         "id": "273721849379",
         "name": "dev-rgade-1",
-        "cost": 0.59
+        "cost": 0.71
+      },
+      {
+        "id": "475558561317",
+        "name": "arsh275@qualys.dev",
+        "cost": 0.66
+      },
+      {
+        "id": "198829653374",
+        "name": "balasaheb-1",
+        "cost": 0.65
+      },
+      {
+        "id": "912026262586",
+        "name": "vaishali svc",
+        "cost": 0.65
       },
       {
         "id": "145838104650",
         "name": "arsh142@qualys.dev",
-        "cost": 0.54
+        "cost": 0.59
       },
       {
         "id": "574433037642",
         "name": "eu03",
-        "cost": 0.52
+        "cost": 0.56
       },
       {
         "id": "307970860936",
         "name": "svc us02",
-        "cost": 0.5
+        "cost": 0.55
       },
       {
         "id": "075674630895",
         "name": "arsh87@qualys.dev",
-        "cost": 0.48
+        "cost": 0.52
       },
       {
         "id": "003340426733",
         "name": "arsh134@qualys.dev",
-        "cost": 0.47
+        "cost": 0.51
       },
       {
         "id": "426622616498",
         "name": "arsh121@qualys.dev",
-        "cost": 0.47
+        "cost": 0.51
       },
       {
         "id": "503690661551",
         "name": "arsh47@qualys.dev",
-        "cost": 0.47
+        "cost": 0.51
       },
       {
         "id": "840158198744",
         "name": "arsh251@qualys.dev",
+        "cost": 0.51
+      },
+      {
+        "id": "122610512270",
+        "name": "Blackbox",
+        "cost": 0.47
+      },
+      {
+        "id": "671281917320",
+        "name": "arsh161@qualys.dev",
         "cost": 0.47
       },
       {
         "id": "779375447290",
         "name": "arsh137@qualys.dev",
-        "cost": 0.44
-      },
-      {
-        "id": "671281917320",
-        "name": "arsh161@qualys.dev",
-        "cost": 0.43
-      },
-      {
-        "id": "122610512270",
-        "name": "Blackbox",
-        "cost": 0.41
-      },
-      {
-        "id": "313054287571",
-        "name": "p13-2",
-        "cost": 0.4
+        "cost": 0.47
       },
       {
         "id": "151115464552",
         "name": "arsh285@qualys.dev",
-        "cost": 0.39
+        "cost": 0.42
+      },
+      {
+        "id": "313054287571",
+        "name": "p13-2",
+        "cost": 0.42
       },
       {
         "id": "456965400883",
         "name": "arsh104@qualys.dev",
-        "cost": 0.39
-      },
-      {
-        "id": "677276115790",
-        "name": "greybox",
-        "cost": 0.33
-      },
-      {
-        "id": "699475930074",
-        "name": "newtestaccountqa",
-        "cost": 0.33
-      },
-      {
-        "id": "742344027791",
-        "name": "arsh157@qualys.dev",
-        "cost": 0.33
-      },
-      {
-        "id": "227250474767",
-        "name": "arsh126@qualys.dev",
-        "cost": 0.31
-      },
-      {
-        "id": "923888388157",
-        "name": "QFlow-Maithili-1",
-        "cost": 0.31
-      },
-      {
-        "id": "007730361209",
-        "name": "EU01",
-        "cost": 0.3
-      },
-      {
-        "id": "561303529171",
-        "name": "maithili svc",
-        "cost": 0.3
+        "cost": 0.42
       },
       {
         "id": "625911360890",
         "name": "arsh100@qualys.dev",
-        "cost": 0.3
+        "cost": 0.38
+      },
+      {
+        "id": "742344027791",
+        "name": "arsh157@qualys.dev",
+        "cost": 0.38
+      },
+      {
+        "id": "677276115790",
+        "name": "greybox",
+        "cost": 0.36
+      },
+      {
+        "id": "699475930074",
+        "name": "newtestaccountqa",
+        "cost": 0.36
+      },
+      {
+        "id": "923888388157",
+        "name": "QFlow-Maithili-1",
+        "cost": 0.35
       },
       {
         "id": "928329497587",
         "name": "pjindal tgt2",
-        "cost": 0.3
+        "cost": 0.35
       },
       {
-        "id": "488805873141",
-        "name": "arsh143@qualys.dev",
-        "cost": 0.29
-      },
-      {
-        "id": "577400626275",
-        "name": "arsh216@qualys.dev",
-        "cost": 0.29
-      },
-      {
-        "id": "548855206515",
-        "name": "arsh227@qualys.dev",
-        "cost": 0.28
+        "id": "227250474767",
+        "name": "arsh126@qualys.dev",
+        "cost": 0.33
       },
       {
         "id": "847814059329",
         "name": "arsh111@qualys.dev",
-        "cost": 0.28
+        "cost": 0.33
+      },
+      {
+        "id": "007730361209",
+        "name": "EU01",
+        "cost": 0.32
+      },
+      {
+        "id": "488805873141",
+        "name": "arsh143@qualys.dev",
+        "cost": 0.32
+      },
+      {
+        "id": "561303529171",
+        "name": "maithili svc",
+        "cost": 0.32
+      },
+      {
+        "id": "548855206515",
+        "name": "arsh227@qualys.dev",
+        "cost": 0.31
+      },
+      {
+        "id": "577400626275",
+        "name": "arsh216@qualys.dev",
+        "cost": 0.31
       },
       {
         "id": "647836792828",
         "name": "arsh99@qualys.dev",
-        "cost": 0.27
+        "cost": 0.29
       },
       {
         "id": "029361457612",
         "name": "Qflow-Maithili-7",
-        "cost": 0.26
-      },
-      {
-        "id": "026090517945",
-        "name": "newqaaccounttesting",
-        "cost": 0.25
+        "cost": 0.28
       },
       {
         "id": "150101695321",
         "name": "arsh258@qualys.dev",
-        "cost": 0.25
+        "cost": 0.28
       },
       {
-        "id": "724203528054",
-        "name": "svc us01",
-        "cost": 0.25
+        "id": "026090517945",
+        "name": "newqaaccounttesting",
+        "cost": 0.27
       },
       {
         "id": "332177277666",
         "name": "arsh85@qualys.dev",
-        "cost": 0.23
+        "cost": 0.27
+      },
+      {
+        "id": "724203528054",
+        "name": "svc us01",
+        "cost": 0.27
       },
       {
         "id": "025532381522",
         "name": "arsh103@qualys.dev",
+        "cost": 0.25
+      },
+      {
+        "id": "156300301894",
+        "name": "arsh208@qualys.dev",
         "cost": 0.17
       },
       {
         "id": "273193025391",
         "name": "arsh153@qualys.dev",
-        "cost": 0.16
-      },
-      {
-        "id": "156300301894",
-        "name": "arsh208@qualys.dev",
-        "cost": 0.15
+        "cost": 0.17
       },
       {
         "id": "780109526425",
         "name": "arsh129@qualys.dev",
-        "cost": 0.14
+        "cost": 0.15
       },
       {
         "id": "688458530518",
         "name": "p19-dev",
-        "cost": 0.12
+        "cost": 0.13
       },
       {
         "id": "086544974598",
         "name": "arsh214@qualys.dev",
-        "cost": 0.09
+        "cost": 0.1
       },
       {
         "id": "827201566344",
         "name": "arsh106@qualys.dev",
-        "cost": 0.09
+        "cost": 0.1
       },
       {
         "id": "019466240241",
         "name": "arsh82@qualys.dev",
-        "cost": 0.08
+        "cost": 0.09
       },
       {
         "id": "048076892301",
         "name": "arsh215@qualys.dev",
-        "cost": 0.08
+        "cost": 0.09
       },
       {
         "id": "209745620352",
         "name": "arsh205@qualys.dev",
-        "cost": 0.08
+        "cost": 0.09
       },
       {
         "id": "270013331545",
         "name": "arsh265@qualys.dev",
-        "cost": 0.08
+        "cost": 0.09
       },
       {
         "id": "820077247727",
         "name": "arsh178@qualys.dev",
-        "cost": 0.08
+        "cost": 0.09
       },
       {
         "id": "992382622144",
         "name": "TESTQA8",
-        "cost": 0.08
-      },
-      {
-        "id": "141412784181",
-        "name": "arsh195@qualys.dev",
-        "cost": 0.04
+        "cost": 0.09
       },
       {
         "id": "263345096540",
@@ -2707,6 +2772,11 @@
         "id": "828323832156",
         "name": "Qflow-Ashish-15",
         "cost": 0.04
+      },
+      {
+        "id": "141412784181",
+        "name": "arsh195@qualys.dev",
+        "cost": 0.03
       },
       {
         "id": "951931581453",
@@ -2764,6 +2834,31 @@
         "cost": 0.01
       },
       {
+        "id": "268514689407",
+        "name": "arsh79@qualys.dev",
+        "cost": 0.01
+      },
+      {
+        "id": "289361332187",
+        "name": "before optimization 1",
+        "cost": 0.01
+      },
+      {
+        "id": "509554789406",
+        "name": "arsh60@qualys.dev",
+        "cost": 0.01
+      },
+      {
+        "id": "525291109373",
+        "name": "arsh61@qualys.dev",
+        "cost": 0.01
+      },
+      {
+        "id": "534796636025",
+        "name": "arsh136@qualys.dev",
+        "cost": 0.01
+      },
+      {
         "id": "623366770845",
         "name": "arsh270@qualys.dev",
         "cost": 0.01
@@ -2776,290 +2871,304 @@
     ],
     "aws_org_services": {
       "003004624713": {
-        "AWS Key Management Service": 0.99
+        "AWS Key Management Service": 1.07
       },
       "003340426733": {
-        "AWS Key Management Service": 0.4,
-        "AWS Secrets Manager": 0.08
+        "AWS Key Management Service": 0.43,
+        "AWS Secrets Manager": 0.09
       },
       "007730361209": {
-        "AWS Secrets Manager": 0.08,
-        "AWS Step Functions": 0.17,
+        "AWS Secrets Manager": 0.09,
+        "AWS Step Functions": 0.19,
         "Amazon Simple Queue Service": 0.05
       },
       "019466240241": {
-        "AWS Secrets Manager": 0.08
+        "AWS Secrets Manager": 0.09
       },
       "025532381522": {
         "AWS Key Management Service": 0.01,
-        "Amazon GuardDuty": 0.05,
-        "Amazon Simple Storage Service": 0.04,
-        "AmazonCloudWatch": 0.05
+        "Amazon GuardDuty": 0.06,
+        "Amazon Simple Storage Service": 0.05,
+        "AmazonCloudWatch": 0.12
       },
       "026090517945": {
-        "AWS Secrets Manager": 0.08,
-        "AWS Step Functions": 0.17
+        "AWS Secrets Manager": 0.09,
+        "AWS Step Functions": 0.19
       },
       "029361457612": {
-        "AWS Secrets Manager": 0.08,
-        "AWS Step Functions": 0.17
+        "AWS Secrets Manager": 0.09,
+        "AWS Step Functions": 0.19
       },
       "034671213724": {
-        "AWS Key Management Service": 0.48,
-        "AWS Secrets Manager": 0.1,
-        "AWS Step Functions": 2.59,
-        "AWS Systems Manager": 0.02,
+        "AWS Key Management Service": 0.52,
+        "AWS Lambda": 0.09,
+        "AWS Secrets Manager": 0.11,
+        "AWS Step Functions": 2.81,
         "Amazon API Gateway": 0.04,
-        "EC2 - Other": 0.18,
-        "Amazon Elastic Compute Cloud - Compute": 3.38,
-        "Amazon Simple Queue Service": 0.13,
+        "EC2 - Other": 0.2,
+        "Amazon Elastic Compute Cloud - Compute": 3.59,
+        "Amazon Simple Queue Service": 0.14,
         "Amazon Simple Storage Service": 0.04,
-        "Amazon Virtual Private Cloud": 0.79,
-        "AmazonCloudWatch": 0.02
+        "Amazon Virtual Private Cloud": 0.86,
+        "AmazonCloudWatch": 0.03
       },
       "044261911670": {
-        "AWS Key Management Service": 1.47,
-        "AWS Lambda": 0.01,
+        "AWS Key Management Service": 1.58,
+        "AWS Lambda": 0.15,
         "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.73,
-        "Amazon API Gateway": 0.02,
-        "Amazon DynamoDB": 0.11,
-        "EC2 - Other": 0.43,
-        "Amazon GuardDuty": 0.07,
-        "Amazon Simple Queue Service": 0.19,
-        "AmazonCloudWatch": 0.04
+        "AWS Step Functions": 0.79,
+        "Amazon API Gateway": 0.03,
+        "Amazon DynamoDB": 0.12,
+        "EC2 - Other": 0.5,
+        "Amazon GuardDuty": 0.08,
+        "Amazon Simple Queue Service": 0.21,
+        "AmazonCloudWatch": 0.07
       },
       "044821245880": {
-        "AWS Key Management Service": 3.36,
-        "EC2 - Other": 0.42
+        "AWS Key Management Service": 3.63,
+        "EC2 - Other": 0.48
       },
       "048076892301": {
-        "AWS Secrets Manager": 0.08
+        "AWS Secrets Manager": 0.09
       },
       "050990333542": {
-        "AWS Key Management Service": 0.62,
-        "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.54,
-        "Amazon API Gateway": 0.02,
-        "EC2 - Other": 0.08,
+        "AWS Key Management Service": 0.66,
+        "AWS Lambda": 0.01,
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 0.59,
+        "Amazon API Gateway": 0.03,
+        "EC2 - Other": 0.1,
         "Amazon GuardDuty": 0.05,
-        "Amazon Simple Queue Service": 0.17
+        "Amazon Simple Queue Service": 0.18,
+        "AmazonCloudWatch": 0.01
       },
       "052877459505": {
-        "AWS Cost Explorer": 1.38
+        "AWS Cost Explorer": 1.56
       },
       "059163870577": {
-        "AWS Key Management Service": 0.43,
-        "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.59,
-        "AWS Systems Manager": 0.02,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 0.14,
-        "Amazon Simple Queue Service": 0.12,
+        "AWS Key Management Service": 0.46,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 0.63,
+        "AWS WAF": 1.71,
+        "EC2 - Other": 0.16,
+        "Amazon Simple Queue Service": 0.13,
         "Amazon Simple Storage Service": 0.01,
-        "AmazonCloudWatch": 0.02
+        "AmazonCloudWatch": 0.04
       },
       "060373238042": {
-        "AWS Key Management Service": 3.83,
-        "AWS Secrets Manager": 0.1,
-        "AWS Step Functions": 1.08,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 0.42,
-        "Amazon GuardDuty": 0.26,
-        "Amazon Simple Queue Service": 0.12
+        "AWS Key Management Service": 3.9,
+        "AWS Lambda": 0.03,
+        "AWS Secrets Manager": 0.11,
+        "AWS Step Functions": 1.28,
+        "AWS WAF": 1.42,
+        "EC2 - Other": 0.46,
+        "Amazon GuardDuty": 0.34,
+        "Amazon Simple Queue Service": 0.15
       },
       "075674630895": {
-        "AWS Key Management Service": 0.4,
-        "AWS Secrets Manager": 0.08
+        "AWS Key Management Service": 0.43,
+        "AWS Secrets Manager": 0.09
       },
       "086544974598": {
-        "AWS Secrets Manager": 0.08,
+        "AWS Secrets Manager": 0.09,
         "EC2 - Other": 0.02
       },
       "095611265520": {
-        "AWS Key Management Service": 0.82,
+        "AWS Key Management Service": 0.88,
+        "AWS Lambda": 0.01,
         "AWS Secrets Manager": 0.1,
-        "AWS Step Functions": 0.56,
-        "Amazon API Gateway": 0.02,
-        "EC2 - Other": 0.17,
-        "Amazon Elastic Load Balancing": 13.98,
-        "Amazon Simple Queue Service": 0.16,
-        "Amazon Virtual Private Cloud": 3.66
+        "AWS Step Functions": 0.61,
+        "Amazon API Gateway": 0.03,
+        "EC2 - Other": 0.2,
+        "Amazon Elastic Load Balancing": 15.12,
+        "Amazon Simple Queue Service": 0.18,
+        "Amazon Virtual Private Cloud": 3.96,
+        "AmazonCloudWatch": 0.01
       },
       "107311130128": {
-        "AWS Key Management Service": 0.61,
-        "AWS Secrets Manager": 0.17,
-        "AWS Step Functions": 0.61,
-        "Amazon API Gateway": 0.02,
-        "EC2 - Other": 0.08,
-        "Amazon Simple Queue Service": 0.17
+        "AWS Key Management Service": 0.66,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.19,
+        "AWS Step Functions": 0.66,
+        "Amazon API Gateway": 0.03,
+        "EC2 - Other": 0.09,
+        "Amazon Simple Queue Service": 0.19
       },
       "122610512270": {
-        "AWS Secrets Manager": 0.08,
-        "EC2 - Other": 0.33
+        "AWS Secrets Manager": 0.09,
+        "EC2 - Other": 0.39
       },
       "141412784181": {
-        "Amazon GuardDuty": 0.03
+        "Amazon GuardDuty": 0.02
       },
       "143934116471": {
-        "AWS Key Management Service": 0.45,
-        "AWS Secrets Manager": 0.11,
-        "AWS Step Functions": 1.84,
-        "AWS Systems Manager": 0.04,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 0.63,
-        "Amazon Elastic Compute Cloud - Compute": 0.65,
-        "Amazon Simple Queue Service": 0.12,
+        "AWS Key Management Service": 0.49,
+        "AWS Lambda": 0.05,
+        "AWS Secrets Manager": 0.12,
+        "AWS Step Functions": 1.99,
+        "AWS WAF": 1.71,
+        "EC2 - Other": 0.69,
+        "Amazon Elastic Compute Cloud - Compute": 0.74,
+        "Amazon Simple Queue Service": 0.13,
         "Amazon Simple Storage Service": 0.02,
-        "Amazon Virtual Private Cloud": 0.06
+        "Amazon Virtual Private Cloud": 0.07,
+        "AmazonCloudWatch": 0.02
       },
       "145838104650": {
         "AWS Key Management Service": 0.02,
-        "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.17,
-        "Amazon GuardDuty": 0.25
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 0.19,
+        "Amazon GuardDuty": 0.27
       },
       "148249192560": {
-        "AWS Key Management Service": 0.69,
+        "AWS Key Management Service": 0.75,
+        "AWS Lambda": 0.12,
         "AWS Secrets Manager": 0.13,
-        "AWS Step Functions": 2.28,
-        "AWS Systems Manager": 0.02,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 1.13,
-        "Amazon Elastic Compute Cloud - Compute": 0.52,
-        "Amazon GuardDuty": 0.67,
-        "Amazon Simple Queue Service": 0.12,
-        "Amazon Simple Storage Service": 0.03,
-        "Amazon Virtual Private Cloud": 0.06
+        "AWS Step Functions": 2.5,
+        "AWS WAF": 1.71,
+        "EC2 - Other": 1.28,
+        "Amazon Elastic Compute Cloud - Compute": 0.63,
+        "Amazon GuardDuty": 0.68,
+        "Amazon Simple Queue Service": 0.13,
+        "Amazon Simple Storage Service": 0.04,
+        "Amazon Virtual Private Cloud": 0.07
       },
       "149294230127": {
-        "AWS Cost Explorer": 7.51,
-        "AWS Key Management Service": 0.43,
-        "AWS Secrets Manager": 0.09,
-        "AWS WAF": 1.58,
-        "Amazon Bedrock": 0.01,
+        "AWS Cost Explorer": 9.16,
+        "AWS Key Management Service": 0.47,
+        "AWS Secrets Manager": 0.1,
+        "AWS WAF": 1.71,
         "Amazon EC2 Container Registry (ECR)": 0.07,
-        "EC2 - Other": 2.97,
-        "Amazon Elastic Compute Cloud - Compute": 2.33,
-        "Amazon Kinesis": 8.89,
-        "Amazon Relational Database Service": 0.55,
-        "Amazon Simple Storage Service": 3.72,
-        "Amazon Virtual Private Cloud": 5.88,
-        "Claude Opus 4.7 (Amazon Bedrock Edition)": 0.32
+        "EC2 - Other": 3.22,
+        "Amazon Elastic Compute Cloud - Compute": 2.52,
+        "Amazon Kinesis": 9.6,
+        "Amazon Relational Database Service": 0.59,
+        "Amazon Simple Storage Service": 4.36,
+        "Amazon Virtual Private Cloud": 6.36
       },
       "150101695321": {
-        "AWS Secrets Manager": 0.08,
-        "AWS Step Functions": 0.17
+        "AWS Secrets Manager": 0.09,
+        "AWS Step Functions": 0.19
       },
       "151115464552": {
-        "AWS Secrets Manager": 0.08,
-        "AWS Step Functions": 0.17,
+        "AWS Secrets Manager": 0.09,
+        "AWS Step Functions": 0.19,
         "Amazon Simple Queue Service": 0.13
       },
       "156300301894": {
-        "AWS Secrets Manager": 0.08,
-        "EC2 - Other": 0.07
+        "AWS Secrets Manager": 0.09,
+        "EC2 - Other": 0.09
       },
       "164577792704": {
-        "AWS Key Management Service": 0.43,
-        "AWS Secrets Manager": 0.1,
-        "AWS Step Functions": 1.67,
+        "AWS Key Management Service": 0.46,
+        "AWS Lambda": 0.03,
+        "AWS Secrets Manager": 0.11,
+        "AWS Step Functions": 1.81,
         "AWS Systems Manager": 0.02,
         "Amazon API Gateway": 0.04,
-        "EC2 - Other": 0.01,
-        "Amazon GuardDuty": 0.16,
-        "Amazon Simple Queue Service": 0.14
+        "EC2 - Other": 0.02,
+        "Amazon GuardDuty": 0.18,
+        "Amazon Simple Queue Service": 0.15,
+        "AmazonCloudWatch": 0.02
       },
       "167684443721": {
         "AWS Key Management Service": 0.45,
-        "AWS Secrets Manager": 0.12,
-        "AWS Step Functions": 1.07,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 0.63,
-        "Amazon GuardDuty": 0.15,
-        "Amazon Simple Queue Service": 0.12,
-        "Amazon Virtual Private Cloud": 2.93
+        "AWS Lambda": 0.06,
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 0.48,
+        "AWS WAF": 1.71,
+        "EC2 - Other": 0.69,
+        "Amazon GuardDuty": 0.08,
+        "Amazon Simple Queue Service": 0.13,
+        "Amazon Virtual Private Cloud": 3.16,
+        "AmazonCloudWatch": 0.04
       },
       "187024455668": {
-        "AWS Key Management Service": 0.49,
-        "AWS Secrets Manager": 0.13,
-        "AWS Step Functions": 2.24,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 0.11,
+        "AWS Key Management Service": 0.53,
+        "AWS Lambda": 0.14,
+        "AWS Secrets Manager": 0.14,
+        "AWS Step Functions": 2.43,
+        "AWS WAF": 1.71,
+        "EC2 - Other": 0.13,
         "Amazon Elastic Compute Cloud - Compute": 0.07,
-        "Amazon Simple Queue Service": 0.12,
-        "Amazon Simple Storage Service": 0.02,
-        "Amazon Virtual Private Cloud": 0.06
+        "Amazon Simple Queue Service": 0.13,
+        "Amazon Simple Storage Service": 0.03,
+        "Amazon Virtual Private Cloud": 0.07
       },
       "198829653374": {
-        "AWS Key Management Service": 0.39,
-        "AWS Secrets Manager": 0.08,
+        "AWS Key Management Service": 0.42,
+        "AWS Secrets Manager": 0.09,
         "Amazon EC2 Container Registry (ECR)": 0.04,
-        "EC2 - Other": 0.08
+        "EC2 - Other": 0.09
       },
       "199086174209": {
-        "AWS Key Management Service": 0.47,
-        "AWS Secrets Manager": 0.11,
-        "AWS Step Functions": 2.37,
-        "AWS WAF": 1.59,
-        "Amazon API Gateway": 0.03,
-        "EC2 - Other": 0.05,
+        "AWS Key Management Service": 0.51,
+        "AWS Lambda": 0.11,
+        "AWS Secrets Manager": 0.12,
+        "AWS Step Functions": 2.57,
+        "AWS WAF": 1.72,
+        "Amazon API Gateway": 0.04,
+        "EC2 - Other": 0.06,
         "Amazon Elastic Compute Cloud - Compute": 0.24,
-        "Amazon Simple Queue Service": 0.12,
-        "Amazon Simple Storage Service": 0.03,
-        "Amazon Virtual Private Cloud": 0.06,
-        "AmazonCloudWatch": 0.02
+        "Amazon Simple Queue Service": 0.13,
+        "Amazon Simple Storage Service": 0.04,
+        "Amazon Virtual Private Cloud": 0.07,
+        "AmazonCloudWatch": 0.04
       },
       "202533496720": {
-        "AWS Key Management Service": 0.49,
-        "AWS Secrets Manager": 0.13,
-        "AWS Step Functions": 2.18,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 0.12,
+        "AWS Key Management Service": 0.53,
+        "AWS Lambda": 0.15,
+        "AWS Secrets Manager": 0.14,
+        "AWS Step Functions": 2.36,
+        "AWS WAF": 1.71,
+        "EC2 - Other": 0.14,
         "Amazon Elastic Compute Cloud - Compute": 0.07,
-        "Amazon Simple Queue Service": 0.12,
-        "Amazon Simple Storage Service": 0.02,
-        "Amazon Virtual Private Cloud": 0.06
+        "Amazon Simple Queue Service": 0.13,
+        "Amazon Simple Storage Service": 0.03,
+        "Amazon Virtual Private Cloud": 0.07
       },
       "205666877655": {
-        "AWS Key Management Service": 0.79,
-        "AWS Secrets Manager": 0.08
+        "AWS Key Management Service": 0.85,
+        "AWS Secrets Manager": 0.09
       },
       "207175984884": {
-        "EC2 - Other": 0.79,
-        "Amazon GuardDuty": 0.03
+        "EC2 - Other": 0.92,
+        "Amazon GuardDuty": 0.04
       },
       "209745620352": {
-        "AWS Key Management Service": 0.01,
-        "Amazon GuardDuty": 0.06
+        "AWS Key Management Service": 0.02,
+        "Amazon GuardDuty": 0.07
       },
       "219750295209": {
         "AWS Key Management Service": 0.01
       },
       "227250474767": {
-        "AWS Secrets Manager": 0.08,
-        "AWS Step Functions": 0.17,
+        "AWS Secrets Manager": 0.09,
+        "AWS Step Functions": 0.19,
         "Amazon Simple Queue Service": 0.05
       },
       "229658172382": {
-        "AWS Key Management Service": 0.59,
-        "EC2 - Other": 0.37,
-        "Amazon Elastic Compute Cloud - Compute": 1.69,
+        "AWS Key Management Service": 0.64,
+        "EC2 - Other": 0.33,
+        "Amazon Elastic Compute Cloud - Compute": 0.71,
         "Amazon Simple Storage Service": 0.01,
-        "Amazon Virtual Private Cloud": 9.57
+        "Amazon Virtual Private Cloud": 9.81
       },
       "240217704174": {
-        "AWS Key Management Service": 0.41,
-        "EC2 - Other": 4.36,
-        "Amazon Virtual Private Cloud": 0.73
+        "AWS Key Management Service": 0.44,
+        "EC2 - Other": 5.04,
+        "Amazon Virtual Private Cloud": 0.79
       },
       "260880585145": {
-        "AWS Key Management Service": 0.62,
-        "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.55,
-        "Amazon API Gateway": 0.02,
-        "EC2 - Other": 0.08,
-        "Amazon Simple Queue Service": 0.17
+        "AWS Key Management Service": 0.67,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 0.6,
+        "Amazon API Gateway": 0.03,
+        "EC2 - Other": 0.09,
+        "Amazon Simple Queue Service": 0.19,
+        "AmazonCloudWatch": 0.01
       },
       "263345096540": {
         "Amazon GuardDuty": 0.03
@@ -3068,388 +3177,411 @@
         "Amazon Simple Storage Service": 0.02
       },
       "270013331545": {
-        "AWS Secrets Manager": 0.08
+        "AWS Secrets Manager": 0.09
       },
       "273078346626": {
-        "AWS Key Management Service": 4.93,
-        "AWS Secrets Manager": 0.08,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 22.73,
-        "Amazon Simple Queue Service": 0.12,
+        "AWS Key Management Service": 5.32,
+        "AWS Lambda": 0.03,
+        "AWS Secrets Manager": 0.09,
+        "AWS Step Functions": 0.27,
+        "AWS WAF": 1.54,
+        "EC2 - Other": 24.81,
+        "Amazon Elastic Compute Cloud - Compute": 0.04,
+        "Amazon Simple Queue Service": 0.15,
         "Amazon Simple Storage Service": 0.01,
-        "Amazon Virtual Private Cloud": 2.19
+        "Amazon Virtual Private Cloud": 2.37
       },
       "273193025391": {
         "AWS Key Management Service": 0.03,
         "AWS Secrets Manager": 0.01,
-        "Amazon GuardDuty": 0.11
+        "Amazon GuardDuty": 0.12
       },
       "273721849379": {
-        "AWS Key Management Service": 0.2,
-        "EC2 - Other": 0.4
+        "AWS Key Management Service": 0.21,
+        "AWS Systems Manager": 0.06,
+        "EC2 - Other": 0.43
       },
       "285062414223": {
-        "AWS Key Management Service": 2.76,
-        "AWS Secrets Manager": 0.08,
-        "EC2 - Other": 2.04
+        "AWS Key Management Service": 2.98,
+        "AWS Secrets Manager": 0.09,
+        "EC2 - Other": 2.24
       },
       "291066412207": {
-        "EC2 - Other": 0.14,
-        "Amazon Elastic Compute Cloud - Compute": 1.81,
-        "Amazon Virtual Private Cloud": 0.74
+        "AWS Systems Manager": 0.02,
+        "EC2 - Other": 0.15,
+        "Amazon Elastic Compute Cloud - Compute": 1.95,
+        "Amazon Virtual Private Cloud": 0.8
       },
       "297853565549": {
-        "AWS Key Management Service": 0.63,
+        "AWS Key Management Service": 0.68,
+        "AWS Lambda": 0.04,
         "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.58,
-        "Amazon API Gateway": 0.02,
-        "Amazon DynamoDB": 0.03,
-        "EC2 - Other": 0.86,
-        "Amazon Simple Queue Service": 0.17,
-        "Amazon Virtual Private Cloud": 0.73,
-        "AmazonCloudWatch": 0.02
+        "AWS Step Functions": 0.63,
+        "Amazon API Gateway": 0.03,
+        "Amazon DynamoDB": 0.04,
+        "EC2 - Other": 1.01,
+        "Amazon Simple Queue Service": 0.19,
+        "Amazon Virtual Private Cloud": 0.79,
+        "AmazonCloudWatch": 0.04
       },
       "304125837816": {
-        "AWS Key Management Service": 0.62,
+        "AWS Key Management Service": 0.67,
+        "AWS Lambda": 0.02,
         "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.55,
-        "Amazon API Gateway": 0.02,
+        "AWS Step Functions": 0.59,
+        "Amazon API Gateway": 0.03,
         "Amazon DynamoDB": 0.01,
-        "EC2 - Other": 0.34,
-        "Amazon Simple Queue Service": 0.18
+        "EC2 - Other": 0.4,
+        "Amazon Simple Queue Service": 0.19,
+        "AmazonCloudWatch": 0.01
       },
       "307970860936": {
-        "AWS Key Management Service": 0.39,
-        "AWS Secrets Manager": 0.08,
+        "AWS Key Management Service": 0.43,
+        "AWS Secrets Manager": 0.09,
         "EC2 - Other": 0.03
       },
       "313054287571": {
-        "AWS Key Management Service": 0.39
+        "AWS Key Management Service": 0.42
       },
       "327456541158": {
-        "AWS Key Management Service": 0.42,
-        "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.79,
-        "AWS WAF": 1.59,
-        "Amazon API Gateway": 0.02,
-        "Amazon GuardDuty": 0.06,
-        "Amazon Simple Queue Service": 0.12,
-        "AmazonCloudWatch": 0.03
+        "AWS Key Management Service": 0.45,
+        "AWS Lambda": 0.03,
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 0.86,
+        "AWS WAF": 1.72,
+        "Amazon API Gateway": 0.03,
+        "Amazon GuardDuty": 0.07,
+        "Amazon Simple Queue Service": 0.13,
+        "AmazonCloudWatch": 0.07
       },
       "331556273345": {
-        "AWS Key Management Service": 0.48,
+        "AWS Key Management Service": 0.52,
+        "AWS Lambda": 0.18,
         "AWS Secrets Manager": 0.12,
-        "AWS Step Functions": 2.4,
-        "AWS Systems Manager": 0.08,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 0.9,
-        "Amazon Elastic Compute Cloud - Compute": 0.36,
-        "Amazon Simple Queue Service": 0.12,
-        "Amazon Simple Storage Service": 0.03,
-        "Amazon Virtual Private Cloud": 0.06,
-        "Ubuntu 20 (Ubuntu 20.04 LTS) | Support by SupportedImages": 0.56,
-        "Ubuntu 26.04 Latest (Ubuntu 26.04 LTS) | Support by ProComputers": 0.4
+        "AWS Step Functions": 2.6,
+        "AWS WAF": 1.71,
+        "EC2 - Other": 0.99,
+        "Amazon Elastic Compute Cloud - Compute": 0.44,
+        "Amazon Simple Queue Service": 0.13,
+        "Amazon Simple Storage Service": 0.04,
+        "Amazon Virtual Private Cloud": 0.07,
+        "Ubuntu 20 (Ubuntu 20.04 LTS) | Support by SupportedImages": 0.7,
+        "Ubuntu 26.04 Latest (Ubuntu 26.04 LTS) | Support by ProComputers": 0.5
       },
       "332177277666": {
-        "EC2 - Other": 0.23
+        "EC2 - Other": 0.27
       },
       "340573535312": {
         "AWS Key Management Service": 0.01
       },
       "381491968057": {
-        "Amazon GuardDuty": 0.01
+        "Amazon GuardDuty": 0.02
       },
       "390844784899": {
-        "AWS Key Management Service": 0.61,
-        "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.54,
-        "Amazon API Gateway": 0.02,
-        "Amazon Simple Queue Service": 0.17
-      },
-      "408429263225": {
-        "AWS Key Management Service": 0.42,
-        "AWS Secrets Manager": 0.1,
-        "AWS Step Functions": 0.58,
-        "Amazon API Gateway": 0.02,
-        "Amazon Simple Queue Service": 0.15
-      },
-      "426622616498": {
-        "AWS Key Management Service": 0.39,
-        "AWS Secrets Manager": 0.08
-      },
-      "429950822387": {
-        "AWS Key Management Service": 0.41,
-        "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.21,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 0.3,
-        "Amazon Elastic Compute Cloud - Compute": 0.07,
-        "Amazon Simple Queue Service": 0.12,
-        "Amazon Virtual Private Cloud": 0.06,
-        "AmazonCloudWatch": 0.02
-      },
-      "451600355128": {
-        "AWS Key Management Service": 0.79,
-        "AWS Secrets Manager": 0.08
-      },
-      "456965400883": {
-        "AWS Key Management Service": 0.39
-      },
-      "459353105060": {
         "AWS Key Management Service": 0.66,
         "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 1.64,
-        "Amazon API Gateway": 0.03,
-        "Amazon DynamoDB": 0.19,
-        "Amazon Simple Queue Service": 0.17,
-        "AmazonCloudWatch": 0.02,
-        "CloudWatch Events": 0.07
-      },
-      "475071743267": {
-        "AWS Key Management Service": 0.43,
-        "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 1.57,
-        "AWS WAF": 1.59,
-        "Amazon API Gateway": 0.02,
-        "Amazon DynamoDB": 0.01,
-        "Amazon GuardDuty": 0.06,
-        "Amazon Simple Queue Service": 0.12,
-        "AmazonCloudWatch": 0.06
-      },
-      "475558561317": {
-        "AWS Key Management Service": 0.2,
-        "EC2 - Other": 0.4
-      },
-      "483773993138": {
-        "AWS Key Management Service": 0.2,
-        "EC2 - Other": 0.51
-      },
-      "488805873141": {
-        "AWS Key Management Service": 0.03,
-        "AWS Secrets Manager": 0.09,
-        "EC2 - Other": 0.16
-      },
-      "494753002565": {
-        "AWS Key Management Service": 13.62,
-        "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 1.02,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 0.59,
-        "Amazon Elastic Compute Cloud - Compute": 3.03,
-        "Amazon Simple Queue Service": 0.12,
-        "Amazon Simple Storage Service": 0.03,
-        "Amazon Virtual Private Cloud": 1.47,
-        "AmazonCloudWatch": 0.05
-      },
-      "500321821407": {
-        "AWS Secrets Manager": 0.08,
-        "EC2 - Other": 0.89
-      },
-      "503690661551": {
-        "AWS Key Management Service": 0.39,
-        "AWS Secrets Manager": 0.08
-      },
-      "509284582761": {
-        "AWS Key Management Service": 0.64,
         "AWS Secrets Manager": 0.1,
-        "AWS Step Functions": 0.66,
-        "Amazon API Gateway": 0.02,
-        "Amazon DynamoDB": 0.02,
-        "EC2 - Other": 1.24,
-        "Amazon GuardDuty": 0.03,
-        "Amazon Simple Queue Service": 0.18
-      },
-      "528646883845": {
-        "AWS Key Management Service": 0.64,
-        "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.61,
-        "Amazon API Gateway": 0.02,
-        "Amazon DynamoDB": 0.03,
+        "AWS Step Functions": 0.59,
+        "Amazon API Gateway": 0.03,
         "Amazon Simple Queue Service": 0.18,
         "AmazonCloudWatch": 0.01
       },
+      "408429263225": {
+        "AWS Key Management Service": 0.45,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 0.63,
+        "Amazon API Gateway": 0.03,
+        "Amazon Simple Queue Service": 0.16,
+        "AmazonCloudWatch": 0.02
+      },
+      "426622616498": {
+        "AWS Key Management Service": 0.42,
+        "AWS Secrets Manager": 0.09
+      },
+      "429950822387": {
+        "AWS Key Management Service": 0.44,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 0.23,
+        "AWS WAF": 1.71,
+        "EC2 - Other": 0.35,
+        "Amazon Elastic Compute Cloud - Compute": 0.06,
+        "Amazon Simple Queue Service": 0.13,
+        "Amazon Virtual Private Cloud": 0.07,
+        "AmazonCloudWatch": 0.05
+      },
+      "451600355128": {
+        "AWS Key Management Service": 0.85,
+        "AWS Secrets Manager": 0.09
+      },
+      "456965400883": {
+        "AWS Key Management Service": 0.42
+      },
+      "459353105060": {
+        "AWS Key Management Service": 0.71,
+        "AWS Lambda": 0.05,
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 1.78,
+        "Amazon API Gateway": 0.03,
+        "Amazon DynamoDB": 0.21,
+        "Amazon Simple Queue Service": 0.19,
+        "AmazonCloudWatch": 0.06,
+        "CloudWatch Events": 0.07
+      },
+      "475071743267": {
+        "AWS Key Management Service": 0.46,
+        "AWS Lambda": 0.04,
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 1.69,
+        "AWS WAF": 1.72,
+        "Amazon API Gateway": 0.03,
+        "Amazon DynamoDB": 0.01,
+        "Amazon GuardDuty": 0.06,
+        "Amazon Simple Queue Service": 0.13,
+        "AmazonCloudWatch": 0.16
+      },
+      "475558561317": {
+        "AWS Key Management Service": 0.21,
+        "EC2 - Other": 0.45
+      },
+      "483773993138": {
+        "AWS Key Management Service": 0.21,
+        "EC2 - Other": 0.59
+      },
+      "488805873141": {
+        "AWS Key Management Service": 0.03,
+        "AWS Secrets Manager": 0.1,
+        "EC2 - Other": 0.19
+      },
+      "494753002565": {
+        "AWS Key Management Service": 14.71,
+        "AWS Lambda": 0.09,
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 1.1,
+        "AWS WAF": 1.71,
+        "EC2 - Other": 0.65,
+        "Amazon Elastic Compute Cloud - Compute": 3.27,
+        "Amazon Simple Queue Service": 0.13,
+        "Amazon Simple Storage Service": 0.03,
+        "Amazon Virtual Private Cloud": 1.59,
+        "AmazonCloudWatch": 0.09
+      },
+      "500321821407": {
+        "AWS Secrets Manager": 0.09,
+        "EC2 - Other": 1.04
+      },
+      "503690661551": {
+        "AWS Key Management Service": 0.42,
+        "AWS Secrets Manager": 0.09
+      },
+      "509284582761": {
+        "AWS Key Management Service": 0.69,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 0.71,
+        "Amazon API Gateway": 0.03,
+        "Amazon DynamoDB": 0.02,
+        "EC2 - Other": 1.44,
+        "Amazon GuardDuty": 0.03,
+        "Amazon Simple Queue Service": 0.2
+      },
+      "528646883845": {
+        "AWS Key Management Service": 0.68,
+        "AWS Lambda": 0.03,
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 0.66,
+        "Amazon API Gateway": 0.03,
+        "Amazon DynamoDB": 0.04,
+        "Amazon Simple Queue Service": 0.2,
+        "AmazonCloudWatch": 0.03
+      },
       "535299115383": {
-        "AWS Key Management Service": 0.51,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.13,
-        "AWS Step Functions": 2.41,
-        "AWS WAF": 1.58,
+        "AWS Key Management Service": 0.55,
+        "AWS Lambda": 0.16,
+        "AWS Secrets Manager": 0.14,
+        "AWS Step Functions": 2.61,
+        "AWS WAF": 1.71,
         "EC2 - Other": 0.06,
         "Amazon Elastic Compute Cloud - Compute": 0.17,
-        "Amazon Simple Queue Service": 0.12,
-        "Amazon Simple Storage Service": 0.03,
-        "Amazon Virtual Private Cloud": 0.06
+        "Amazon Simple Queue Service": 0.13,
+        "Amazon Simple Storage Service": 0.04,
+        "Amazon Virtual Private Cloud": 0.07,
+        "AmazonCloudWatch": 0.01
       },
       "541438730734": {
-        "EC2 - Other": 6.83,
-        "Amazon Elastic Compute Cloud - Compute": 1.52,
-        "Amazon Virtual Private Cloud": 0.74
+        "AWS Systems Manager": 0.02,
+        "EC2 - Other": 7.38,
+        "Amazon Elastic Compute Cloud - Compute": 1.64,
+        "Amazon Virtual Private Cloud": 0.8
       },
       "548855206515": {
-        "AWS Key Management Service": 0.2,
-        "AWS Secrets Manager": 0.08
+        "AWS Key Management Service": 0.22,
+        "AWS Secrets Manager": 0.09
       },
       "556151867167": {
         "Amazon GuardDuty": 0.03
       },
       "561303529171": {
-        "AWS Secrets Manager": 0.08,
-        "AWS Step Functions": 0.17,
+        "AWS Secrets Manager": 0.09,
+        "AWS Step Functions": 0.19,
         "Amazon Simple Queue Service": 0.05
       },
       "574433037642": {
-        "AWS Key Management Service": 0.39,
-        "EC2 - Other": 0.12
+        "AWS Key Management Service": 0.42,
+        "EC2 - Other": 0.13
       },
       "577400626275": {
-        "AWS Key Management Service": 0.2,
-        "AWS Secrets Manager": 0.08,
+        "AWS Key Management Service": 0.21,
+        "AWS Secrets Manager": 0.09,
         "Amazon GuardDuty": 0.01
       },
       "580666022423": {
-        "AWS Secrets Manager": 0.08,
-        "EC2 - Other": 0.92
+        "AWS Secrets Manager": 0.09,
+        "EC2 - Other": 1.07
       },
       "583837446846": {
-        "AWS Key Management Service": 0.2,
-        "Amazon Virtual Private Cloud": 5.91
+        "AWS Key Management Service": 0.21,
+        "Amazon Virtual Private Cloud": 6.4
       },
       "590183730935": {
-        "AWS Key Management Service": 0.5,
-        "AWS Secrets Manager": 0.13,
-        "AWS Step Functions": 2.35,
-        "AWS Systems Manager": 0.04,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 0.63,
-        "Amazon Elastic Compute Cloud - Compute": 5.03,
-        "Amazon Simple Queue Service": 0.12,
-        "Amazon Simple Storage Service": 0.03,
-        "Amazon Virtual Private Cloud": 1.53
+        "AWS Key Management Service": 0.54,
+        "AWS Lambda": 0.17,
+        "AWS Secrets Manager": 0.14,
+        "AWS Step Functions": 2.54,
+        "AWS WAF": 1.71,
+        "EC2 - Other": 0.68,
+        "Amazon Elastic Compute Cloud - Compute": 5.3,
+        "Amazon Simple Queue Service": 0.13,
+        "Amazon Simple Storage Service": 0.04,
+        "Amazon Virtual Private Cloud": 1.66
       },
       "619028518089": {
-        "AWS Key Management Service": 0.78,
-        "AWS Secrets Manager": 0.08
+        "AWS Key Management Service": 0.84,
+        "AWS Secrets Manager": 0.09
       },
       "621367206022": {
         "Amazon GuardDuty": 0.03
       },
       "625911360890": {
-        "EC2 - Other": 0.3
+        "AWS Systems Manager": 0.04,
+        "EC2 - Other": 0.33
       },
       "635571737179": {
-        "AWS Key Management Service": 0.2,
-        "EC2 - Other": 20.0,
-        "Amazon Elastic Compute Cloud - Compute": 1.52,
-        "Amazon Virtual Private Cloud": 2.94
+        "AWS Key Management Service": 0.21,
+        "AWS Systems Manager": 0.02,
+        "EC2 - Other": 21.62,
+        "Amazon Elastic Compute Cloud - Compute": 1.64,
+        "Amazon Virtual Private Cloud": 3.18
       },
       "647836792828": {
         "AWS Key Management Service": 0.01,
         "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.17
+        "AWS Step Functions": 0.19
       },
       "671281917320": {
-        "AWS Key Management Service": 0.4,
-        "Amazon GuardDuty": 0.03
+        "AWS Key Management Service": 0.43,
+        "Amazon GuardDuty": 0.04
       },
       "674393317291": {
-        "AWS Key Management Service": 0.62,
+        "AWS Key Management Service": 0.67,
+        "AWS Lambda": 0.03,
         "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.56,
+        "AWS Step Functions": 0.6,
         "Amazon API Gateway": 0.03,
         "Amazon DynamoDB": 0.02,
-        "EC2 - Other": 0.16,
-        "Amazon Simple Queue Service": 0.18
+        "EC2 - Other": 0.19,
+        "Amazon Simple Queue Service": 0.2,
+        "AmazonCloudWatch": 0.01
       },
       "677276115790": {
-        "AWS Secrets Manager": 0.08,
-        "AWS Step Functions": 0.17,
-        "EC2 - Other": 0.07
+        "AWS Secrets Manager": 0.09,
+        "AWS Step Functions": 0.19,
+        "EC2 - Other": 0.09
       },
       "677284942379": {
-        "AWS Key Management Service": 6.7
+        "AWS Key Management Service": 7.24
       },
       "682437954104": {
-        "AWS Key Management Service": 0.18,
-        "AWS Secrets Manager": 0.32,
-        "AWS Step Functions": 0.08,
-        "AWS WAF": 0.04,
-        "Amazon EC2 Container Registry (ECR)": 0.17,
-        "EC2 - Other": 14.16,
-        "Amazon Elastic Compute Cloud - Compute": 0.23,
+        "AWS Secrets Manager": 0.34,
+        "Amazon EC2 Container Registry (ECR)": 0.18,
+        "EC2 - Other": 15.46,
+        "Amazon Elastic Compute Cloud - Compute": 3.01,
         "Amazon Simple Storage Service": 0.02,
-        "Amazon Virtual Private Cloud": 1.59,
-        "AmazonCloudWatch": 0.04
+        "Amazon Virtual Private Cloud": 2.58,
+        "AmazonCloudWatch": 0.08
       },
       "688458530518": {
-        "EC2 - Other": 0.12
+        "EC2 - Other": 0.13
       },
       "699475930074": {
-        "AWS Secrets Manager": 0.16,
-        "AWS Step Functions": 0.17
+        "AWS Secrets Manager": 0.17,
+        "AWS Step Functions": 0.19
       },
       "716173093158": {
         "Amazon Simple Storage Service": 0.02
       },
       "724203528054": {
-        "AWS Secrets Manager": 0.08,
-        "AWS Step Functions": 0.17
+        "AWS Secrets Manager": 0.09,
+        "AWS Step Functions": 0.19
       },
       "730335457683": {
-        "AWS Key Management Service": 2.48,
-        "AWS Lambda": 0.04,
+        "AWS Key Management Service": 2.67,
+        "AWS Lambda": 0.22,
         "AWS Secrets Manager": 0.1,
-        "AWS Step Functions": 2.21,
-        "Amazon API Gateway": 0.02,
-        "Amazon DynamoDB": 0.35,
-        "EC2 - Other": 0.08,
-        "Amazon Simple Queue Service": 0.18,
-        "Amazon Simple Storage Service": 0.04,
-        "AmazonCloudWatch": 0.14
+        "AWS Step Functions": 2.39,
+        "Amazon API Gateway": 0.03,
+        "Amazon DynamoDB": 0.38,
+        "EC2 - Other": 0.09,
+        "Amazon Simple Queue Service": 0.2,
+        "Amazon Simple Storage Service": 0.05,
+        "AmazonCloudWatch": 0.33
       },
       "742344027791": {
-        "EC2 - Other": 0.33
+        "EC2 - Other": 0.38
       },
       "751375117945": {
-        "AWS Key Management Service": 1.19,
+        "AWS Key Management Service": 1.28,
+        "AWS Lambda": 0.02,
         "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.37,
+        "AWS Step Functions": 0.4,
         "Amazon API Gateway": 0.01,
-        "EC2 - Other": 0.1,
-        "Amazon Simple Queue Service": 0.15,
-        "AmazonCloudWatch": 0.02
+        "EC2 - Other": 0.11,
+        "Amazon Simple Queue Service": 0.16,
+        "AmazonCloudWatch": 0.03
       },
       "779375447290": {
-        "AWS Key Management Service": 0.4,
-        "Amazon GuardDuty": 0.03
+        "AWS Key Management Service": 0.43,
+        "Amazon GuardDuty": 0.04
       },
       "780109526425": {
-        "EC2 - Other": 0.13
+        "EC2 - Other": 0.14
       },
       "803664810273": {
         "Amazon Simple Storage Service": 0.02
       },
       "803993009476": {
-        "AWS Key Management Service": 0.6,
+        "AWS Key Management Service": 0.65,
+        "AWS Lambda": 0.02,
         "AWS Secrets Manager": 0.1,
-        "AWS Step Functions": 0.47,
+        "AWS Step Functions": 0.51,
         "Amazon API Gateway": 0.01,
-        "Amazon Simple Queue Service": 0.15
+        "Amazon Simple Queue Service": 0.16
       },
       "807310992472": {
-        "AWS Key Management Service": 0.78,
-        "AWS Secrets Manager": 0.08,
-        "EC2 - Other": 0.67
+        "AWS Key Management Service": 0.84,
+        "AWS Secrets Manager": 0.09,
+        "EC2 - Other": 0.79
       },
       "817505957732": {
-        "AWS Key Management Service": 0.59,
-        "AWS Secrets Manager": 0.08
+        "AWS Key Management Service": 0.63,
+        "AWS Secrets Manager": 0.09
       },
       "820077247727": {
-        "EC2 - Other": 0.08
+        "EC2 - Other": 0.09
       },
       "827201566344": {
-        "EC2 - Other": 0.09
+        "EC2 - Other": 0.1
       },
       "828323832156": {
         "Amazon GuardDuty": 0.03
@@ -3458,400 +3590,405 @@
         "Amazon Simple Storage Service": 0.02
       },
       "840158198744": {
-        "AWS Key Management Service": 0.39,
-        "AWS Secrets Manager": 0.08
+        "AWS Key Management Service": 0.42,
+        "AWS Secrets Manager": 0.09
       },
       "847814059329": {
-        "EC2 - Other": 0.27
+        "EC2 - Other": 0.31,
+        "Amazon GuardDuty": 0.01
       },
       "852124743903": {
-        "AWS Key Management Service": 0.62,
-        "AWS Secrets Manager": 0.1,
-        "AWS Step Functions": 0.55,
-        "Amazon API Gateway": 0.02,
-        "Amazon Simple Queue Service": 0.18
-      },
-      "855327232746": {
-        "AWS Key Management Service": 0.45,
-        "AWS Secrets Manager": 0.1,
-        "AWS Step Functions": 2.47,
-        "Amazon API Gateway": 0.04,
-        "EC2 - Other": 0.1,
-        "Amazon Elastic Compute Cloud - Compute": 0.07,
-        "Amazon Simple Queue Service": 0.12,
-        "Amazon Simple Storage Service": 0.02,
-        "Amazon Virtual Private Cloud": 0.06,
-        "AmazonCloudWatch": 0.02
-      },
-      "863320968128": {
-        "AWS Key Management Service": 3.54,
-        "AWS Secrets Manager": 0.09,
-        "Amazon Simple Queue Service": 0.12,
+        "AWS Key Management Service": 0.67,
+        "AWS Lambda": 0.03,
+        "AWS Secrets Manager": 0.11,
+        "AWS Step Functions": 0.6,
+        "Amazon API Gateway": 0.03,
+        "Amazon Simple Queue Service": 0.19,
         "AmazonCloudWatch": 0.01
       },
-      "876464212992": {
-        "AWS Key Management Service": 0.79,
-        "EC2 - Other": 0.8,
-        "Amazon Simple Storage Service": 0.13
-      },
-      "888657991711": {
-        "AWS Key Management Service": 0.4,
-        "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.67,
-        "Amazon API Gateway": 0.01,
-        "Amazon Simple Queue Service": 0.12
-      },
-      "905418261832": {
-        "AWS Key Management Service": 0.89,
-        "AWS Secrets Manager": 0.12,
-        "AWS Step Functions": 2.66,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 0.24,
+      "855327232746": {
+        "AWS Key Management Service": 0.48,
+        "AWS Lambda": 0.11,
+        "AWS Secrets Manager": 0.11,
+        "AWS Step Functions": 2.67,
+        "Amazon API Gateway": 0.04,
+        "EC2 - Other": 0.12,
         "Amazon Elastic Compute Cloud - Compute": 0.07,
-        "Amazon Simple Queue Service": 0.12,
+        "Amazon Simple Queue Service": 0.13,
         "Amazon Simple Storage Service": 0.03,
-        "Amazon Virtual Private Cloud": 0.06,
+        "Amazon Virtual Private Cloud": 0.07,
+        "AmazonCloudWatch": 0.03
+      },
+      "863320968128": {
+        "AWS Key Management Service": 3.82,
+        "AWS Secrets Manager": 0.09,
+        "Amazon Simple Queue Service": 0.13,
         "AmazonCloudWatch": 0.02
       },
+      "876464212992": {
+        "AWS Key Management Service": 0.85,
+        "EC2 - Other": 0.93,
+        "Amazon Simple Storage Service": 0.15
+      },
+      "888657991711": {
+        "AWS Key Management Service": 0.44,
+        "AWS Secrets Manager": 0.09,
+        "AWS Step Functions": 0.72,
+        "Amazon API Gateway": 0.01,
+        "Amazon Simple Queue Service": 0.13
+      },
+      "905418261832": {
+        "AWS Key Management Service": 0.95,
+        "AWS Lambda": 0.08,
+        "AWS Secrets Manager": 0.13,
+        "AWS Step Functions": 2.87,
+        "AWS WAF": 1.71,
+        "EC2 - Other": 0.27,
+        "Amazon Elastic Compute Cloud - Compute": 0.07,
+        "Amazon Simple Queue Service": 0.13,
+        "Amazon Simple Storage Service": 0.03,
+        "Amazon Virtual Private Cloud": 0.07,
+        "AmazonCloudWatch": 0.03
+      },
       "909362960884": {
-        "AWS Key Management Service": 0.59,
-        "EC2 - Other": 0.37
+        "AWS Key Management Service": 0.63,
+        "EC2 - Other": 0.4
       },
       "909870549273": {
-        "AWS Key Management Service": 1.28,
-        "AWS Lambda": 0.01,
-        "AWS Secrets Manager": 0.13,
-        "AWS Step Functions": 2.79,
-        "Amazon GuardDuty": 0.09,
-        "Amazon Simple Queue Service": 0.12,
-        "Amazon Simple Storage Service": 0.1
+        "AWS Key Management Service": 1.38,
+        "AWS Lambda": 0.14,
+        "AWS Secrets Manager": 0.14,
+        "AWS Step Functions": 3.02,
+        "Amazon GuardDuty": 0.1,
+        "Amazon Simple Queue Service": 0.13,
+        "Amazon Simple Storage Service": 0.11
       },
       "910594417067": {
-        "AWS Key Management Service": 0.2,
-        "AWS Secrets Manager": 0.08,
-        "EC2 - Other": 0.65,
-        "Amazon GuardDuty": 0.28,
-        "Amazon Simple Storage Service": 0.08
+        "AWS Key Management Service": 0.22,
+        "AWS Secrets Manager": 0.09,
+        "EC2 - Other": 0.76,
+        "Amazon GuardDuty": 0.34,
+        "Amazon Simple Storage Service": 0.1
       },
       "912026262586": {
-        "AWS Key Management Service": 0.59,
-        "EC2 - Other": 0.01
+        "AWS Key Management Service": 0.63,
+        "EC2 - Other": 0.02
       },
       "923888388157": {
-        "AWS Key Management Service": 0.01,
-        "EC2 - Other": 0.15,
-        "Amazon GuardDuty": 0.13
+        "AWS Key Management Service": 0.02,
+        "AWS Secrets Manager": 0.01,
+        "EC2 - Other": 0.18,
+        "Amazon GuardDuty": 0.14
       },
       "928329497587": {
-        "Amazon Simple Storage Service": 0.3
+        "Amazon Simple Storage Service": 0.35
       },
       "930832105927": {
-        "AWS Key Management Service": 0.39,
-        "EC2 - Other": 0.41,
-        "Amazon Elastic Compute Cloud - Compute": 1.69,
+        "AWS Key Management Service": 0.42,
+        "AWS Systems Manager": 0.06,
+        "EC2 - Other": 0.47,
+        "Amazon Elastic Compute Cloud - Compute": 1.83,
         "Amazon Simple Storage Service": 0.01,
-        "Amazon Virtual Private Cloud": 0.74
+        "Amazon Virtual Private Cloud": 0.8
       },
       "951931581453": {
         "EC2 - Other": 0.03
       },
       "975050294188": {
-        "AWS Key Management Service": 0.5,
-        "AWS Secrets Manager": 0.13,
-        "AWS Step Functions": 2.35,
-        "AWS WAF": 1.58,
+        "AWS Key Management Service": 0.54,
+        "AWS Lambda": 0.14,
+        "AWS Secrets Manager": 0.14,
+        "AWS Step Functions": 2.55,
+        "AWS WAF": 1.71,
         "EC2 - Other": 0.05,
-        "Amazon Elastic Compute Cloud - Compute": 0.17,
-        "Amazon GuardDuty": 0.64,
-        "Amazon Simple Queue Service": 0.12,
-        "Amazon Simple Storage Service": 0.04,
-        "Amazon Virtual Private Cloud": 0.06
+        "Amazon Elastic Compute Cloud - Compute": 0.18,
+        "Amazon GuardDuty": 0.7,
+        "Amazon Simple Queue Service": 0.13,
+        "Amazon Simple Storage Service": 0.05,
+        "Amazon Virtual Private Cloud": 0.07
       },
       "980059074852": {
-        "AWS Key Management Service": 0.4,
-        "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.38,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 0.01,
-        "Amazon Simple Queue Service": 0.12,
-        "AmazonCloudWatch": 0.01
+        "AWS Key Management Service": 0.44,
+        "AWS Lambda": 0.02,
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 0.41,
+        "AWS WAF": 1.71,
+        "EC2 - Other": 0.02,
+        "Amazon Simple Queue Service": 0.13,
+        "AmazonCloudWatch": 0.02
       },
       "986309855560": {
-        "AWS Key Management Service": 0.6,
-        "AWS Secrets Manager": 0.09,
-        "AWS Step Functions": 0.48,
+        "AWS Key Management Service": 0.65,
+        "AWS Lambda": 0.01,
+        "AWS Secrets Manager": 0.1,
+        "AWS Step Functions": 0.51,
         "Amazon API Gateway": 0.01,
-        "Amazon Simple Queue Service": 0.15
+        "Amazon Simple Queue Service": 0.16
       },
       "987418188891": {
-        "AWS Key Management Service": 3.54,
-        "AWS Secrets Manager": 0.09,
-        "AWS WAF": 1.58,
-        "EC2 - Other": 0.01,
+        "AWS Key Management Service": 3.83,
+        "AWS Secrets Manager": 0.1,
+        "AWS WAF": 1.71,
+        "EC2 - Other": 0.02,
         "Amazon Simple Queue Service": 0.1,
         "Amazon Simple Storage Service": 0.14,
-        "AmazonCloudWatch": 0.03
+        "AmazonCloudWatch": 0.04
       },
       "992382622144": {
-        "EC2 - Other": 0.08
+        "EC2 - Other": 0.09
       }
     },
-    "azure_total": 829.14,
+    "azure_total": 818.04,
     "azure_subscriptions": [
       {
         "id": "0cff124b-97e0-49ac-9fe4-98ddec8a060b",
         "name": "QFlow301-QA-Panther",
-        "cost": 77.04
+        "cost": 78.83
       },
       {
         "id": "fe6f783a-c9cb-4e49-9f3d-7f2e86a3ff8e",
         "name": "QFLOW_PERF_BlushBison",
-        "cost": 76.87
+        "cost": 73.99
       },
       {
         "id": "5e91f820-d05f-4ca3-8ecd-4ea2b64769ca",
         "name": "QFLOW_PERF_CobaltCondor",
-        "cost": 60.2
-      },
-      {
-        "id": "0b04c716-64ad-43b5-93b1-96dbd9aaa412",
-        "name": "QFlow1-Dev-Elephant-dsp-S",
-        "cost": 51.59
+        "cost": 62.64
       },
       {
         "id": "e23a2182-aa48-410e-922e-cda494a1cb39",
         "name": "QFLOW_PERF_SiliconSpinach",
-        "cost": 36.9
-      },
-      {
-        "id": "f42f9d72-d972-4a1f-9017-1ec225b6c8bb",
-        "name": "QFLOW_PERF_StreamSquash",
-        "cost": 33.12
-      },
-      {
-        "id": "c4e0f2f0-eb24-490e-b238-58e72e93f9ab",
-        "name": "QFLOW_PERF_Everest",
-        "cost": 31.56
+        "cost": 39.45
       },
       {
         "id": "52136516-cfac-489f-a057-9e98cd8e4437",
         "name": "QFLOW_PERF_1_SERVICE",
-        "cost": 31.19
+        "cost": 33.51
+      },
+      {
+        "id": "c4e0f2f0-eb24-490e-b238-58e72e93f9ab",
+        "name": "QFLOW_PERF_Everest",
+        "cost": 32.27
       },
       {
         "id": "7f53ca2c-ba06-4157-89db-53544ce71b4c",
         "name": "QFLOW_PERF_TangerineTiger",
-        "cost": 30.88
-      },
-      {
-        "id": "a203fd1f-d780-45da-86b8-41be01d14bdb",
-        "name": "QFLOW_PERF_MauveMeerkat",
-        "cost": 26.21
+        "cost": 29.6
       },
       {
         "id": "474bccba-3d6f-4f64-8048-857cbc21bdc6",
         "name": "QFLOW_Daily_Sanity_QuantumQuince",
-        "cost": 25.53
-      },
-      {
-        "id": "3698648d-ffdf-4cbe-a073-d4bc0391bcb5",
-        "name": "QFLOW_PERF_IvoryIbis",
-        "cost": 24.82
+        "cost": 27.46
       },
       {
         "id": "b03509fb-6a3b-414d-9a69-f9e8b31ab2d7",
         "name": "QFLOW_PERF_PixelPapaya",
-        "cost": 22.75
+        "cost": 24.92
       },
       {
-        "id": "ee57636b-7b36-43d9-9f64-4c3441119adc",
-        "name": "QFLOW_Daily_Sanity_Mysore",
-        "cost": 19.4
+        "id": "3698648d-ffdf-4cbe-a073-d4bc0391bcb5",
+        "name": "QFLOW_PERF_IvoryIbis",
+        "cost": 24.86
+      },
+      {
+        "id": "0b04c716-64ad-43b5-93b1-96dbd9aaa412",
+        "name": "QFlow1-Dev-Elephant-dsp-S",
+        "cost": 24.41
+      },
+      {
+        "id": "f42f9d72-d972-4a1f-9017-1ec225b6c8bb",
+        "name": "QFLOW_PERF_StreamSquash",
+        "cost": 22.68
       },
       {
         "id": "9af00ddb-384e-4d88-a8db-f670a615253e",
         "name": "QFLOW_PERF_Tokyo",
-        "cost": 18.99
+        "cost": 20.45
       },
       {
         "id": "45e43a02-626a-4893-8a5b-eb916f98ce8e",
         "name": "QFLOW_PERF_XanthicXerus",
-        "cost": 18.9
-      },
-      {
-        "id": "7d46e492-6041-4f56-9135-b60765643293",
-        "name": "QFLOW_Daily_Sanity_DigitalDate",
-        "cost": 17.47
-      },
-      {
-        "id": "706fdbb8-3ccb-4934-8df6-ccd18efeab16",
-        "name": "QFLOW_Daily_Sanity_DigitalDill",
-        "cost": 16.88
-      },
-      {
-        "id": "fc0967aa-63bb-4d93-bfb6-45ce04906257",
-        "name": "QFLOW_Daily_Sanity_MangoMetric",
-        "cost": 16.4
-      },
-      {
-        "id": "bffd5100-6a26-44d4-a592-df4f72d39bb0",
-        "name": "QFLOW_PERF_OrangeTiger",
-        "cost": 16.13
-      },
-      {
-        "id": "40b2585e-f3f0-42c7-a954-046d4719109c",
-        "name": "QFLOW_Daily_Sanity_PixelPeach",
-        "cost": 16.09
-      },
-      {
-        "id": "8b03ffa7-5b48-4c7d-a9ef-8ebf35da507e",
-        "name": "QFLOW_Daily_Sanity_Citronova",
-        "cost": 16.07
-      },
-      {
-        "id": "8a65f4ae-3c62-426c-883a-27fe48fa657a",
-        "name": "QFLOW_Daily_Sanity_NetworkNectarine",
-        "cost": 15.86
-      },
-      {
-        "id": "453ef4bf-8119-4df7-bb8f-0b6536f4abc8",
-        "name": "QFLOW_Daily_Sanity_ByteBerry",
-        "cost": 15.13
-      },
-      {
-        "id": "6943a55b-4a83-42db-9578-a2b140d2cd35",
-        "name": "QFLOW_PERF_AlgorithmApple",
-        "cost": 13.38
-      },
-      {
-        "id": "3e0a033c-349d-45e2-b398-4c488bd6b83f",
-        "name": "QFLOW_Daily_Sanity_ByteBanana",
-        "cost": 13.18
-      },
-      {
-        "id": "aec5c425-0c85-4182-a7fe-badf9dd52438",
-        "name": "QFLOW_PERF_ScriptSorbet",
-        "cost": 11.21
-      },
-      {
-        "id": "82dc3f9d-a248-4322-a55b-e753bff01960",
-        "name": "QFLOW_Daily_Sanity_KernelKiwi",
-        "cost": 10.52
+        "cost": 20.37
       },
       {
         "id": "83ff9ced-0b13-4eab-a21c-884b3b4c2493",
         "name": "QFlow301-QA-Hyena",
-        "cost": 7.25
+        "cost": 19.23
       },
       {
-        "id": "39172dd9-6270-4630-9ca4-1549693404cf",
-        "name": "QFlow101-Sub-Cheetah",
-        "cost": 6.11
+        "id": "ee57636b-7b36-43d9-9f64-4c3441119adc",
+        "name": "QFLOW_Daily_Sanity_Mysore",
+        "cost": 19.12
       },
       {
-        "id": "b2290775-9935-4725-96bd-5bc8997260c8",
-        "name": "QFlow-Seahorse",
-        "cost": 5.67
+        "id": "7d46e492-6041-4f56-9135-b60765643293",
+        "name": "QFLOW_Daily_Sanity_DigitalDate",
+        "cost": 18.54
+      },
+      {
+        "id": "40b2585e-f3f0-42c7-a954-046d4719109c",
+        "name": "QFLOW_Daily_Sanity_PixelPeach",
+        "cost": 17.86
+      },
+      {
+        "id": "bffd5100-6a26-44d4-a592-df4f72d39bb0",
+        "name": "QFLOW_PERF_OrangeTiger",
+        "cost": 17.57
+      },
+      {
+        "id": "8b03ffa7-5b48-4c7d-a9ef-8ebf35da507e",
+        "name": "QFLOW_Daily_Sanity_Citronova",
+        "cost": 17.24
+      },
+      {
+        "id": "706fdbb8-3ccb-4934-8df6-ccd18efeab16",
+        "name": "QFLOW_Daily_Sanity_DigitalDill",
+        "cost": 17.04
+      },
+      {
+        "id": "fc0967aa-63bb-4d93-bfb6-45ce04906257",
+        "name": "QFLOW_Daily_Sanity_MangoMetric",
+        "cost": 16.64
+      },
+      {
+        "id": "8a65f4ae-3c62-426c-883a-27fe48fa657a",
+        "name": "QFLOW_Daily_Sanity_NetworkNectarine",
+        "cost": 16.24
+      },
+      {
+        "id": "453ef4bf-8119-4df7-bb8f-0b6536f4abc8",
+        "name": "QFLOW_Daily_Sanity_ByteBerry",
+        "cost": 15.62
       },
       {
         "id": "430cd476-1d8a-4698-a863-032f9d55c875",
         "name": "QFlow301-QA-Meerkat",
-        "cost": 5.48
+        "cost": 14.81
+      },
+      {
+        "id": "b2290775-9935-4725-96bd-5bc8997260c8",
+        "name": "QFlow-Seahorse",
+        "cost": 14.77
+      },
+      {
+        "id": "6943a55b-4a83-42db-9578-a2b140d2cd35",
+        "name": "QFLOW_PERF_AlgorithmApple",
+        "cost": 14.72
+      },
+      {
+        "id": "3e0a033c-349d-45e2-b398-4c488bd6b83f",
+        "name": "QFLOW_Daily_Sanity_ByteBanana",
+        "cost": 13.54
+      },
+      {
+        "id": "aec5c425-0c85-4182-a7fe-badf9dd52438",
+        "name": "QFLOW_PERF_ScriptSorbet",
+        "cost": 12.4
+      },
+      {
+        "id": "82dc3f9d-a248-4322-a55b-e753bff01960",
+        "name": "QFLOW_Daily_Sanity_KernelKiwi",
+        "cost": 10.96
+      },
+      {
+        "id": "39172dd9-6270-4630-9ca4-1549693404cf",
+        "name": "QFlow101-Sub-Cheetah",
+        "cost": 6.26
       },
       {
         "id": "70a3e704-142b-4af3-9a92-b27fc4767609",
         "name": "QFLOW_PERF_Colosseum",
-        "cost": 3.97
+        "cost": 4.06
       },
       {
         "id": "0d124890-b374-4a51-a11f-a1248e22be8b",
         "name": "QFLOW_PERF_Budapest",
-        "cost": 3.54
+        "cost": 3.67
       },
       {
         "id": "b8392058-8a1f-4250-98db-a9f4a075e625",
         "name": "QFLOW_Daily_Sanity_VirtualVanilla",
-        "cost": 3.53
+        "cost": 3.59
       },
       {
         "id": "1788b878-2596-4c6e-a6a2-6f3ab80b9d31",
         "name": "QFLOW_PERF_MintMantis",
-        "cost": 3.09
+        "cost": 3.17
       },
       {
         "id": "894e3b4f-1b0f-4943-845d-fb3bb12a9ad2",
         "name": "QFLOW_PERF_JetJellyfish",
-        "cost": 2.88
+        "cost": 2.94
       },
       {
         "id": "56de78cb-de75-49f4-a5bc-4c0346f76bb5",
         "name": "QFLOW_PERF_PumpkinPuffin",
-        "cost": 2.6
+        "cost": 2.65
       },
       {
         "id": "e55a8bd6-70df-4bc0-84a8-83b3f7cafae4",
         "name": "QFlow2-Dev-Tiger",
-        "cost": 2.53
-      },
-      {
-        "id": "558e2120-060b-4d81-bffa-da2edd6a0b79",
-        "name": "QFLOW_Daily_Sanity_CacheCurrant",
-        "cost": 2.43
+        "cost": 2.59
       },
       {
         "id": "d08f3411-dcbf-4cfb-98b3-e121c9e5415d",
         "name": "QFLOW_PERF_Charleston",
-        "cost": 1.73
+        "cost": 1.79
       },
       {
         "id": "a3b7f81f-e486-44ac-8d9f-377a1df0efa9",
         "name": "QFLOW_PERF_Dubai",
-        "cost": 1.73
+        "cost": 1.79
       },
       {
         "id": "e0d14dd6-20e6-4128-8077-3a01b2ca9d6e",
         "name": "QFLOW_PERF_BlackPanther",
-        "cost": 1.73
+        "cost": 1.79
       },
       {
         "id": "00862698-0bd6-47a8-bcfe-1df5aae72871",
         "name": "QFLOW_PERF_AmberAntelope",
-        "cost": 1.73
+        "cost": 1.79
       },
       {
         "id": "45a15263-fec4-4c96-8a38-2f76857fe47b",
         "name": "QFLOW_PERF_KelpKangaroo",
-        "cost": 1.73
+        "cost": 1.79
       },
       {
         "id": "e0a5f47b-a347-4a96-a3c9-f84375125a9e",
         "name": "QFLOW_PERF_GreenFrog",
-        "cost": 1.73
+        "cost": 1.79
       },
       {
         "id": "f3c85595-4d59-4588-9452-e05eb6667504",
         "name": "QFLOW_PERF_CyanCoyote",
-        "cost": 1.73
+        "cost": 1.79
       },
       {
-        "id": "f18a5424-eb95-4b09-92ac-46b4218cbf43",
-        "name": "QFlow301-QA-Snake",
-        "cost": 0.87
-      },
-      {
-        "id": "e89c83a1-4398-4623-8592-234872e6baa7",
-        "name": "QFlow302-QA-Koala",
-        "cost": 0.87
+        "id": "558e2120-060b-4d81-bffa-da2edd6a0b79",
+        "name": "QFLOW_Daily_Sanity_CacheCurrant",
+        "cost": 1.06
       },
       {
         "id": "2f00ec76-208a-4f49-a8f2-31c659506368",
         "name": "QFLOW_PERF_Iceland",
-        "cost": 0.86
+        "cost": 0.89
+      },
+      {
+        "id": "f18a5424-eb95-4b09-92ac-46b4218cbf43",
+        "name": "QFlow301-QA-Snake",
+        "cost": 0.89
+      },
+      {
+        "id": "e89c83a1-4398-4623-8592-234872e6baa7",
+        "name": "QFlow302-QA-Koala",
+        "cost": 0.89
       },
       {
         "id": "0e40073c-0f1b-437f-9223-1c20026d73af",
         "name": "QFLOW_PERF_BronzeBeaver",
-        "cost": 0.86
+        "cost": 0.89
       },
       {
         "id": "7dbd9dfb-4f5b-45d4-a301-a6049d03bcf7",
@@ -3869,39 +4006,40 @@
         "cost": 0.07
       }
     ],
-    "azure_gov_total": 84.41,
+    "azure_gov_total": 77.96,
     "azure_gov_subs": [
       {
         "id": "c96b3dcb-2d51-4d75-a5d8-71a0a78bc62a",
         "name": "qlysgov-totalcloud-qflow1",
-        "cost": 42.72
+        "cost": 43.31
       },
       {
         "id": "c0835736-8d8a-4141-a0a6-edefda75dc86",
         "name": "qlysgov-totalcloud-tc-sme",
-        "cost": 26.0
+        "cost": 18.57
       },
       {
         "id": "83bf99b5-9d81-4344-a12b-0b0afa91e4f5",
         "name": "qlysgov-totalcloud-qflow4",
-        "cost": 8.74
+        "cost": 8.96
       },
       {
         "id": "e69c1afb-ed01-4176-a757-ca7a909d48c6",
         "name": "qlysgov-totalcloud-qflow2-Dev-RGade",
-        "cost": 6.95
+        "cost": 7.12
       }
     ],
-    "gcp_total": 97.59,
+    "gcp_total": 93.05,
     "gcp_services": {
-      "Compute Engine": 45.64,
-      "Networking": 18.97,
-      "Cloud Monitoring": 15.61,
-      "Cloud Key Management Service (KMS)": 13.72,
-      "VM Manager": 2.64,
+      "Compute Engine": 42.23,
+      "Networking": 18.29,
+      "Cloud Monitoring": 15.14,
+      "Cloud Key Management Service (KMS)": 13.57,
+      "VM Manager": 2.6,
       "Notebooks": 0.79,
+      "Secret Manager": 0.14,
+      "BigQuery": 0.12,
       "Cloud DNS": 0.12,
-      "BigQuery": 0.05,
       "Artifact Registry": 0.03,
       "Cloud Storage": 0.02
     }
